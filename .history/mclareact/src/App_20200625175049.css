@@ -1,0 +1,12 @@
+html {
+}
+
+/* navbar */
+.mdl-layout__drawer .mdl-navigation {
+  display: flex;
+  flex-direction: row;
+  float: right;
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 16px;
+}

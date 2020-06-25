@@ -1,0 +1,13 @@
+html {
+}
+
+/* navbar */
+
+.mdl-layout__header {
+  background-color: transparent;
+  color: black;
+}
+
+.mdl-navigation__link {
+  color: black;
+}

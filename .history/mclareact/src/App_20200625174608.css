@@ -1,0 +1,9 @@
+html {
+}
+
+/* navbar */
+.mdl-layout__drawer .mdl-navigation {
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 16px;
+}

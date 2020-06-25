@@ -1,0 +1,37 @@
+html {
+}
+
+/* navbar */
+.mdl-layout__drawer .mdl-navigation {
+  flex-direction: row;
+  align-items: stretch;
+  padding-top: 16px;
+}
+
+.mdl-layout__drawer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 75px;
+  max-height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  border-right: 1px solid #e0e0e0;
+  background: #fafafa;
+  transform-style: preserve-3d;
+  will-change: transform;
+  transition-duration: 0.2s;
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+  transition-property: transform, -webkit-transform;
+  color: #424242;
+  overflow: visible;
+  overflow-y: auto;
+  z-index: 5;
+}
+
+.mdl-navigation {
+  float: right;
+}
