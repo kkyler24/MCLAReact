@@ -2,12 +2,10 @@ html,
 body {
 }
 /* background */
-#backgroundPic {
-  background-image: url("./pictures/sebastien-gabriel-Az3kQbCND2o-unsplash.jpg");
+#root {
+  background-image: url("/mclareact/public/pictures/hot/ air/ baloon!.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000px;
-  overflow: hidden;
 }
 /* navbar */
 

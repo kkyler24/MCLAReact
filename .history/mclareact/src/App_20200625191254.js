@@ -6,7 +6,7 @@ import Navbar from "../src/components/Navbar.js";
 class App extends Component {
   render() {
     return (
-      <div id="backgroundPic" class="img-fluid" alt="Responsive image">
+      <div id="backgroundPic">
         <Navbar />;
       </div>
     );
