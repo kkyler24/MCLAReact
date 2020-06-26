@@ -1,0 +1,48 @@
+.card-body {
+  font-family: "Chakra Petch", sans-serif;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.card {
+  margin-top: 28%;
+  margin-left: 20%;
+  margin-right: 15%;
+  height: fit-content;
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  min-width: 0;
+  background-color: transparent;
+  /* background-clip: border-box; */
+  border: transparent;
+  /* border-radius: 0.5rem; */
+  /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5); */
+}
+
+@media (min-width: 768px) {
+  .col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+#scrabble {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  color: #fafafa;
+  text-shadow: 2px 2px rgb(126, 124, 124);
+}
+
+#cardText {
+  font-family: "Chakra Petch", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  text-shadow: rgb(126, 124, 124);
+}
+
+.dud {
+  color: #757575;
+}

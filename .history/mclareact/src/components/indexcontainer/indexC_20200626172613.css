@@ -1,0 +1,43 @@
+.card-body {
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+.card {
+  margin-top: 45%;
+  margin-bottom: 45%;
+  margin-left: 15%;
+  margin-right: 15%;
+  position: relative;
+  display: inline-block;
+  flex-direction: column;
+  min-width: 0;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 768px) {
+  .col-md-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+#scrabble {
+  font-family: "Amatic SC", cursive;
+  font-size: 50px;
+}
+
+.text {
+  font-size: 28px;
+  font-weight: 100;
+
+  color: #fafafa;
+}
+
+.dud {
+  color: #757575;
+}
