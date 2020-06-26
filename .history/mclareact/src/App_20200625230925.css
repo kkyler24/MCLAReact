@@ -1,0 +1,30 @@
+html,
+body {
+}
+/* background */
+#backgroundPic {
+  background-image: url("./pictures/SpidermanReadingTwo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
+  overflow: hidden;
+}
+/* navbar */
+
+.mdl-layout__header {
+  font-family: "Merriweather", serif;
+  color: white;
+}
+.mdl-layout__header-row .mdl-navigation__link {
+  color: white;
+}
+.mdl-navigation__link {
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Merriweather", serif;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+  position: absolute;
+  color: white;
+  background-color: inherit;
+}

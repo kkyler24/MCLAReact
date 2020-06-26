@@ -3,7 +3,7 @@ body {
 }
 /* background */
 #backgroundPic {
-  background-image: url("./pictures/sebastien-gabriel-Az3kQbCND2o-unsplash.jpg");
+  background-image: url("./pictures/SpidermanReadingTwo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
@@ -12,17 +12,28 @@ body {
 /* navbar */
 
 .mdl-layout__header {
-  color: black;
+  color: white;
 }
 .mdl-layout__header-row .mdl-navigation__link {
-  color: black;
+  color: white;
 }
 .mdl-navigation__link {
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 550;
+  font-family: "Merriweather", serif;
 }
 .mdl-layout__header .mdl-layout__drawer-button {
   position: absolute;
-  color: black;
+  color: white;
   background-color: inherit;
+}
+.mdl-layout-title {
+  font-family: "Merriweather", serif;
+  display: block;
+  position: relative;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  font-weight: 600;
+  box-sizing: border-box;
 }
