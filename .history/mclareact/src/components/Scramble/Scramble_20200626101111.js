@@ -59,10 +59,10 @@ class TextScrambler extends Component {
 }
 
 //   words to be displayed
-var phrases = ["MCLA"];
+const phrases = ["MCLA"];
 //   // word scrambler text
-var el = document.querySelector(".text");
-var fx = new TextScramble(el);
+const el = document.querySelector(".text");
+const fx = new TextScramble(el);
 
 let counter = 0;
 const next = () => {
@@ -71,5 +71,3 @@ const next = () => {
   });
   counter = (counter + 1) % phrases.length;
 };
-
-next();

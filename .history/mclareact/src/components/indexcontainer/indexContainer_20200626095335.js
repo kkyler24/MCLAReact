@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import Textscrambler from "../Scramble/Scramble";
 import "../indexcontainer/indexC.css";
 
+const phrases = ["MCLA"];
+
 class IndexContainer extends Component {
   render() {
     return (
@@ -14,4 +16,4 @@ class IndexContainer extends Component {
   }
 }
 
-export default IndexContainer;
+export default Navbar;

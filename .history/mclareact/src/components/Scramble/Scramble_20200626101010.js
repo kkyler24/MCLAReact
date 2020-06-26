@@ -1,5 +1,19 @@
 import React, { Component } from "react";
 
+//   words to be displayed
+const phrases = ["MCLA"];
+//   // word scrambler text
+const el = document.querySelector(".text");
+const fx = new TextScramble(el);
+
+let counter = 0;
+const next = () => {
+  fx.setText(phrases[counter]).then(() => {
+    setTimeout(next, 2500);
+  });
+  counter = (counter + 1) % phrases.length;
+};
+
 class TextScrambler extends Component {
   render() {
     return class TextScramble {
@@ -57,19 +71,3 @@ class TextScrambler extends Component {
     };
   }
 }
-
-//   words to be displayed
-var phrases = ["MCLA"];
-//   // word scrambler text
-var el = document.querySelector(".text");
-var fx = new TextScramble(el);
-
-let counter = 0;
-const next = () => {
-  fx.setText(phrases[counter]).then(() => {
-    setTimeout(next, 2500);
-  });
-  counter = (counter + 1) % phrases.length;
-};
-
-next();
