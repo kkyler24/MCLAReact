@@ -2,12 +2,12 @@ import React, { Component } from "react";
 
 class TextScrambler extends Component {
   render() {
+    var fx = new TextScramble(el);
     return class TextScramble {
       constructor(el) {
         this.el = el;
         this.chars = "!<>-_\\/[]{}—=+*^?#________";
         this.update = this.update.bind(this);
-        const fx = new TextScramble(el);
       }
       setText(newText) {
         const oldText = this.el.innerText;

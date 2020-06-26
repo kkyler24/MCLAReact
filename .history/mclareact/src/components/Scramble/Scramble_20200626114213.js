@@ -7,7 +7,7 @@ class TextScrambler extends Component {
         this.el = el;
         this.chars = "!<>-_\\/[]{}—=+*^?#________";
         this.update = this.update.bind(this);
-        const fx = new TextScramble(el);
+        var fx = new TextScramble(el);
       }
       setText(newText) {
         const oldText = this.el.innerText;
