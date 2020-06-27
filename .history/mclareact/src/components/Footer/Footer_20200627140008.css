@@ -1,0 +1,6 @@
+#footer {
+  display: flex;
+  flex-direction: row;
+  color: transparent;
+  box-sizing: border-box;
+}

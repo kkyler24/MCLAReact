@@ -4,7 +4,6 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
 import IndexContainer from "./components/indexcontainer/indexContainer.js";
 import Footer from "./components/Footer/Footer.js";
-
 class App extends Component {
   render() {
     return (

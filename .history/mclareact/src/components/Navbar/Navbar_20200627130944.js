@@ -17,7 +17,6 @@ class Navbar extends Component {
               <a class="mdl-navigation__link" href="">
                 Home
               </a>
-              {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
               <a class="mdl-navigation__link" href="">
                 Games
               </a>
@@ -39,6 +38,7 @@ class Navbar extends Component {
             <a class="mdl-navigation__link" href="">
               Link
             </a>
+            <button class="btn-linkedin btn-linkedinfocus"> </button>
             <a class="mdl-navigation__link" href="">
               Link
             </a>

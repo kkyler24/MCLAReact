@@ -1205,7 +1205,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   position: relative;
   z-index: -1; }
 
-  /* Navbar */
 .btn,
 .navbar .navbar-nav > a.btn {
   border-width: 2px;
@@ -1395,8 +1394,6 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   .navbar .navbar-nav > a.btn:not(.btn-icon) .now-ui-icons {
     position: relative;
     top: 1px; }
-
-    /* buttons */
 
 .btn-primary {
   background-color: #f96332;
