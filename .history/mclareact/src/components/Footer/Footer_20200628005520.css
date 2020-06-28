@@ -24,7 +24,7 @@
   position: absolute;
   color: white;
   background-color: inherit;
-  width: 100%;
+  width: 1000px;
 }
 
 #footerHeader-row {
@@ -40,12 +40,11 @@
 .topRow {
   justify-items: start;
   float: right;
-  margin-right: 60%;
+  margin-right: 70%;
 }
 
 .bottomRow {
   float: right;
-  margin-left: 5%;
 }
 
 #navigation {
@@ -53,7 +52,7 @@
   height: 44px;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 800px;
 }
 
 /* .btn-linkedin,

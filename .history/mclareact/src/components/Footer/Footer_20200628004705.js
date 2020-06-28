@@ -12,7 +12,7 @@ function Footer() {
               </a> */}
 
           {/* <!-- Add spacer, to align navigation to the right --> */}
-          {/* <div id="spacerFooter" class="mdl-layout-spacer"></div> */}
+          <div id="spacerFooter" class="mdl-layout-spacer"></div>
           <nav id="navigation">
             <a class=" footerClassLink mr-1" href="">
               Home

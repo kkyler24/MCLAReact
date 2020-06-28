@@ -12,16 +12,16 @@ function Footer() {
               </a> */}
 
           {/* <!-- Add spacer, to align navigation to the right --> */}
-          {/* <div id="spacerFooter" class="mdl-layout-spacer"></div> */}
+          <div id="spacerFooter" class="mdl-layout-spacer"></div>
           <nav id="navigation">
-            <a class=" footerClassLink mr-1" href="">
+            <a class=" footerClassLink topRow" href="">
               Home
             </a>
             {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
             <a class=" footerClassLink topRow" href="">
               Games
             </a>
-
+            <div id="spacerFooter" class="mdl-layout-spacer"></div>
             <a class=" footerClassLink bottomRow" href="">
               About Us
             </a>

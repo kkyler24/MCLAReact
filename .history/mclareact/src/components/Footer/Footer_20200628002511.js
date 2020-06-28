@@ -4,7 +4,7 @@ import { Container } from "reactstrap";
 
 function Footer() {
   return (
-    <div id="footer">
+    <div id="footer" class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header id="footerHeader" class=" mdl-layout__header--transparent">
         <div id="footerHeader-row">
           {/* <a class="navbar-brand">
@@ -12,20 +12,19 @@ function Footer() {
               </a> */}
 
           {/* <!-- Add spacer, to align navigation to the right --> */}
-          {/* <div id="spacerFooter" class="mdl-layout-spacer"></div> */}
+          <div id="spacerFooter" class="mdl-layout-spacer"></div>
           <nav id="navigation">
-            <a class=" footerClassLink mr-1" href="">
+            <a class=" footerClass" href="">
               Home
             </a>
             {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
-            <a class=" footerClassLink topRow" href="">
+            <a class=" footerClass" href="">
               Games
             </a>
-
-            <a class=" footerClassLink bottomRow" href="">
+            <a class=" footerClass" href="">
               About Us
             </a>
-            <a class=" footerClassLink bottomRow" href="">
+            <a class=" footerClass" href="">
               Log-in
             </a>
           </nav>

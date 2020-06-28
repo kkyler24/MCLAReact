@@ -6,6 +6,7 @@
   display: block;
   overflow-y: auto;
   overflow-x: hidden;
+  line-height: 18px;
 }
 
 #footerHeader {
@@ -24,7 +25,7 @@
   position: absolute;
   color: white;
   background-color: inherit;
-  width: 100%;
+  width: 1000px;
 }
 
 #footerHeader-row {
@@ -40,20 +41,20 @@
 .topRow {
   justify-items: start;
   float: right;
-  margin-right: 60%;
+  margin-right: 50%;
 }
 
 .bottomRow {
   float: right;
-  margin-left: 5%;
 }
 
 #navigation {
   display: flex;
   height: 44px;
+  line-height: 14px;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+  width: 800px;
 }
 
 /* .btn-linkedin,

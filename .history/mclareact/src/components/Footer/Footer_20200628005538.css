@@ -24,7 +24,7 @@
   position: absolute;
   color: white;
   background-color: inherit;
-  width: 100%;
+  width: 1000px;
 }
 
 #footerHeader-row {
@@ -45,7 +45,6 @@
 
 .bottomRow {
   float: right;
-  margin-left: 5%;
 }
 
 #navigation {
