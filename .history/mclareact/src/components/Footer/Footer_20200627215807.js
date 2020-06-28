@@ -47,7 +47,9 @@ function Footer() {
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
-          ></a>
+          >
+            Creative Tim
+          </a>
           .
         </div>
       </Container>

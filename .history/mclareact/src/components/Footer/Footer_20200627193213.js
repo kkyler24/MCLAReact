@@ -4,11 +4,11 @@ import { Container } from "reactstrap";
 
 function Footer() {
   return (
-    <footer id="footer" className="footer .d-md-flex row">
+    <footer itemID="footer" className="footer">
       <Container>
-        <nav className=" col-md-6 col-lg-10">
+        <nav>
           <h3 id="textChange">Follow the action with Us!</h3>
-          <ul className=" ulFooter mx-auto">
+          <ul>
             <li>
               <a
                 href="https://www.instagram.com"
@@ -18,11 +18,8 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com"
-                class="btn-social btn-outline "
-              >
-                <i class="fa fa-linkedin"></i>
+              <a href="https://www.linkedin.com" class="btn-social btn-outline">
+                <i class="fa fa-fw fa-linkedin"></i>
               </a>
             </li>
             <li>
@@ -36,18 +33,20 @@ function Footer() {
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" Ky Kyler "}
+          © {new Date().getFullYear()}, Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-transparent-footer"
             target="_blank"
           >
             Invision
           </a>
-          . Coded by{"The Confusion Group"}
+          . Coded by{" "}
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
-          ></a>
+          >
+            Creative Tim
+          </a>
           .
         </div>
       </Container>

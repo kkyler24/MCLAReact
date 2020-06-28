@@ -4,9 +4,9 @@ import { Container } from "reactstrap";
 
 function Footer() {
   return (
-    <footer id="footer" className="footer .d-md-flex row">
+    <footer id="footer" className="footer">
       <Container>
-        <nav className=" col-md-6 col-lg-10">
+        <nav>
           <h3 id="textChange">Follow the action with Us!</h3>
           <ul className=" ulFooter mx-auto">
             <li>
@@ -20,9 +20,9 @@ function Footer() {
             <li>
               <a
                 href="https://www.linkedin.com"
-                class="btn-social btn-outline "
+                class="btn-social btn-outline fa fa-linkedin"
               >
-                <i class="fa fa-linkedin"></i>
+                <i class=""></i>
               </a>
             </li>
             <li>
@@ -36,18 +36,20 @@ function Footer() {
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" Ky Kyler "}
+          © {new Date().getFullYear()}, Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-transparent-footer"
             target="_blank"
           >
             Invision
           </a>
-          . Coded by{"The Confusion Group"}
+          . Coded by{" "}
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
-          ></a>
+          >
+            Creative Tim
+          </a>
           .
         </div>
       </Container>

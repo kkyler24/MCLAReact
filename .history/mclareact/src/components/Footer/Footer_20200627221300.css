@@ -38,7 +38,6 @@
 }
 .footer .copyright {
   font-size: 0.8571em;
-  float: right;
 }
 .footer:after {
   display: table;

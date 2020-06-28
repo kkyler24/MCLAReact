@@ -36,18 +36,20 @@ function Footer() {
           </ul>
         </nav>
         <div className="copyright" id="copyright">
-          © {new Date().getFullYear()}, Designed by{" Ky Kyler "}
+          © {new Date().getFullYear()}, Designed by{" "}
           <a
             href="https://www.invisionapp.com?ref=nukr-transparent-footer"
             target="_blank"
           >
             Invision
           </a>
-          . Coded by{"The Confusion Group"}
+          . Coded by{" "}
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
-          ></a>
+          >
+            Creative Tim
+          </a>
           .
         </div>
       </Container>

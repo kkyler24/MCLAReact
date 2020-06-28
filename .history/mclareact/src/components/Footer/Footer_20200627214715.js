@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./Footer.css";
 import { Container } from "reactstrap";
+import "./src/Assets/now-ui-kit.css";
 
 function Footer() {
   return (
@@ -47,7 +48,9 @@ function Footer() {
           <a
             href="https://www.creative-tim.com?ref=nukr-transparent-footer"
             target="_blank"
-          ></a>
+          >
+            Creative Tim
+          </a>
           .
         </div>
       </Container>
