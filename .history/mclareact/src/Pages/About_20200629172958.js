@@ -6,7 +6,7 @@ import Jumbotron from "../components/Jumbotron/Jumbotron";
 class AboutUS extends Component {
   render() {
     return (
-      <div>
+      <div className="Container">
         <Navbar />
         <Jumbotron />
         <Footer />

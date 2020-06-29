@@ -1,0 +1,34 @@
+.index-page .page-header {
+  height: 125vh;
+}
+.index-page .page-header .container > .content-center {
+  top: 37%;
+}
+.index-page .page-header .category-absolute {
+  position: absolute;
+  top: 100vh;
+  margin-top: -60px;
+  padding: 0 15px;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.landing-page .header {
+  height: 100vh;
+  position: relative;
+}
+.landing-page .header .container {
+  padding-top: 26vh;
+  color: #ffffff;
+  z-index: 2;
+  position: relative;
+}
+.landing-page .header .share {
+  margin-top: 150px;
+}
+.landing-page .header h1 {
+  font-weight: 600;
+}
+.landing-page .header .title {
+  color: #ffffff;
+}

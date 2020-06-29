@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Material Google -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css"
+    />
+    <!-- bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="mclareact\src\components\Jumbotron\Jumbotron.css"/>
+    <style>
+        
+.index-page .page-header {
+    height: 125vh;
+  }
+  .index-page .page-header .container > .content-center {
+    top: 37%;
+  }
+  .index-page .page-header .category-absolute {
+    position: absolute;
+    top: 100vh;
+    margin-top: -60px;
+    padding: 0 15px;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .landing-page .header {
+    height: 100vh;
+    position: relative;
+  }
+  .landing-page .header .container {
+    padding-top: 26vh;
+    color: #ffffff;
+    z-index: 2;
+    position: relative;
+  }
+  .landing-page .header .share {
+    margin-top: 150px;
+  }
+  .landing-page .header h1 {
+    font-weight: 600;
+  }
+  .landing-page .header .title {
+    color: #ffffff;
+  }
+    </style>
+    <title>MCLA</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    function AboutUsHeader() {
+        let pageHeader = React.createRef();
+      
+        React.useEffect(() => {
+          if (window.innerWidth > 991) {
+            const updateScroll = () => {
+              let windowScrollTop = window.pageYOffset / 3;
+              pageHeader.current.style.transform =
+                "translate3d(0," + windowScrollTop + "px,0)";
+            };
+            window.addEventListener("scroll", updateScroll);
+            return function cleanup() {
+              window.removeEventListener("scroll", updateScroll);
+            };
+          }
+        });
+        return (
+          <>
+            <div className="page-header page-header-small">
+              <div
+                className="page-header-image"
+                style={{
+                  backgroundImage: "url(" + require("assets/img/bg6.jpg") + ")",
+                }}
+                ref={pageHeader}
+              ></div>
+              <div className="content-center">
+                <Container>
+                  <h1 className="title">Who we are</h1>
+                  <div className="text-center">
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-facebook-square"></i>
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-twitter"></i>
+                    </Button>
+                    <Button
+                      className="btn-icon btn-round"
+                      color="info"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-google-plus"></i>
+                    </Button>
+                  </div>
+                </Container>
+              </div>
+            </div>
+          </>
+        );
+      }
+      
+      export default AboutUsHeader;
+    <!-- JS Files -->
+    <Script src="mclareact\src\components\Jumbotron\Jumbotron.js"> </Script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

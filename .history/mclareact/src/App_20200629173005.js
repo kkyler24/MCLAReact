@@ -3,7 +3,6 @@ import logo from "./logo.svg";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
 import IndexContainer from "./components/indexcontainer/indexContainer.js";
-import About from "./Pages/About.js";
 
 class App extends Component {
   render() {
@@ -12,9 +11,7 @@ class App extends Component {
       //   <Navbar />
       //   <IndexContainer />
       // </div>
-      <div>
-        <About />
-      </div>
+      <div></div>
     );
   }
 }
