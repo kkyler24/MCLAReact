@@ -27,10 +27,10 @@ function Jumbotron() {
           className="page-header-image backgroundImage"
           ref={pageHeader}
         ></div>
-        <div className="content-centerAU">
+        <div className="content-center">
           <Container>
-            <h1 className="titleAU">Who we are</h1>
-            <div className="text-centerAU">
+            <h1 className="title">Who we are</h1>
+            <div className="text-center">
               <Button
                 className="btn-icon btn-round"
                 color="info"

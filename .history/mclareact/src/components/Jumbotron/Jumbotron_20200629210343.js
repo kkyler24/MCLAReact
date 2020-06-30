@@ -28,7 +28,7 @@ function Jumbotron() {
           ref={pageHeader}
         ></div>
         <div className="content-centerAU">
-          <Container>
+          <ContainerAU>
             <h1 className="titleAU">Who we are</h1>
             <div className="text-centerAU">
               <Button
@@ -56,7 +56,7 @@ function Jumbotron() {
                 <i className="fab fa-linkedin"></i>
               </Button>
             </div>
-          </Container>
+          </ContainerAU>
         </div>
       </div>
     </>

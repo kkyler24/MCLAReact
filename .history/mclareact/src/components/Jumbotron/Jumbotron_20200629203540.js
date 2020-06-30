@@ -4,7 +4,7 @@ import "../Jumbotron/Jumbotron.css";
 
 // core components
 
-function Jumbotron() {
+function AboutUsHeader() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
@@ -27,10 +27,10 @@ function Jumbotron() {
           className="page-header-image backgroundImage"
           ref={pageHeader}
         ></div>
-        <div className="content-centerAU">
+        <div className="content-center">
           <Container>
-            <h1 className="titleAU">Who we are</h1>
-            <div className="text-centerAU">
+            <h1 className="title">Who we are</h1>
+            <div className="text-center">
               <Button
                 className="btn-icon btn-round"
                 color="info"
@@ -40,7 +40,7 @@ function Jumbotron() {
                 <i className="fab fa-facebook-square"></i>
               </Button>
               <Button
-                className="btn-icon btn-round "
+                className="btn-icon btn-round"
                 color="info"
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
@@ -53,7 +53,7 @@ function Jumbotron() {
                 href="#pablo"
                 onClick={(e) => e.preventDefault()}
               >
-                <i className="fab fa-linkedin"></i>
+                <i className="fab fa-google-plus"></i>
               </Button>
             </div>
           </Container>
@@ -63,4 +63,4 @@ function Jumbotron() {
   );
 }
 
-export default Jumbotron;
+export default AboutUsHeader;

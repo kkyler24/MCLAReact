@@ -31,7 +31,7 @@
 .header h1 {
   font-weight: 600;
 }
-.titleAU {
+.title {
   font-weight: 700;
   padding-top: 30px;
   font-size: 3.5em;
@@ -48,7 +48,7 @@
   z-index: -1;
 }
 
-.content-centerAU {
+.content-center {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -65,15 +65,12 @@
   transform: "translate3d(0px, 0px, 0px)";
 }
 
-/* Social MEdia Buttons config */
 .btn.btn-icon {
-  /* size of button */
-  height: 3.375rem;
-  min-width: 3.375rem;
-  width: 3.375rem;
+  height: 2.375rem;
+  min-width: 2.375rem;
+  width: 2.375rem;
   padding: 0;
-  /* size of icon */
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   overflow: hidden;
   position: relative;
   line-height: normal;
@@ -82,32 +79,15 @@
 .btn-round {
   border-width: 1px;
   border-radius: 30px !important;
+  /* padding: 11px 23px; */
 }
 .btn-info {
   background-color: #2ca8ff;
   color: #fff;
 }
+
 .btn {
+  font-weight: 400;
   margin: 10px 1px;
   cursor: pointer;
-  display: inline-block;
-  text-align: center;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-.btn.btn-icon:not(.btn-footer) i.fab {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-12px, -12px);
-  line-height: 1.5626rem;
-  width: 23px;
-}
-/* social media icons */
-.fab {
-  font-family: "Font Awesome 5 Brands";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
 }

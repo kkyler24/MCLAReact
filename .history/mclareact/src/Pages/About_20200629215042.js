@@ -3,7 +3,6 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import SectionAU from "../components/sectionAboutUs/sectionAU.js";
-import Teamsection from "../components/Teamsection/Teamsection.js";
 
 class AboutUS extends Component {
   render() {
@@ -12,7 +11,7 @@ class AboutUS extends Component {
         <Navbar />
         <Jumbotron />
         <SectionAU />
-        <Teamsection />
+        {/* <Teamsection /> */}
         <Footer />
       </div>
     );

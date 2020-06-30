@@ -31,7 +31,7 @@
 .header h1 {
   font-weight: 600;
 }
-.titleAU {
+.title {
   font-weight: 700;
   padding-top: 30px;
   font-size: 3.5em;
@@ -48,7 +48,7 @@
   z-index: -1;
 }
 
-.content-centerAU {
+.content-center {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -111,3 +111,17 @@
   font-variant: normal;
   text-rendering: auto;
 }
+
+.btn-github,
+.btn-github:hover,
+.btn-githubfocus,
+.btn-github:active,
+.btn-github:active:focus {
+  color: #333333 !important;
+}
+
+/* bracket pair coloring
+auto tag
+eslint 
+path intell
+*/

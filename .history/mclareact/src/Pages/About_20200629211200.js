@@ -2,8 +2,7 @@ import React, { Component } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
-import SectionAU from "../components/sectionAboutUs/sectionAU.js";
-import Teamsection from "../components/Teamsection/Teamsection.js";
+import SectionAU from "../components/sectionAboutUs/sectionAU.css";
 
 class AboutUS extends Component {
   render() {
@@ -12,7 +11,6 @@ class AboutUS extends Component {
         <Navbar />
         <Jumbotron />
         <SectionAU />
-        <Teamsection />
         <Footer />
       </div>
     );

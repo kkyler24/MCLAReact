@@ -20,7 +20,7 @@
   content: "";
 }
 
-.header .container {
+.header .containerAU {
   padding-top: 26vh;
   z-index: 2;
   position: relative;
