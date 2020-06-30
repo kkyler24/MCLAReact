@@ -2,20 +2,17 @@ import React from "react";
 import "../sectionAboutUs/sectionAU.css";
 import Boyreading from "../../pictures/boyReading.jpg";
 import Believe from "../../pictures/katrina-wright-yMg_SMqfoRU-unsplash.jpg";
-import Bgthree from "../../pictures/bg3.jpg";
 
 const sectionImage = {
+  width: "100%",
+  height: "400px",
   backgroundImage: `url(${Boyreading})`,
 };
 
-const sectionImage2 = {
-  backgroundImage: `url(${Believe})`,
-};
-
-const sectionImage3 = {
-  width: "555px",
-  height: "355px",
-  backgroundImage: `url(${Bgthree})`,
+const sectionImage = {
+  width: "100%",
+  height: "400px",
+  backgroundImage: `url(${Boyreading})`,
 };
 
 function SectionAU(params) {
@@ -36,25 +33,21 @@ function SectionAU(params) {
         <div className="section-story-overview">
           <div className="rowAUTwo">
             <div className="col-md-6">
-              <div className="image-container image-left" style={sectionImage}>
-                <p className="blockquote blockquote-info blockparagraph">
-                  At the MorseCode Learning Academy; we teach differently. We
-                  teach your child how they would best learn, not how a
-                  standardized test says they should be learning.
-                </p>
-              </div>
-              <div className="image-container" style={sectionImage3}></div>
-            </div>
-            <div className="col-md-5">
               <div
-                className="image-container image-right"
-                style={sectionImage2}
+                className="image-container image-left"
+                style={sectionImage}
               ></div>
-              <h3 className="hThreeAU">
-                At the MorseCode Learning Academy; we teach differently. We
-                teach your child how they would best learn, not how a
-                standardized test says they should be learning.
-              </h3>
+              <div
+                className="image-container"
+                // style={sectionImage}
+              ></div>
+            </div>
+            <div
+              className="col-md-5"
+              className="image-container image-left"
+              style={Believe}
+            >
+              <h3></h3>
             </div>
           </div>
         </div>

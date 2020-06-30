@@ -45,11 +45,11 @@ function SectionAU(params) {
               </div>
               <div className="image-container" style={sectionImage3}></div>
             </div>
-            <div className="col-md-5">
-              <div
-                className="image-container image-right"
-                style={sectionImage2}
-              ></div>
+            <div
+              className="col-md-5"
+              className="image-container image-right"
+              style={sectionImage2}
+            >
               <h3 className="hThreeAU">
                 At the MorseCode Learning Academy; we teach differently. We
                 teach your child how they would best learn, not how a

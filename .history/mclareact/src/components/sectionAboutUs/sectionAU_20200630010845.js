@@ -5,16 +5,20 @@ import Believe from "../../pictures/katrina-wright-yMg_SMqfoRU-unsplash.jpg";
 import Bgthree from "../../pictures/bg3.jpg";
 
 const sectionImage = {
+  width: "100%",
+  height: "400px",
   backgroundImage: `url(${Boyreading})`,
 };
 
 const sectionImage2 = {
+  width: "100%",
+  height: "400px",
   backgroundImage: `url(${Believe})`,
 };
 
 const sectionImage3 = {
-  width: "555px",
-  height: "355px",
+  width: "100%",
+  height: "400px",
   backgroundImage: `url(${Bgthree})`,
 };
 
@@ -36,24 +40,27 @@ function SectionAU(params) {
         <div className="section-story-overview">
           <div className="rowAUTwo">
             <div className="col-md-6">
-              <div className="image-container image-left" style={sectionImage}>
-                <p className="blockquote blockquote-info blockparagraph">
-                  At the MorseCode Learning Academy; we teach differently. We
-                  teach your child how they would best learn, not how a
-                  standardized test says they should be learning.
-                </p>
-              </div>
+              <div
+                className="image-container image-left"
+                style={sectionImage}
+              ></div>
               <div className="image-container" style={sectionImage3}></div>
             </div>
-            <div className="col-md-5">
-              <div
-                className="image-container image-right"
-                style={sectionImage2}
-              ></div>
+            <div
+              className="col-md-5"
+              className="image-container image-right"
+              style={sectionImage2}
+            >
               <h3 className="hThreeAU">
                 At the MorseCode Learning Academy; we teach differently. We
                 teach your child how they would best learn, not how a
-                standardized test says they should be learning.
+                standardized test says they should be learning. We combine
+                neuroscience, education and gaming to achieve and do what others
+                may find unconventional, but who wants to be conventional? Every
+                child learns differently and we try our best to engage them on
+                their learning level, excite them in new ways, and have them
+                champion at the same levels and rates as their peers. That's The
+                MCLA way.
               </h3>
             </div>
           </div>
