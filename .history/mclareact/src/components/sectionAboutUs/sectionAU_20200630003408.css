@@ -69,12 +69,3 @@
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
   border-radius: 0.25rem;
 }
-.section-story-overview {
-  padding: 50px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .image-container.image-left {
-    margin-right: -100px;
-  }
-}

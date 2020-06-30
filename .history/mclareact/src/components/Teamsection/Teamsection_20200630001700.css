@@ -41,7 +41,7 @@
 }
 
 .rounded-circle {
-  max-width: 100px;
+  max-width: 18px;
   max-height: 100px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
   border-radius: 50%;

@@ -3,9 +3,7 @@ import "../sectionAboutUs/sectionAU.css";
 import Boyreading from "../../pictures/boyReading.jpg";
 
 var sectionImage = {
-  width: "100%",
-  height: "400px",
-  backgroundImage: `url(${Boyreading})`,
+  backgroundImage: `url(${Background})`,
 };
 
 function SectionAU(params) {

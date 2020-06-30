@@ -1,11 +1,11 @@
 import React from "react";
 import "../sectionAboutUs/sectionAU.css";
-import Boyreading from "../../pictures/boyReading.jpg";
+import Boyreading from "../../pictures/priyanuch-konkaew-ibBm9yqcYLc-unsplash.jpg";
 
 var sectionImage = {
   width: "100%",
   height: "400px",
-  backgroundImage: `url(${Boyreading})`,
+  backgroundImage: "url(" + { Boyreading } + ")",
 };
 
 function SectionAU(params) {

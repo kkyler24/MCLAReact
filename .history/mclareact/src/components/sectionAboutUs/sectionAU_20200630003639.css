@@ -72,9 +72,3 @@
 .section-story-overview {
   padding: 50px 0;
 }
-
-@media screen and (min-width: 768px) {
-  .image-container.image-left {
-    margin-right: -100px;
-  }
-}

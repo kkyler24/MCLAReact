@@ -1,12 +1,6 @@
 import React from "react";
 import "../sectionAboutUs/sectionAU.css";
-import Boyreading from "../../pictures/boyReading.jpg";
-
-var sectionImage = {
-  width: "100%",
-  height: "400px",
-  backgroundImage: `url(${Boyreading})`,
-};
+import "../../pictures/boyReading.jpg";
 
 function SectionAU(params) {
   return (
@@ -28,7 +22,10 @@ function SectionAU(params) {
             <div className="col-md-6">
               <div
                 className="image-container image-left"
-                style={sectionImage}
+                style={{
+                  backgroundImage:
+                    "url(" + require("../../pictures/boyReading.jpg") + ")",
+                }}
               ></div>
             </div>
             <div className="col-md-5"></div>

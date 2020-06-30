@@ -5804,7 +5804,6 @@ img {
   /* Standard syntax */
 }
 
-/* two colomun split with floating photos */
 .section-story-overview {
   padding: 50px 0;
 }
@@ -5819,8 +5818,6 @@ img {
 .section-story-overview .image-container + .category {
   padding-top: 15px;
 }
-
-/* Floating images */
 .section-story-overview .image-container.image-right {
   z-index: 2;
 }
@@ -5834,7 +5831,6 @@ img {
   margin-top: 420px;
   margin-left: -105px;
 }
-/* little box off to side */
 .section-story-overview p.blockquote {
   width: 220px;
   min-height: 180px;

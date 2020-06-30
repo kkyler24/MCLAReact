@@ -16,7 +16,7 @@ function Teamsection(params) {
                 <img
                   alt="antonio"
                   className="rounded-circle img-fluid img-raised"
-                  src={image1}
+                  src="../../pictures/antonio-lainez-97_u1LDOLx0-unsplash.jpg"
                 />
                 <h4 className="title">Romina Hadid</h4>
                 <p className="category text-info">Model</p>
@@ -42,7 +42,7 @@ function Teamsection(params) {
                 <img
                   alt="confetti"
                   className="rounded-circle img-fluid img-raised"
-                  src={image2}
+                  src="../../pictures/confetti.jpg"
                 />
                 <h4 className="title">Romina Hadid</h4>
                 <p className="category text-info">Model</p>
@@ -68,7 +68,7 @@ function Teamsection(params) {
                 <img
                   alt="unsplash"
                   className="rounded-circle img-fluid img-raised"
-                  src={image3}
+                  src="../../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg"
                 />
                 <h4 className="title">Romina Hadid</h4>
                 <p className="category text-info">Model</p>

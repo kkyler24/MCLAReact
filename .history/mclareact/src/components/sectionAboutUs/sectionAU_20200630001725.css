@@ -4,7 +4,7 @@
   padding-bottom: 70px;
   padding-left: 0px;
   position: relative;
-  background: rgb(253, 252, 252, 0.2);
+  background: rgb(236, 7, 7);
   bottom: 0px;
 }
 .containerAU {
@@ -60,21 +60,3 @@
 }
 
 /* Our story Section */
-.section-story-overview .image-container.image-left {
-  z-index: 1;
-  height: 335px;
-  position: relative;
-  background-position: 50%;
-  background-size: cover;
-  box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 0.25rem;
-}
-.section-story-overview {
-  padding: 50px 0;
-}
-
-@media screen and (min-width: 768px) {
-  .image-container.image-left {
-    margin-right: -100px;
-  }
-}
