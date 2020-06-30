@@ -11,26 +11,26 @@ function Teamsection(params) {
             <div className="col-md-4">
               <div className="team-player">
                 <img
-                  alt="antonio"
-                  className="rounded-circle img-fluid img-raised"
+                  alt="..."
+                  class="rounded-circle img-fluid img-raised"
                   src="../../pictures/antonio-lainez-97_u1LDOLx0-unsplash.jpg"
                 />
-                <h4 className="title">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
-                <p className="description">
+                <h4 class="title">Romina Hadid</h4>
+                <p class="category text-info">Model</p>
+                <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-facebook-square"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-facebook-square"></i>
                 </a>
               </div>
             </div>
@@ -42,47 +42,47 @@ function Teamsection(params) {
                   src="../../pictures/confetti.jpg"
                 />
                 <h4 className="title">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
-                <p className="description">
+                <p class="category text-info">Model</p>
+                <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-facebook-square"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-facebook-square"></i>
                 </a>
               </div>
             </div>
             <div className="col-md-4">
               <div className="team-player">
                 <img
-                  alt="unsplash"
-                  className="rounded-circle img-fluid img-raised"
+                  alt="..."
+                  class="rounded-circle img-fluid img-raised"
                   src="../../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg"
                 />
-                <h4 className="title">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
-                <p className="description">
+                <h4 class="title">Romina Hadid</h4>
+                <p class="category text-info">Model</p>
+                <p class="description">
                   You can write here details about one of your team members. You
                   can give more details about what they do. Feel free to add
                   some <a href="#pablo">links</a> for people to be able to
                   follow them outside the site.
                 </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-facebook-square"></i>
+                <a href="#pablo" class="btn-icon btn-round btn btn-info">
+                  <i class="fab fa-facebook-square"></i>
                 </a>
               </div>
             </div>

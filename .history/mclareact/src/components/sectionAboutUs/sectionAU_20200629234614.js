@@ -16,14 +16,6 @@ function SectionAU(params) {
           </div>
         </div>
         <div className="seperator seperator-primary"></div>
-        <div className="section-story-overview">
-          <div className="rowAUTwo">
-            <div className="col-md-6">
-              <div className="image-container image-left"></div>
-            </div>
-            <div className="col-md-5"></div>
-          </div>
-        </div>
       </div>
     </div>
   );
