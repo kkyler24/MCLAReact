@@ -59,10 +59,3 @@
   padding-left: 15px;
   box-sizing: border-box;
 }
-
-/* media Queries */
-@media (min-width: 992px) {
-  .container {
-    max-width: 960px;
-  }
-}
