@@ -8,11 +8,7 @@ function SectionAU(params) {
         <div class="rowAU">
           <div className="ml-auto mr-auto text-centerAU col-md-8">
             <h2 className="titleAU">Our Motto </h2>
-            <h5 className="descriptionAU">
-              So you are unconventional, so is our teaching style. We believe
-              the sky is the limit with the right technology; good thing we have
-              that.
-            </h5>
+            <h5 className="descriptionAU"></h5>
           </div>
         </div>
       </div>

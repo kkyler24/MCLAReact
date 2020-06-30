@@ -1,4 +1,4 @@
-.container {
+.conTS {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -6,21 +6,18 @@
   margin-left: auto;
 }
 
-.section {
+.secTS {
   padding: 70px 0;
   position: relative;
   background: #fff;
   text-align: center;
 }
 
-.row {
+.rowTS {
   display: flex;
   flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
-  box-sizing: border-box;
-  height: 511.5px;
-  width: 960px;
 }
 
 .title {
@@ -43,18 +40,5 @@
 .rounded-circle {
   max-width: 100px;
   box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 50%;
-  vertical-align: middle;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.col-md-4 {
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  box-sizing: border-box;
+  border-radius: 50% !important;
 }

@@ -13,7 +13,7 @@ function Teamsection(params) {
                 <img
                   alt="..."
                   class="rounded-circle img-fluid img-raised"
-                  src="../"
+                  src="/now-ui-kit-react/static/media/avatar.7257a1a9.jpg"
                 />
                 <h4 class="title">Romina Hadid</h4>
                 <p class="category text-info">Model</p>
