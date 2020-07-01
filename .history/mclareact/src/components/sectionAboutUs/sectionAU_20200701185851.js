@@ -2,7 +2,7 @@ import React from "react";
 import "../sectionAboutUs/sectionAU.css";
 import GirlVR from "../../pictures/girlVR.jpg";
 import Believe from "../../pictures/scrabbleLetters.jpg";
-import Oldbook from "../../pictures/oldSchoolBook.jpg";
+import Bgthree from "../../pictures/bg3.jpg";
 
 const sectionImage2 = {
   backgroundImage: `url(${GirlVR})`,
@@ -15,7 +15,7 @@ const sectionImage = {
 const sectionImage3 = {
   width: "555px",
   height: "355px",
-  backgroundImage: `url(${Oldbook})`,
+  backgroundImage: `url(${Bgthree})`,
 };
 
 function SectionAU(params) {
@@ -47,15 +47,8 @@ function SectionAU(params) {
                   </small>
                 </p>
               </div>
-              <div class="image-container" style={sectionImage3}>
-                <p className="learningP">
-                  We threw out the old-school way of learning and thinking when
-                  it comes to students with disabilities. We brought in
-                  unconventional techniques that focus on the students best
-                  learning styles and atmosphere. Our Mission is to to chnage
-                  the way the world looks at learning disabilities and
-                  education.
-                </p>
+              <div class="image-container">
+                <p></p>
               </div>
             </div>
             <div className="col-md-5">

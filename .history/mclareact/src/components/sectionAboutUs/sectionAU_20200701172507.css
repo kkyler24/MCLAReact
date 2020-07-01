@@ -35,7 +35,7 @@
 
 .col-md-5 > .image-container.image-right {
   position: relative;
-  width: 535px;
+  width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
@@ -151,7 +151,4 @@
   .image-container.image-left {
     margin-right: -100px;
   }
-}
-
-.learningP {
 }

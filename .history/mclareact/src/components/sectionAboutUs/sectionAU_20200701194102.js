@@ -48,7 +48,7 @@ function SectionAU(params) {
                 </p>
               </div>
               <div class="image-container" style={sectionImage3}>
-                <p className="learningP">
+                <p>
                   We threw out the old-school way of learning and thinking when
                   it comes to students with disabilities. We brought in
                   unconventional techniques that focus on the students best

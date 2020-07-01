@@ -2,10 +2,12 @@ import React from "react";
 import { Button, Container } from "reactstrap";
 import "../Jumbotron/Jumbotron.css";
 
-const styleFont = {
-  fontFamily: "Montserrat, sans-serif",
-  fontWeight: "300px",
-};
+const styleFont = (
+  <style>
+    @import
+    url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+  </style>
+);
 // core components
 
 function Jumbotron() {

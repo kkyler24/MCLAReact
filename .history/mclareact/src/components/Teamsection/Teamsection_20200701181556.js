@@ -3,6 +3,12 @@ import "../Teamsection/Teamsection.css";
 import image1 from "../../pictures/innovativebuilding.jpg";
 import image2 from "../../pictures/antonio-lainez-97_u1LDOLx0-unsplash.jpg";
 import image3 from "../../pictures/john-cameron-qjATQpoeK5Y-unsplash.jpg";
+const styleFont = (
+  <style>
+    @import
+    url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+  </style>
+);
 
 function Teamsection(params) {
   return (

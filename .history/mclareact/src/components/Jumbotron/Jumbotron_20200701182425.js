@@ -4,7 +4,7 @@ import "../Jumbotron/Jumbotron.css";
 
 const styleFont = {
   fontFamily: "Montserrat, sans-serif",
-  fontWeight: "300px",
+  fontWeight: "400px",
 };
 // core components
 

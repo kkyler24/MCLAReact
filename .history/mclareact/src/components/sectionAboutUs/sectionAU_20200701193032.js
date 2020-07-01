@@ -47,14 +47,11 @@ function SectionAU(params) {
                   </small>
                 </p>
               </div>
-              <div class="image-container" style={sectionImage3}>
-                <p className="learningP">
+              <div class="image-container" style={sectionImage2}>
+                <p>
                   We threw out the old-school way of learning and thinking when
-                  it comes to students with disabilities. We brought in
-                  unconventional techniques that focus on the students best
-                  learning styles and atmosphere. Our Mission is to to chnage
-                  the way the world looks at learning disabilities and
-                  education.
+                  it comes to students with disabilities and changed the way we
+                  look at education
                 </p>
               </div>
             </div>
