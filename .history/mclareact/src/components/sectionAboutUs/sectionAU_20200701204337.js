@@ -18,10 +18,6 @@ const sectionImage3 = {
   backgroundImage: `url(${Oldbook})`,
 };
 
-// const fontStyle ={
-//   fontFamily
-// } Need to change Font and size for learningP and hThreeAU
-
 function SectionAU(params) {
   return (
     <div className="sectionAU">
