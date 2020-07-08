@@ -12,7 +12,7 @@ class App extends Component {
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/About" component={AboutUS} />
+            <Route path="/Aboutus" component={AboutUS} />
 
             {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
 
