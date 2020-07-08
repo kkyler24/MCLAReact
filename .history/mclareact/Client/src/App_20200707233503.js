@@ -13,8 +13,8 @@ class App extends Component {
         {/* <Home /> */}
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
             <Route path="/Aboutus" component={AboutUS} />
+            <Route exact path="/" component={Home} />
 
             {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
 

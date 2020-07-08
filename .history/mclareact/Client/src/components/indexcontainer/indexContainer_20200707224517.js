@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import TextScrambler from "../Scramble/Scramble.js";
+import TextScrambler from "../Scramble/Scramble";
 import "../indexcontainer/indexC.css";
 import { Card, CardBody } from "reactstrap";
 

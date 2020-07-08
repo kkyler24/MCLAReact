@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import Home from "../../client/src/Pages/Home.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import AboutUS from "./Pages/About.js";
+import { AboutUS } from "./Pages/About.js";
 
 class App extends Component {
   render() {
@@ -13,9 +13,8 @@ class App extends Component {
         {/* <Home /> */}
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/Aboutus" component={AboutUS} />
-
+            <Route path="/" component={Home} />
+            <Route exact path="/Aboutus" component={AboutUS} />
             {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
 
             {/* //  <Route path="/About" render={(props) => <About {...props} /> */}

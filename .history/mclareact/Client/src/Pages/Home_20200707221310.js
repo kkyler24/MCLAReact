@@ -1,15 +1,17 @@
-import React, { Component } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import IndexContainer from "../components/indexcontainer/indexContainer";
 import Scramble from "../components/indexcontainer/indexContainer";
-class Home extends Component {
+class AboutUS extends Component {
   render() {
     return (
-      <div id="backgroundPic" class="img-fluid" alt="Responsive image">
+      <div>
         <Navbar />
-        <IndexContainer />
+
+        <Scramble />
+
+        <Footer />
       </div>
     );
   }
 }
-export default Home;
+export default AboutUS;

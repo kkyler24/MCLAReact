@@ -8,6 +8,7 @@ class Home extends Component {
       <div id="backgroundPic" class="img-fluid" alt="Responsive image">
         <Navbar />
         <IndexContainer />
+        <Scramble />
       </div>
     );
   }

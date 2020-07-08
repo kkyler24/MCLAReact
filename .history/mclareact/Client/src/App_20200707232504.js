@@ -13,10 +13,9 @@ class App extends Component {
         {/* <Home /> */}
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/Aboutus" component={AboutUS} />
-
-            {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
+            <Route path="/" component={Home} />
+            {/* <Route exact path="/Aboutus" component={AboutUS} /> */}
+            <Route path="/About" render={(props) => <AboutUS {...props} />} />
 
             {/* //  <Route path="/About" render={(props) => <About {...props} /> */}
             {/* //        <Route */}

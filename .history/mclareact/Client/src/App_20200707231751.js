@@ -13,18 +13,19 @@ class App extends Component {
         {/* <Home /> */}
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/Aboutus" component={AboutUS} />
-
-            {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
-
-            {/* //  <Route path="/About" render={(props) => <About {...props} /> */}
-            {/* //        <Route */}
-            {/* //        path="/login-page"
+            <Route path="/" component={Home} />
+            {/* <Route exact path="/Aboutus" component={AboutUS} /> */}
+            <Route
+              path="/Aboutus"
+              render={(props) => <AboutUS {...props} />
+            
+      //  <Route path="/About" render={(props) => <About {...props} />
+      //        <Route
+      //        path="/login-page"
       //         render={(props) => <LoginPage {...props} />}
       //       /> 
       //        <Redirect to="/index" />
-      //       <Redirect from="/" to="/index" />  */}
+      //       <Redirect from="/" to="/index" /> 
           </Switch>
         </Router>
       </div>
