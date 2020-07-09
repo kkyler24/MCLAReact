@@ -9,22 +9,24 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <AboutUS />
+        <Home />
+        {/* <Router>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route path="/About" component={AboutUS} />
+            <Route path="/About" component={AboutUS} /> */}
 
-            {/* <Route path="/About" render={(props) => <AboutUS {...props} />} />
+        {/* <Route path="/About" render={(props) => <AboutUS {...props} />} /> */}
 
         {/* //  <Route path="/About" render={(props) => <About {...props} /> */}
-            {/* //        <Route */}
-            {/* //        path="/login-page"
+        {/* //        <Route */}
+        {/* //        path="/login-page"
       //         render={(props) => <LoginPage {...props} />}
       //       /> 
       //        <Redirect to="/index" />
       //       <Redirect from="/" to="/index" />  */}
-          </Switch>
-        </Router>
+        {/* </Switch>
+        </Router> */}
       </div>
     );
   }

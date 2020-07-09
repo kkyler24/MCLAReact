@@ -14,15 +14,15 @@ class Navbar extends Component {
             {/* <!-- Add spacer, to align navigation to the right --> */}
             <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link" href=" ">
+              <a class="mdl-navigation__link" href="">
                 Home
               </a>
               {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
               <a class="mdl-navigation__link" href="">
-                About Us
+                Games
               </a>
               <a class="mdl-navigation__link" href="">
-                Games
+                About Us
               </a>
               <a class="mdl-navigation__link" href="">
                 Log-in
@@ -31,19 +31,19 @@ class Navbar extends Component {
           </div>
         </header>
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
-          <span class="mdl-layout-title">Menu</span>
+          <span class="mdl-layout-title">Title</span>
           <nav class="mdl-navigation">
             <a class="mdl-navigation__link" href="">
-              Home
+              Link
             </a>
             <a class="mdl-navigation__link" href="">
-              About Us
+              Link
             </a>
             <a class="mdl-navigation__link" href="">
-              Games
+              Link
             </a>
             <a class="mdl-navigation__link " href="">
-              Log in
+              Link
             </a>
           </nav>
         </div>
