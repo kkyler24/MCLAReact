@@ -7,19 +7,12 @@ const Indistyle = {
   width: "550px  ",
   display: "block  ",
 };
-
-const BorderStyle = {
-  border: "transparent",
-};
 class IndexContainer extends Component {
   render() {
     return (
       <Card>
         <CardBody>
-          <blockquote
-            className="blockquote blockquote-primary mb-0 "
-            style={BorderStyle}
-          >
+          <blockquote className="blockquote blockquote-primary mb-0">
             <div id="scrabble" class="text">
               <TextScrambler />
             </div>
