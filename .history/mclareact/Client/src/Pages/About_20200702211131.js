@@ -11,6 +11,7 @@ class AboutUS extends Component {
   render() {
     return (
       <div>
+        <Navbar />
         <Jumbotron />
         <SectionAU />
         <Teamsection />
