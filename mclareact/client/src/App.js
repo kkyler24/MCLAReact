@@ -3,8 +3,9 @@ import logo from "../src/logo.svg";
 import "./App.css";
 import Home from "../../client/src/Pages/Home.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
 import AboutUS from "./Pages/About.js";
-import Games from "../src/Pages/Games.js";
+import Games from "./Pages/Games.js";
 
 class App extends Component {
   render() {
@@ -13,9 +14,9 @@ class App extends Component {
         <Navbar />
         <Router>
           <Switch>
-            <Route exact path="/" component={Home} />
             <Route path="/About" component={AboutUS} />
             <Route path="/Games" component={Games} />
+            <Route exact path="/" component={Home} />
             {/* <Route path="/Log" component={} /> */}
           </Switch>
         </Router>
