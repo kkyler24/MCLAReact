@@ -59,7 +59,7 @@ function SignupC() {
                       onClick={(e) => e.preventDefault()}
                       size="lg"
                     >
-                      <i className="fab fa-twitter"></i>
+                      <i className="fabSU fa-twitter"></i>
                     </Button>
                     <Button
                       className="btn-neutral btn-iconSU btn-roundSU"
@@ -67,7 +67,7 @@ function SignupC() {
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-google-plus"></i>
+                      <i className="fabSU fa-google-plus"></i>
                     </Button>
                   </div>
                 </CardHeader>

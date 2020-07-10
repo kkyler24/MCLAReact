@@ -125,13 +125,10 @@ h3 {
   margin: 0 5px;
   box-shadow: 0 5px 50px 0 rgba(0, 0, 0, 0.2);
   padding: 0;
-  font-size: 1.5rem;
+  font-size: 0.9375rem;
   overflow: hidden;
   position: relative;
   line-height: normal;
-  height: 2.39rem;
-  min-width: 2.39rem;
-  width: 2.39rem;
 }
 
 .btn.btn-icon.btn-lg {
@@ -140,46 +137,13 @@ h3 {
   width: 3.6rem;
 }
 
-.btn-twitter {
+.btn-twitterSU {
   color: #55acee !important;
-}
-
-.btn-google {
-  color: #dd4b39 !important;
-}
-
-.btn-neutral {
-  background-color: #fff;
-}
-
-.btn {
-  font-weight: 400;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
 }
 
 .btn-roundSU {
   border-width: 1px;
   border-radius: 30px !important;
-}
-
-.btn.btn-iconSU:not(.btn-footer) i.fab {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-12px, -12px);
-  line-height: 1.5626rem;
-  width: 23px;
-}
-
-.fab {
-  font-family: "Font Awesome 5 Brands";
-  display: inline-block;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
 }
 
 /* media Queries */

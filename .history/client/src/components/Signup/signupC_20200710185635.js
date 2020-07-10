@@ -67,7 +67,7 @@ function SignupC() {
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-google-plus"></i>
+                      <i className="fabSU fa-google-plus"></i>
                     </Button>
                   </div>
                 </CardHeader>

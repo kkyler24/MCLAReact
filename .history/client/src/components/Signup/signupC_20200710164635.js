@@ -53,7 +53,7 @@ function SignupC() {
                   </CardTitle>
                   <div className="social-line">
                     <Button
-                      className="btn-neutral btn-iconSU btn-roundSU"
+                      className="btn-neutral btn-icon btn-round"
                       color="twitter"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -62,7 +62,7 @@ function SignupC() {
                       <i className="fab fa-twitter"></i>
                     </Button>
                     <Button
-                      className="btn-neutral btn-iconSU btn-roundSU"
+                      className="btn-neutral btn-icon btn-round"
                       color="google"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -126,7 +126,7 @@ function SignupC() {
                 </CardBody>
                 <CardFooter className="text-center">
                   <Button
-                    className="btn-neutral btn-roundSU"
+                    className="btn-neutral btn-round"
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
