@@ -1,6 +1,5 @@
 import React from "react";
 import "./signupC.css";
-import Image1 from "../../pictures/controller.jpg";
 // import { Link } from "react-router-dom";
 // reactstrap components
 import {
@@ -21,18 +20,23 @@ import Footer from "../Footer/Footer";
 
 // core components
 function SignupC() {
-  const backgroundI = {
-    backgroundImage: `url(${Image1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
-    minHeight: "700px",
-  };
+  // const {
+  //   background: ""
+  // }
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-      <div className="section section-signup" style={{ Image1 }}>
+      <div
+        className="section section-signup"
+        // style={{
+        //   backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "top center",
+        //   minHeight: "700px",
+        // }}
+      >
         <Container>
           <Row>
             <div className="logInContain text-center">

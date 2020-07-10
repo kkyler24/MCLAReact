@@ -23,16 +23,21 @@ import Footer from "../Footer/Footer";
 function SignupC() {
   const backgroundI = {
     backgroundImage: `url(${Image1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
-    minHeight: "700px",
   };
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-      <div className="section section-signup" style={{ Image1 }}>
+      <div
+        className="section section-signup"
+        // style={{
+        //   backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "top center",
+        //   minHeight: "700px",
+        // }}
+      >
         <Container>
           <Row>
             <div className="logInContain text-center">

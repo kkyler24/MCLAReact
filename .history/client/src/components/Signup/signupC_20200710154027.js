@@ -1,6 +1,4 @@
 import React from "react";
-import "./signupC.css";
-import Image1 from "../../pictures/controller.jpg";
 // import { Link } from "react-router-dom";
 // reactstrap components
 import {
@@ -10,6 +8,7 @@ import {
   CardBody,
   CardFooter,
   CardTitle,
+  Form,
   Input,
   InputGroupAddon,
   InputGroupText,
@@ -21,33 +20,26 @@ import Footer from "../Footer/Footer";
 
 // core components
 function SignupC() {
-  const backgroundI = {
-    backgroundImage: `url(${Image1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
-    minHeight: "700px",
-  };
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-      <div className="section section-signup" style={{ Image1 }}>
-        <Container>
+      <div
+        className="section section-signup"
+        // style={{
+        //   backgroundImage: "url(" + require("assets/img/bg11.jpg") + ")",
+        //   backgroundSize: "cover",
+        //   backgroundPosition: "top center",
+        //   minHeight: "700px",
+        // }}
+      >
+        <ContainerSU>
           <Row>
-            <div className="logInContain text-center">
-              <Button
-                className="btn-round btn-white"
-                color="default"
-                to="/login-page"
-                outline
-                size="lg"
-                // tag={Link}
-              ></Button>
-            </div>
+            <div className="logInContain"></div>
 
             <Card className="card-signup" data-background-color="blue">
-              <div action="" className="formSU" method="">
+              <Form action="" className="form" method="">
                 <CardHeader className="text-center">
                   <CardTitle className="title-up" tag="h3">
                     Sign Up
@@ -136,7 +128,7 @@ function SignupC() {
                     Get Started
                   </Button>
                 </CardFooter>
-              </div>
+              </Form>
             </Card>
           </Row>
           <div className="col text-center">
@@ -149,7 +141,7 @@ function SignupC() {
               // tag={Link}
             ></Button>
           </div>
-        </Container>
+        </ContainerSU>
       </div>
     </>
   );

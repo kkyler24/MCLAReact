@@ -23,9 +23,6 @@ import Footer from "../Footer/Footer";
 function SignupC() {
   const backgroundI = {
     backgroundImage: `url(${Image1})`,
-    backgroundSize: "cover",
-    backgroundPosition: "top center",
-    minHeight: "700px",
   };
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
