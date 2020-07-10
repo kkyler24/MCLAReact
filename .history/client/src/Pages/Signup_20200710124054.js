@@ -1,5 +1,5 @@
 import React from "react";
-import SignupC from "../components/Signup/signupC";
+import Signup from "../components/Signup/signupC";
 import Footer from "../components/Footer/Footer";
 
 function Signup() {

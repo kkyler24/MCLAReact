@@ -1,8 +1,8 @@
 import React from "react";
-import SignupC from "../components/Signup/signupC";
+import Signup from "../components/Signup";
 import Footer from "../components/Footer/Footer";
 
-function Signup() {
+function SignUp() {
   return <div>hi sign up</div>;
 }
-export default Signup;
+export default SignUp;
