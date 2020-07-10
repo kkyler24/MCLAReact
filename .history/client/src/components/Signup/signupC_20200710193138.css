@@ -56,7 +56,6 @@
   max-width: 350px;
 }
 
-/* forms */
 .formSU {
   background: #7b9b85;
   margin-top: 0em;
@@ -70,18 +69,6 @@
   line-height: 21px;
   margin-top: 0px;
   overflow-wrap: break-word;
-  text-align: left;
-  text-size-adjust: 100%;
-}
-
-.input-group {
-  margin-bottom: 10px;
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  width: 100%;
-  align-items: stretch;
   text-align: left;
   text-size-adjust: 100%;
 }
@@ -119,9 +106,6 @@
   padding-right: 1.25rem;
   padding-left: 1.25rem;
   flex-basis: auto;
-}
-[data-background-color]:not([data-background-color="gray"]) {
-  color: #fff;
 }
 
 h3 {

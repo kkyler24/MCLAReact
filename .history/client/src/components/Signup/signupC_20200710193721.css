@@ -74,6 +74,7 @@
   text-size-adjust: 100%;
 }
 
+.form-group,
 .input-group {
   margin-bottom: 10px;
   position: relative;

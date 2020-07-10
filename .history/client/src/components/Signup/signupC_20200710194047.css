@@ -75,6 +75,7 @@
 }
 
 .input-group {
+  height: 42px;
   margin-bottom: 10px;
   position: relative;
   display: flex;
