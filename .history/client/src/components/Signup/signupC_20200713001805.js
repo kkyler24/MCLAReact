@@ -39,10 +39,10 @@ function SignupC(props) {
             <Card className={styles.cardSignup} data-background-color="blue">
               <Form action="" className={styles.form} method="">
                 <CardHeader className={styles.textCenter}>
-                  <CardTitle className={styles.CardTitle} tag="h3">
+                  <CardTitle className="title-up" tag="h3">
                     Sign Up
                   </CardTitle>
-                  <div className={styles.socialLine}>
+                  <div className="social-line">
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"

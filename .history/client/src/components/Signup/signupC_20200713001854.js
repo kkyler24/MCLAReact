@@ -42,7 +42,7 @@ function SignupC(props) {
                   <CardTitle className={styles.CardTitle} tag="h3">
                     Sign Up
                   </CardTitle>
-                  <div className={styles.socialLine}>
+                  <div className="social-line">
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"

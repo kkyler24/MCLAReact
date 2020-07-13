@@ -16,33 +16,37 @@ import {
   InputGroupAddon,
   InputGroupText,
   InputGroup,
+  Container,
   Row,
 } from "reactstrap";
 
 // core components
-const background = {
-  backgroundImage: `url(${Image1})`,
-  backgroundSize: "cover",
-  backgroundPosition: "top center",
-  minHeight: "700px",
-};
 
-function SignupC(props) {
+function SignupC() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-      <div className={`${styles.section} ${styles.sectionSignup}`}>
-        <div className={styles.container}>
-          <Row className={styles.row}>
-            <Card className={styles.cardSignup} data-background-color="blue">
-              <Form action="" className={styles.form} method="">
-                <CardHeader className={styles.textCenter}>
-                  <CardTitle className={styles.CardTitle} tag="h3">
+      <div
+        className={`${`styles.section`} ${`styles.section - signup`}`}
+        const
+        backgroundI={{
+          backgroundImage: `url(${Image1})`,
+          backgroundSize: "cover",
+          backgroundPosition: "top center",
+          minHeight: "700px",
+        }}
+      >
+        <Container>
+          <Row>
+            <Card className={`styles.card-signup`} data-background-color="blue">
+              <Form action="" className="form" method="">
+                <CardHeader className="text-center">
+                  <CardTitle className="title-up" tag="h3">
                     Sign Up
                   </CardTitle>
-                  <div className={styles.socialLine}>
+                  <div className="social-line">
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"
@@ -149,7 +153,7 @@ function SignupC(props) {
               View Login Page
             </Button>
           </div>
-        </div>
+        </Container>
       </div>
     </>
   );

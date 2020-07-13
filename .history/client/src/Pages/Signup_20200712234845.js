@@ -2,7 +2,7 @@ import React from "react";
 import SignupC from "../components/Signup/signupC";
 // import Footer from "../components/footerSocial";
 
-function SignupP() {
+function SignupC() {
   return (
     <div className=" row">
       <div className="container col md-5">
@@ -13,4 +13,4 @@ function SignupP() {
     </div>
   );
 }
-export default SignupP;
+export default SignupC;
