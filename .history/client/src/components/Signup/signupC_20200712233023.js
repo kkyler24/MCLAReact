@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./signupC.module.css";
+import "./signupC.module.css";
 import Image1 from "../../pictures/controller.jpg";
 // import { Link } from "react-router-dom";
 // reactstrap components
@@ -22,14 +22,14 @@ import {
 
 // core components
 
-function SignupC() {
+function SignUp() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
       <div
-        className={`${styles.section} ${styles.section.signup}`}
+        className={`${styles.section} ${styles.section - signup}`}
         const
         backgroundI={{
           backgroundImage: `url(${Image1})`,
@@ -148,7 +148,7 @@ function SignupC() {
               to="/login-page"
               outline
               size="lg"
-              // tag={Link}
+              tag={Link}
             >
               View Login Page
             </Button>
@@ -159,4 +159,4 @@ function SignupC() {
   );
 }
 
-export default SignupC;
+export default SignUp;

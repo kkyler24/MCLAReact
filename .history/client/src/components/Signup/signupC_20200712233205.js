@@ -29,7 +29,7 @@ function SignupC() {
   return (
     <>
       <div
-        className={`${styles.section} ${styles.section.signup}`}
+        className={`${styles.section} ${styles.section - signup}`}
         const
         backgroundI={{
           backgroundImage: `url(${Image1})`,
@@ -148,7 +148,7 @@ function SignupC() {
               to="/login-page"
               outline
               size="lg"
-              // tag={Link}
+              tag={Link}
             >
               View Login Page
             </Button>

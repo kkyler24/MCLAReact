@@ -148,7 +148,7 @@ function SignupC() {
               to="/login-page"
               outline
               size="lg"
-              // tag={Link}
+              tag={Link}
             >
               View Login Page
             </Button>
