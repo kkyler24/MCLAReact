@@ -58,10 +58,9 @@
 
 /* forms */
 .form {
-  background-color: rgb(32, 199, 199);
   margin-top: 0em;
   box-sizing: border-box;
-  color: rgb(111, 116, 115);
+  color: rgb(9, 208, 180);
   display: block;
   width: 350px;
   height: 499px;
@@ -82,35 +81,11 @@
   line-height: 1.5;
   text-align: center;
   white-space: nowrap;
-
-  color: #fff;
   /* border-left: 30px; */
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  /* border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px; */
-}
-.input {
-  background-color: hsla(0, 0%, 100%, 0.1);
-  color: #fff;
-  background-clip: padding-box;
-  height: auto;
-  line-height: normal;
-  font-size: 0.8571em;
-  position: relative;
-  flex: 1 1 auto;
-  width: 1%;
-  margin-bottom: 0;
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-  padding: 11px 19px;
-  display: block;
-  flex-basis: auto;
-  flex-grow: 1;
-  flex-shrink: 1;
-
-  font-size: 14.9994px;
-  font-stretch: 100%;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
 }
 
 .inputGroup {
@@ -158,10 +133,6 @@
 .cardSignup .cardTitle {
   margin-top: 15px;
   margin-bottom: 15px;
-}
-.cardHeader {
-  background-color: transparent;
-  border-bottom: 0;
 }
 
 .cardBody {
@@ -231,10 +202,6 @@ h3 {
   background-color: #fff;
 }
 
-.btnlg {
-  font-size: 1em;
-}
-
 .btn {
   font-weight: 400;
   border: none;
@@ -242,11 +209,6 @@ h3 {
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
-}
-
-.btninfo {
-  background-color: white;
-  color: #2ca8ff;
 }
 
 .now-ui-icons.users_circle-08:before {
@@ -295,16 +257,6 @@ h3 {
 .btnL {
   color: rgb(0, 140, 255);
   font-size: 2rem;
-}
-
-.cardFooter {
-  border: 0;
-  background-color: transparent;
-  border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
-  margin-bottom: 10px;
-  margin-top: 24px;
-  padding: 24px 0;
-  color: #fff;
 }
 
 /* media Queries */

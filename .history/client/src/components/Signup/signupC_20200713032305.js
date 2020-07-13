@@ -133,6 +133,18 @@ function SignupC(props) {
               </Form>
             </Card>
           </Row>
+          <div className="col text-center">
+            <Button
+              className="btn-round btn-white"
+              color="default"
+              to="/login-page"
+              outline
+              size="lg"
+              // tag={Link}
+            >
+              View Login Page
+            </Button>
+          </div>
         </div>
       </div>
     </>

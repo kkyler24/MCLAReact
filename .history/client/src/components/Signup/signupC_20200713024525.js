@@ -31,11 +31,7 @@ function SignupC(props) {
         <div className={styles.container}>
           <Row className={styles.row}>
             <Card className={styles.cardSignup} data-background-color="blue">
-              <Form
-                action=""
-                className={`${styles.form} ${styles.btnround}`}
-                method=""
-              >
+              <Form action="" className={styles.form} method="">
                 <CardHeader
                   className={`${styles.textCenter} ${styles.cardHeader}`}
                 >
@@ -117,11 +113,9 @@ function SignupC(props) {
                     ></Input>
                   </InputGroup>
                 </CardBody>
-                <CardFooter
-                  className={`${styles.textCenter} ${styles.cardFooter}`}
-                >
+                <CardFooter className="text-center">
                   <Button
-                    className={`${styles.btnround} ${styles.btn}  ${styles.btninfo} ${styles.btnlg}`}
+                    className="btn-neutral btn-round"
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
@@ -133,6 +127,18 @@ function SignupC(props) {
               </Form>
             </Card>
           </Row>
+          <div className="col text-center">
+            <Button
+              className="btn-round btn-white"
+              color="default"
+              to="/login-page"
+              outline
+              size="lg"
+              // tag={Link}
+            >
+              View Login Page
+            </Button>
+          </div>
         </div>
       </div>
     </>

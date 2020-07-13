@@ -31,11 +31,7 @@ function SignupC(props) {
         <div className={styles.container}>
           <Row className={styles.row}>
             <Card className={styles.cardSignup} data-background-color="blue">
-              <Form
-                action=""
-                className={`${styles.form} ${styles.btnround}`}
-                method=""
-              >
+              <Form action="" className={styles.form} method="">
                 <CardHeader
                   className={`${styles.textCenter} ${styles.cardHeader}`}
                 >
@@ -74,42 +70,47 @@ function SignupC(props) {
                   </div>
                 </CardHeader>
                 <CardBody className={styles.cardBody}>
-                  <InputGroup className={styles.inputGroup}>
+                  <InputGroup className={`${styles.inputGroup} `}>
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="nowuiicons users_circle-08"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons users_circle-08"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="First Name..."
                       type="text"
                       onFocus={() => setFirstFocus(true)}
                       onBlur={() => setFirstFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup className={styles.inputGroup}>
+                  <InputGroup
+                    className={
+                      "no-border" + (lastFocus ? " input-group-focus" : "")
+                    }
+                  >
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="nowuiicons text_caps-small"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons text_caps-small"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="Last Name..."
                       type="text"
                       onFocus={() => setLastFocus(true)}
                       onBlur={() => setLastFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup className={styles.inputGroup}>
+                  <InputGroup
+                    className={
+                      "no-border" + (emailFocus ? " input-group-focus" : "")
+                    }
+                  >
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="far fa-user-circle"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons ui-1_email-85"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="Email..."
                       type="text"
                       onFocus={() => setEmailFocus(true)}
@@ -117,11 +118,9 @@ function SignupC(props) {
                     ></Input>
                   </InputGroup>
                 </CardBody>
-                <CardFooter
-                  className={`${styles.textCenter} ${styles.cardFooter}`}
-                >
+                <CardFooter className="text-center">
                   <Button
-                    className={`${styles.btnround} ${styles.btn}  ${styles.btninfo} ${styles.btnlg}`}
+                    className="btn-neutral btn-round"
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
@@ -133,6 +132,18 @@ function SignupC(props) {
               </Form>
             </Card>
           </Row>
+          <div className="col text-center">
+            <Button
+              className="btn-round btn-white"
+              color="default"
+              to="/login-page"
+              outline
+              size="lg"
+              // tag={Link}
+            >
+              View Login Page
+            </Button>
+          </div>
         </div>
       </div>
     </>
