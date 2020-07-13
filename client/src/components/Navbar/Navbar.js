@@ -33,10 +33,10 @@ class Navbar extends Component {
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
           <span class="mdl-layout-title">Menu</span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" href="">
+            <a class="mdl-navigation__link" link to = "/client/src/Pages/Home.js"> 
               Home
             </a>
-            <a class="mdl-navigation__link" href="">
+            <a class="mdl-navigation__link" link to = "/client/src/Pages/About.js">
               About Us
             </a>
             <a class="mdl-navigation__link" href="">
