@@ -1,0 +1,7 @@
+.background {
+  background-image: url("../src/Assets/spaceship/Spacebackground.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./mathA.module.css";
-import Spacebackground from "../../Assets/spaceship/background3591568.png";
+import Spacebackground from "../../Assets/spaceship/background3591568.png.png";
 import { urlencoded } from "express";
 
 const spacepic = {
