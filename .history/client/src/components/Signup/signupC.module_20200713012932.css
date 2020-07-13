@@ -205,23 +205,22 @@ h3 {
 .fab {
   font-family: "Font Awesome 5 Brands";
   display: inline-block;
+  font-size: 1.5rem;
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
 }
 
-.btnGH {
+.fabGH {
   color: black;
-  font-size: 2rem;
 }
 
-.btnG {
+.fabG {
   color: red;
   font-size: 2rem;
 }
-.btnL {
+.fabL {
   color: rgb(0, 140, 255);
-  font-size: 2rem;
 }
 
 /* media Queries */

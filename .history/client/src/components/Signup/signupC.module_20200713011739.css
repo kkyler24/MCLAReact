@@ -210,20 +210,6 @@ h3 {
   text-rendering: auto;
 }
 
-.btnGH {
-  color: black;
-  font-size: 2rem;
-}
-
-.btnG {
-  color: red;
-  font-size: 2rem;
-}
-.btnL {
-  color: rgb(0, 140, 255);
-  font-size: 2rem;
-}
-
 /* media Queries */
 
 @media (min-width: 768px) {

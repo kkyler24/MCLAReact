@@ -76,6 +76,7 @@
 .inputGroup {
   margin-bottom: 10px;
   position: relative;
+  border-radius: 25px;
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;

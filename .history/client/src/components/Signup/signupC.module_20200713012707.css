@@ -202,26 +202,33 @@ h3 {
   width: 23px;
 }
 
-.fab {
+.fabGH {
   font-family: "Font Awesome 5 Brands";
   display: inline-block;
   font-style: normal;
+  color: black;
+  font-size: 1.5rem;
   font-variant: normal;
   text-rendering: auto;
 }
 
-.btnGH {
-  color: black;
-  font-size: 2rem;
-}
-
-.btnG {
+.fabG {
+  font-family: "Font Awesome 5 Brands";
+  display: inline-block;
   color: red;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
 }
-.btnL {
+.fabL {
+  font-family: "Font Awesome 5 Brands";
+  display: inline-block;
   color: rgb(0, 140, 255);
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
 }
 
 /* media Queries */

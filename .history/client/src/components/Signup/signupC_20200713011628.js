@@ -43,7 +43,7 @@ function SignupC(props) {
                   </CardTitle>
                   <div className={styles.socialLine}>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnGH}`}
+                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround}`}
                       color="github"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -51,7 +51,7 @@ function SignupC(props) {
                       <i className="fab fa-github btngithub"></i>
                     </Button>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnG}`}
+                      className="btn-neutral btn-icon btn-round"
                       color="google"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -59,7 +59,7 @@ function SignupC(props) {
                       <i className="fab fa-google-plus btngoogle"></i>
                     </Button>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnL}`}
+                      className="btn-neutral btn-icon btn-round"
                       color="linkedin"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
@@ -72,8 +72,7 @@ function SignupC(props) {
                 <CardBody className={styles.cardBody}>
                   <InputGroup
                     className={
-                      `${styles.inputGroup} ${styles.inputGroupround}` +
-                      (firstFocus ? " input-group-focus" : "")
+                      "no-border" + (firstFocus ? " input-group-focus" : "")
                     }
                   >
                     <InputGroupAddon addonType="prepend">

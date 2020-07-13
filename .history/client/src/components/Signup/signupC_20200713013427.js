@@ -72,8 +72,7 @@ function SignupC(props) {
                 <CardBody className={styles.cardBody}>
                   <InputGroup
                     className={
-                      `${styles.inputGroup} ${styles.inputGroupround}` +
-                      (firstFocus ? " input-group-focus" : "")
+                      "no-border" + (firstFocus ? " input-group-focus" : "")
                     }
                   >
                     <InputGroupAddon addonType="prepend">

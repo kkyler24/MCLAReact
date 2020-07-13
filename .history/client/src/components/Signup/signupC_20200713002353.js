@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./signupC.module.css";
-
+import Image1 from "../../pictures/controller.jpg";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
@@ -20,6 +20,12 @@ import {
 } from "reactstrap";
 
 // core components
+const background = {
+  backgroundImage: `url(${Image1})`,
+  backgroundSize: "cover",
+  backgroundPosition: "top center",
+  minHeight: "700px",
+};
 
 function SignupC(props) {
   const [firstFocus, setFirstFocus] = React.useState(false);
@@ -32,48 +38,42 @@ function SignupC(props) {
           <Row className={styles.row}>
             <Card className={styles.cardSignup} data-background-color="blue">
               <Form action="" className={styles.form} method="">
-                <CardHeader
-                  className={`${styles.textCenter} ${styles.cardHeader}`}
-                >
-                  <CardTitle
-                    className={`${styles.cardTitle} ${styles.titleUp}`}
-                    tag="h3"
-                  >
+                <CardHeader className={styles.textCenter}>
+                  <CardTitle className={styles.CardTitle} tag="h3">
                     Sign Up
                   </CardTitle>
                   <div className={styles.socialLine}>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnGH}`}
+                      className="btn-neutral btn-icon btn-round"
                       color="github"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                     >
-                      <i className="fab fa-github btngithub"></i>
+                      <i className="fab fa-fgithub"></i>
                     </Button>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnG}`}
-                      color="google"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus btngoogle"></i>
-                    </Button>
-                    <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnL}`}
-                      color="linkedin"
+                      className="btn-neutral btn-icon btn-round"
+                      color="linkedIn"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
                       size="lg"
                     >
-                      <i className="fab fa-linkedin"></i>
+                      <i className="fab fa-LinkedIn"></i>
+                    </Button>
+                    <Button
+                      className="btn-neutral btn-icon btn-round"
+                      color="google"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                    >
+                      <i className="fab fa-google-plus"></i>
                     </Button>
                   </div>
                 </CardHeader>
-                <CardBody className={styles.cardBody}>
+                <CardBody>
                   <InputGroup
                     className={
-                      `${styles.inputGroup} ${styles.inputGroupround}` +
-                      (firstFocus ? " input-group-focus" : "")
+                      "no-border" + (firstFocus ? " input-group-focus" : "")
                     }
                   >
                     <InputGroupAddon addonType="prepend">

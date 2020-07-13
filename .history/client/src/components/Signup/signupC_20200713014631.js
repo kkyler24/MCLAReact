@@ -72,7 +72,7 @@ function SignupC(props) {
                 <CardBody className={styles.cardBody}>
                   <InputGroup
                     className={
-                      `${styles.inputGroup} ${styles.inputGroupround}` +
+                      `${styles.inputGroup}` +
                       (firstFocus ? " input-group-focus" : "")
                     }
                   >

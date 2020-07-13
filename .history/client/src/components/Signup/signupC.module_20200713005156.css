@@ -167,12 +167,12 @@ h3 {
   width: 3.6rem;
 }
 
-.btngoogle {
-  color: #dd4b39 !important;
+.btntwitter {
+  color: #55acee !important;
 }
 
-.btngithub {
-  color: #070707 !important;
+.btngoogle {
+  color: #dd4b39 !important;
 }
 
 .btnneutral {
@@ -182,7 +182,6 @@ h3 {
 .btn {
   font-weight: 400;
   border: none;
-  font-size: 1.5rem;
   cursor: pointer;
   display: inline-block;
   vertical-align: middle;
@@ -208,20 +207,6 @@ h3 {
   font-style: normal;
   font-variant: normal;
   text-rendering: auto;
-}
-
-.btnGH {
-  color: black;
-  font-size: 2rem;
-}
-
-.btnG {
-  color: red;
-  font-size: 2rem;
-}
-.btnL {
-  color: rgb(0, 140, 255);
-  font-size: 2rem;
 }
 
 /* media Queries */
