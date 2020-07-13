@@ -1,0 +1,85 @@
+/* .section, section-signup {
+    backgroundImage: "url(" + require("../../pictures/forest.jpg") + ")",
+    backgroundSize: "cover",
+    backgroundPosition: "top center",
+    minHeight: "700px",
+  } */
+
+.section-signup {
+  padding-top: 20vh;
+}
+
+.section {
+  padding: 70px 0;
+  position: relative;
+  background: #fff;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* card */
+[data-background-color]:not([data-background-color="gray"])
+  .card[data-background-color="blue"] {
+  background-color: #2ca8ff;
+}
+
+.card-signup {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.card {
+  display: inline-block;
+  flex-direction: column;
+  min-width: 0;
+  border-bottom-right-radius: 3.75px;
+  border-bottom-right-radius: 3.75px;
+  border-image-repeat: stretch;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 25px 0px;
+  background-clip: border-box;
+  font-size: 14px;
+  font-weight: 400;
+  height: 499px;
+  line-height: 21px;
+  margin-bottom: 0px 185px 185px 0px;
+  max-width: 350px;
+}
+
+.formSU {
+  display: block;
+  margin-top: 0em;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 350px;
+  height: 489px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  margin-top: 0px;
+  overflow-wrap: break-word;
+  text-align: left;
+  text-size-adjust: 100%;
+}
+
+/* media Queries */
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
