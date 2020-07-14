@@ -1,5 +1,4 @@
 .background {
-  flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
   display: flex;
@@ -38,4 +37,14 @@
   margin-top: 4rem;
   margin-bottom: 4rem;
   font-size: 50px;
+}
+
+.section {
+  padding: 100px 0;
+  position: relative;
+  background: #ffffff;
+}
+
+.textCenter {
+  text-align: center !important;
 }

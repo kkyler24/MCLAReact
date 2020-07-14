@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import styles from "./mathA.module.css";
+import style from "./mathA.module.css";
 import Spacebackground from "../../pictures/MathApics/spaceship/background3591568.png";
-// import MathAN from "../mathAnnihilator/mathAN.js";
+import MathAN from "../mathAnnihilator/mathAN.js";
 
 const spaceGameIndex = {
   backgroundImage: `url(${Spacebackground})`,
@@ -14,16 +14,20 @@ const spaceGameIndex = {
 function mathA() {
   return (
     <div
-      className="section text-center background containerFluid"
+      className={`${style.section} ${style.textCenter} ${style.background} ${style.containerFluid}`}
       style={spaceGameIndex}
     >
-      <div className={styles.Container}>
-        <h2 className={styles.title}>
-          <p className={styles.description}>Math Annihilator</p>
-        </h2>
+      <div className={style.Container}>
+        <h2 className={style.title}>Math Annihilator</h2>
+        <p className={style.description}></p>
 
-        <div className={styles.row}>
-          <div className="text-center ml-auto mr-auto col-8 col-lg-6"></div>
+        <div className={style.row}>
+          <div className="text-center ml-auto mr-auto col-8 col-lg-6">
+            <div>
+              {" "}
+              <mathInvaders />
+            </div>
+          </div>
         </div>
       </div>
     </div>
