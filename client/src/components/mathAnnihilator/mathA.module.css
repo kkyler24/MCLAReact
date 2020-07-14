@@ -48,3 +48,9 @@
 .textCenter {
   text-align: center !important;
 }
+
+.btnroundC {
+  padding: 11px 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
