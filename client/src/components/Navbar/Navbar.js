@@ -18,13 +18,13 @@ class Navbar extends Component {
                 Home
               </a>
               {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
-              <a class="mdl-navigation__link" href="">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/about">
                 About Us
               </a>
-              <a class="mdl-navigation__link" href="">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/games">
                 Games
               </a>
-              <a class="mdl-navigation__link" href="">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/signup">
                 Log-in
               </a>
             </nav>
