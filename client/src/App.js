@@ -7,7 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutUS from "./Pages/About.js";
 import Games from "./Pages/Games.js";
 import SignupP from "./Pages/Signup.js";
-import mathA from "../src/components/mathAnnihilator/mathA";
+import mathA from "../src/components/mathAnnihilator/mathA.js";
 
 class App extends Component {
   render() {
