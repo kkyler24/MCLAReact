@@ -14,18 +14,18 @@ class Navbar extends Component {
             {/* <!-- Add spacer, to align navigation to the right --> */}
             <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link" href=" ">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/">
                 Home
               </a>
               {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
-              <a class="mdl-navigation__link" href="">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/about">
                 About Us
               </a>
-              <a class="mdl-navigation__link" href="">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/games">
                 Games
               </a>
-              <a class="mdl-navigation__link" href="">
-                Log-in
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/signup">
+                Sign Up
               </a>
             </nav>
           </div>
