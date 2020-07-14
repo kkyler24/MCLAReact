@@ -14,7 +14,7 @@ class Navbar extends Component {
             {/* <!-- Add spacer, to align navigation to the right --> */}
             <div class="mdl-layout-spacer"></div>
             <nav class="mdl-navigation mdl-layout--large-screen-only">
-              <a class="mdl-navigation__link" href=" ">
+              <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/">
                 Home
               </a>
               {/* <button className="btn-linkedin btn-linkedinfocus"> </button> */}
@@ -25,7 +25,7 @@ class Navbar extends Component {
                 Games
               </a>
               <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/signup">
-                Log-in
+                Sign Up
               </a>
             </nav>
           </div>
