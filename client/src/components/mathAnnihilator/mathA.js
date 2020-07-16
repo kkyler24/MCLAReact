@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import style from "./mathA.module.css";
-import Spacebackground from "../../pictures/MathApics/spaceship/background3591568.png";
+import Spacebackground from "../../pictures/MathApics/spaceship/cosmicgalaxbluebackground.jpg";
 import MathInvaders from "../mathAnnihilator/mathAN.js";
 
 const spaceGameIndex = {
@@ -23,7 +23,7 @@ function mathA() {
 
         <div className={style.row}>
           <div id="canvas" className={`${style.textCenter} ${style.btnroundC}`}>
-            <div className={`${style.containerFluid} ${style.btnround}`}>
+            <div className={style.containerFluid}>
               <MathInvaders />
             </div>
           </div>

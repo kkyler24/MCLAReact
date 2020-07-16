@@ -26,10 +26,18 @@
 }
 
 .containerFluid {
+  background-image: url("../../pictures/MathApics/spaceship/background3591568.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 850px;
+  height: 700px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  border: solid silver 2px;
+  border-radius: 30px;
 }
 
 .description {

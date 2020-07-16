@@ -1,12 +1,15 @@
 import React, { Component } from "react";
 
-import ship from "../../pictures/MathApics/spaceship/spaceship.png";
+export default class SpaceShip extends Component {
+  constructor(el, props) {
+    super(props);
 
-class Ship {
-  ship() {
-    // centering ship in the middle for start position
-    this.x = width / 2;
-
-    this.show = ship(this.x, height - 20, 30, 30);
+    function ship() {
+      // centering ship in the middle for start position
+      //   this.x = width / 2;
+    }
+  }
+  render() {
+    return <div></div>;
   }
 }
