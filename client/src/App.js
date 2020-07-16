@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import AboutUS from "./Pages/About.js";
 import Games from "./Pages/Games.js";
 import SignupP from "./Pages/Signup.js";
+import Login from "../src/components/Login/Login.js";
 import mathA from "../src/components/mathAnnihilator/mathA.js";
 
 class App extends Component {
@@ -18,7 +19,8 @@ class App extends Component {
           <Switch>
             <Route path="/About" component={AboutUS} />
             <Route path="/Games" component={mathA} />
-            <Route path="/Signup" component={SignupP} />
+            <Route path="/signup" component={SignupP} />
+            <Route path="/login" component={Login} />
             <Route exact path="/" component={Home} />
             {/* <Route path="/Log" component={} /> */}
           </Switch>

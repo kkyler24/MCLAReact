@@ -1,115 +1,140 @@
 import React from "react";
-import "./Login.css";
+import "./Login.module.css.css";
 
 import {
   Button,
+  Card,
+  CardHeader,
+  CardBody,
   CardFooter,
-  CardTitle,
+  Form,
   Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
+  Container,
+  Col,
 } from "reactstrap";
 
 // core components
-function Login() {
+
+function LoginPage() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
+  React.useEffect(() => {
+    document.body.classList.add("login-page");
+    document.body.classList.add("sidebar-collapse");
+    document.documentElement.classList.remove("nav-open");
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    return function cleanup() {
+      document.body.classList.remove("login-page");
+      document.body.classList.remove("sidebar-collapse");
+    };
+  }, []);
   return (
     <>
-      <div action="" className="formL" method="">
-        <CardTitle className="title-up" tag="h5">
-          Login
-        </CardTitle>
-        <div className="social-line">
-          <Button
-            className="btn-neutral btn-iconL btn-roundL"
-            color="twitter"
-            href="#pablo"
-            onClick={(e) => e.preventDefault()}
-            size="lg"
-          >
-            <i className="fab fa-twitter"></i>
-          </Button>
-          <Button
-            className="btn-neutral btn-iconL btn-roundL"
-            color="google"
-            href="#pablo"
-            onClick={(e) => e.preventDefault()}
-          >
-            <i className="fab fa-google-plus"></i>
-          </Button>
+      <ExamplesNavbar />
+      <div className="page-header clear-filter" filter-color="blue">
+        <div
+          className="page-header-image"
+          style={{
+            backgroundImage: "url(" + require("assets/img/login.jpg") + ")",
+          }}
+        ></div>
+        <div className="content">
+          <Container>
+            <Col className="ml-auto mr-auto" md="4">
+              <Card className="card-login card-plain">
+                <Form action="" className="form" method="">
+                  <CardHeader className="text-center">
+                    <div className="logo-container">
+                      <img
+                        alt="..."
+                        src={require("assets/img/now-logo.png")}
+                      ></img>
+                    </div>
+                  </CardHeader>
+                  <CardBody>
+                    <InputGroup
+                      className={
+                        "no-border input-lg" +
+                        (firstFocus ? " input-group-focus" : "")
+                      }
+                    >
+                      <InputGroupAddon addonType="prepend">
+                        <InputGroupText>
+                          <i className="now-ui-icons users_circle-08"></i>
+                        </InputGroupText>
+                      </InputGroupAddon>
+                      <Input
+                        placeholder="First Name..."
+                        type="text"
+                        onFocus={() => setFirstFocus(true)}
+                        onBlur={() => setFirstFocus(false)}
+                      ></Input>
+                    </InputGroup>
+                    <InputGroup
+                      className={
+                        "no-border input-lg" +
+                        (lastFocus ? " input-group-focus" : "")
+                      }
+                    >
+                      <InputGroupAddon addonType="prepend">
+                        <InputGroupText>
+                          <i className="now-ui-icons text_caps-small"></i>
+                        </InputGroupText>
+                      </InputGroupAddon>
+                      <Input
+                        placeholder="Last Name..."
+                        type="text"
+                        onFocus={() => setLastFocus(true)}
+                        onBlur={() => setLastFocus(false)}
+                      ></Input>
+                    </InputGroup>
+                  </CardBody>
+                  <CardFooter className="text-center">
+                    <Button
+                      block
+                      className="btn-round"
+                      color="info"
+                      href="#pablo"
+                      onClick={(e) => e.preventDefault()}
+                      size="lg"
+                    >
+                      Get Started
+                    </Button>
+                    <div className="pull-left">
+                      <h6>
+                        <a
+                          className="link"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Create Account
+                        </a>
+                      </h6>
+                    </div>
+                    <div className="pull-right">
+                      <h6>
+                        <a
+                          className="link"
+                          href="#pablo"
+                          onClick={(e) => e.preventDefault()}
+                        >
+                          Need Help?
+                        </a>
+                      </h6>
+                    </div>
+                  </CardFooter>
+                </Form>
+              </Card>
+            </Col>
+          </Container>
         </div>
-        <div className="card-body-login">
-          <InputGroup
-            className={"no-border" + (firstFocus ? " input-group-focus" : "")}
-          >
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>
-                <i className="now-ui-icons users_circle-08"></i>
-              </InputGroupText>
-            </InputGroupAddon>
-            <Input
-              placeholder="First Name..."
-              type="text"
-              onFocus={() => setFirstFocus(true)}
-              onBlur={() => setFirstFocus(false)}
-            ></Input>
-          </InputGroup>
-          <InputGroup
-            className={"no-border" + (lastFocus ? " input-group-focus" : "")}
-          >
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>
-                <i className="now-ui-icons text_caps-small"></i>
-              </InputGroupText>
-            </InputGroupAddon>
-            <Input
-              placeholder="Last Name..."
-              type="text"
-              onFocus={() => setLastFocus(true)}
-              onBlur={() => setLastFocus(false)}
-            ></Input>
-          </InputGroup>
-          <InputGroup
-            className={"no-border" + (emailFocus ? " input-group-focus" : "")}
-          >
-            <InputGroupAddon addonType="prepend">
-              <InputGroupText>
-                <i className="now-ui-icons ui-1_email-85"></i>
-              </InputGroupText>
-            </InputGroupAddon>
-            <Input
-              placeholder="Email..."
-              type="text"
-              onFocus={() => setEmailFocus(true)}
-              onBlur={() => setEmailFocus(false)}
-            ></Input>
-          </InputGroup>
-        </div>
-        <CardFooter className="text-center">
-          <Button
-            className="btn-neutral btn-round login-button"
-            href="#pablo"
-            onClick={(e) => e.preventDefault()}
-            size="lg"
-          >
-            Login
-          </Button>
-        </CardFooter>
-      </div>
-      <div className="col text-center">
-        <Button
-          className="btn-round btn-white"
-          color="default"
-          to="/login-page"
-          outline
-          size="lg"
-          // tag={Link}
-        ></Button>
       </div>
     </>
   );
 }
-export default Login;
+
+export default LoginPage;
