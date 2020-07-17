@@ -1,5 +1,6 @@
 import React from "react";
 import SignupC from "../components/Signup/signupC";
+import Login from "../../src/components/Login/Login.js";
 // import Image1 from "../../pictures/controller.jpg";
 // import Footer from "../components/footerSocial";
 
@@ -11,11 +12,13 @@ import SignupC from "../components/Signup/signupC";
 // };
 function SignupP() {
   return (
-    <div className=" row">
+    <div className="row">
       <div className="container col md-5">
         <SignupC />
       </div>
-      <div className="container col md-5">{/* <login/> */}</div>
+      <div className="container col md-5">
+        <Login />
+      </div>
       {/* <footerSocial /> */}
     </div>
   );
