@@ -1,50 +1,55 @@
-.pageHeader .container {
-  height: 100%;
-  z-index: 1;
-  text-align: center;
+.sectionSignupl {
+  padding-top: 20vh;
+}
+
+.sectionl {
+  padding: 70px 0;
   position: relative;
 }
 
-.pageHeader {
-  min-height: 100vh;
-  max-height: 999px;
-  padding: 0;
-  color: #e61010;
-  position: relative;
-  overflow: hidden;
-}
-
-.textCenter {
-  text-align: center !important;
-}
-
-.columnL {
-  margin-left: 0px !important;
-  margin-right: 0px !important;
-  -ms-flex: 0 0 43.333333%;
-  flex: 0 0 43.333333%;
-  max-width: 43.333333%;
-  position: relative;
+.containerl {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.loginPage .cardlogin {
-  border-radius: 0.25rem;
-  padding-bottom: 0.7rem;
-  max-width: 320px;
+.rowl {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-self: flex-start;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: left;
 }
 
 /* card */
-.cardPlain {
-  background: transparent;
-  box-shadow: none;
+[data-background-color]:not([data-background-color="gray"])
+  .card[data-background-color="blue"] {
+  background-color: #2ca8ff;
 }
 
-.card {
+.cardSignupl {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.cardTitlel {
+  font-size: 40px;
+  color: #fff;
+}
+.paragraphl {
+  font-size: 32px;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.cardl {
   border: 0px;
   display: inline-block;
+  border-radius: 0.1875rem;
   position: relative;
   width: 100%;
   flex-direction: column;
@@ -54,49 +59,14 @@
   border-image-repeat: stretch;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 25px 0px;
   background-clip: border-box;
-  margin-bottom: 30px;
   height: 499px;
-
-  margin: 0px 185px 0px 185px;
+  margin: 0px 175px 0px 175px;
   max-width: 350px;
-  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.5);
 }
-
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-/* 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-self: flex-start;
-  margin-right: -15px;
-  margin-left: -15px;
-  text-align: left;
-} */
-
-/* card */
-/* [data-background-color]:not([data-background-color="gray"])
-  .card[data-background-color="blue"] {
-  background-color: #2ca8ff;
-}
-
-.cardSignup {
-  max-width: 350px;
-  margin: 0 auto;
-}
-
-. */
 
 /* forms */
-.formL {
-  background-color: rgb(99, 199, 32);
+.forml {
+  background-color: rgb(32, 199, 199);
   margin-top: 0em;
   box-sizing: border-box;
   color: rgb(111, 116, 115);
@@ -111,7 +81,7 @@
   text-align: left;
   text-size-adjust: 100%;
 }
-.inputGroupText {
+.inputGroupTextl {
   display: flex;
   align-items: center;
   margin-bottom: 0;
@@ -122,13 +92,13 @@
   white-space: nowrap;
 
   color: #fff;
-  border-left: 30px;
+  /* border-left: 30px; */
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
+  /* border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px; */
 }
-.input {
+.inputl {
   background-color: hsla(0, 0%, 100%, 0.1);
   color: #fff;
   background-clip: padding-box;
@@ -151,7 +121,7 @@
   font-stretch: 100%;
 }
 
-.inputGroup {
+.inputGroupl {
   margin-bottom: 10px;
   position: relative;
   border: transparent;
@@ -166,13 +136,13 @@
   text-size-adjust: 100%;
 }
 
-.inputGroupText i {
+.inputGroupTextl i {
   width: 17px;
   color: #fff;
 }
 
 /* top card header */
-.cardHeader {
+.cardSignupl .cardHeaderl {
   margin: 0 20px 0px 20px;
   padding: 30px 0px 30px 0px;
   font-size: 14px;
@@ -181,26 +151,28 @@
   line-height: 21px;
 }
 
-.card .cardHeader {
+.cardl .cardHeaderl {
   background-color: transparent;
   border-bottom: 0;
   border-radius: 0;
 }
-
-.titleUp {
+.titleUpl {
   text-transform: uppercase;
 }
+.textCenterl {
+  text-align: center !important;
+}
 
-.cardTitle {
+.cardSignupl .cardTitlel {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-/* .cardHeader {
+.cardHeaderl {
   background-color: transparent;
   border-bottom: 0;
-} */
+}
 
-.cardBody {
+.cardBodyl {
   font-family: "Chakra Petch", sans-serif;
   padding-bottom: 0;
   padding-top: 0;
@@ -213,7 +185,7 @@
 [data-background-color]:not([data-background-color="gray"]) {
   color: #fff;
 }
-/* 
+
 h3 {
   font-size: 25.55px;
   font-weight: 400;
@@ -228,13 +200,30 @@ h3 {
   text-size-adjust: 100%;
   text-transform: uppercase;
   width: 310px;
-} */
-/* 
-.btnneutral {
+}
+
+/* social media */
+.socialLine {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn.btnicon.btnlg {
+  height: 3.6rem;
+  min-width: 3.6rem;
+  width: 3.6rem;
+}
+
+.btnneutrall {
   background-color: #fff;
 }
 
-.btn {
+.btnlgl {
+  font-size: 1em;
+}
+
+.btnl {
   font-weight: 400;
   border: none;
   font-size: 1.5rem;
@@ -243,18 +232,26 @@ h3 {
   vertical-align: middle;
 }
 
-.btninfo {
+.btninfol {
   background-color: white;
   color: #2ca8ff;
 }
 
-.btnround {
+.btnroundl {
   border-width: 1px;
   border-radius: 30px !important;
-} */
+}
 
-/* 
-.cardFooter {
+.btnl.btnicon:not(.btnfooter) i.fab {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-12px, -12px);
+  line-height: 1.5626rem;
+  width: 23px;
+}
+
+.cardFooterl {
   border: 0;
   background-color: transparent;
   border-radius: 0 0 calc(0.25rem - 1px) calc(0.25rem - 1px);
@@ -262,42 +259,12 @@ h3 {
   margin-top: 24px;
   padding: 24px 0;
   color: #fff;
-} */
-
-/* background overlay */
-.clear-filter[filter-color="blue"] {
-  background: rgba(44, 44, 44, 0.2);
-  /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(
-    90deg,
-    rgba(44, 44, 44, 0.2),
-    rgba(3, 161, 224, 0.6)
-  );
-  /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(
-    90deg,
-    rgba(44, 44, 44, 0.2),
-    rgba(3, 161, 224, 0.6)
-  );
 }
 
 /* media Queries */
 
 @media (min-width: 768px) {
-  .container {
+  .containerl {
     max-width: 720px;
-  }
-}
-
-@media (min-width: 576px) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media (min-width: 768px) {
-  .columnL {
-    flex: 0 0 33.333333%;
-    max-width: 33.333333%;
   }
 }

@@ -1,18 +1,12 @@
 import React from "react";
-import style from "./Login.module.css";
+import styles from "./Login.module.css";
 import {
   Button,
-  Card,
-  CardHeader,
-  CardBody,
   CardFooter,
-  CardTitle,
-  Form,
   Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
-  Row,
 } from "reactstrap";
 
 // core components
@@ -33,101 +27,68 @@ function Login() {
   }, []);
   return (
     <>
-      <div
-        className={`${style.pageHeader} ${style.clearFilter} ${style.sectionSignup} ${style.section}`}
-        filter-color="blue"
-      >
-        {/* <div
-          className="page-header-image"
-          style={{
-            backgroundImage: "url(" + require("assets/img/login.jpg") + ")",
-          }}
-        ></div> */}
-        <div className="content">
-          <div Classname={style.container}>
-            <div className={`${style.column}`}>
-              <div className={`${style.cardLogin} ${style.cardPlain}`}>
-                <div action="" className={style.form} method="">
-                  <div className={style.textCenter}>
-                    <div className={style.logoContainer}>
-                      <img
-                        alt="..."
-                        // src={require("assets/img/now-logo.png")}
-                      ></img>
-                    </div>
+      <div className={`${styles.sectionl} ${styles.sectionSignupl}`}>
+        <div className={styles.containerl}>
+          <div className={styles.rowl}>
+            <div
+              className={`${styles.cardSignupl} ${styles.cardl} `}
+              data-background-color="blue"
+            >
+              <div
+                action=""
+                className={`${styles.forml} ${styles.btnroundl}`}
+                method=""
+              >
+                <div className={`${styles.textCenterl} ${styles.cardHeaderl}`}>
+                  <div
+                    className={`${styles.cardTitlel} ${styles.titleUpl}`}
+                    tag="h3"
+                  >
+                    MCLA
+                    <p className={styles.paragraphl}> --| -.-.| .-.. |.-</p>
                   </div>
-                  <div className={style.cardBody}>
-                    <InputGroup
-                    // className={
-                    //   "no-border input-lg" +
-                    //   (firstFocus ? " input-group-focus" : "")
-                    // }
-                    >
-                      <InputGroupAddon addonType="prepend">
-                        <InputGroupText>
-                          <i className="now-ui-icons users_circle-08"></i>
-                        </InputGroupText>
-                      </InputGroupAddon>
-                      <Input
-                      // placeholder="First Name..."
-                      // type="text"
-                      // onFocus={() => setFirstFocus(true)}
-                      // onBlur={() => setFirstFocus(false)}
-                      ></Input>
-                    </InputGroup>
-                    <InputGroup
-                    // className={
-                    //   "no-border input-lg" +
-                    //   (lastFocus ? " input-group-focus" : "")
-                    // }
-                    >
-                      <InputGroupAddon addonType="prepend">
-                        <InputGroupText>
-                          <i className="now-ui-icons text_caps-small"></i>
-                        </InputGroupText>
-                      </InputGroupAddon>
-                      <Input
-                      // placeholder="Last Name..."
-                      // type="text"
-                      // onFocus={() => setLastFocus(true)}
-                      // onBlur={() => setLastFocus(false)}
-                      ></Input>
-                    </InputGroup>
-                  </div>
-                  <CardFooter className="text-center">
-                    <Button
-                      block
-                      className="btn-round"
-                      color="info"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
-                    >
-                      Get Started
-                    </Button>
-                    <div className="pull-left">
-                      <h6>
-                        <a
-                          className="link"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Create Account
-                        </a>
-                      </h6>
-                    </div>
-                    <div className="pull-right">
-                      <h6>
-                        <a
-                          className="link"
-                          href="#pablo"
-                          onClick={(e) => e.preventDefault()}
-                        >
-                          Need Help?
-                        </a>
-                      </h6>
-                    </div>
-                  </CardFooter>
+                  <div className={styles.socialLinel}></div>
+                </div>
+                <div className={styles.cardBodyl}>
+                  <InputGroup className={styles.inputGroupl}>
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText className={styles.inputGroupTextl}>
+                        <i className="far fa-user-circle"></i>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      className={styles.inputl}
+                      placeholder="Email..."
+                      type="text"
+                      // onFocus={() => setEmailFocus(true)}
+                      // onBlur={() => setEmailFocus(false)}
+                    ></Input>
+                  </InputGroup>
+                  <InputGroup className={styles.inputGroupl}>
+                    <InputGroupAddon addonType="prepend">
+                      <InputGroupText className={styles.inputGroupTextl}>
+                        <i className="nowuiicons text_caps-small"></i>
+                      </InputGroupText>
+                    </InputGroupAddon>
+                    <Input
+                      className={styles.inputl}
+                      placeholder="Password..."
+                      type="text"
+                      onFocus={() => setLastFocus(true)}
+                      onBlur={() => setLastFocus(false)}
+                    ></Input>
+                  </InputGroup>
+                </div>
+                <div className={`${styles.textCenterl} ${styles.cardFooterl}`}>
+                  <Button
+                    className={`${styles.btnroundl} ${styles.btnl}  ${styles.btninfol} ${styles.btnlgl}`}
+                    color="info"
+                    href="#pablo"
+                    onClick={(e) => e.preventDefault()}
+                    size="lg"
+                  >
+                    Log In
+                  </Button>
                 </div>
               </div>
             </div>

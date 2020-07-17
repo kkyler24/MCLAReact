@@ -7,6 +7,11 @@
   position: relative;
 }
 
+.cardTitle {
+  font-size: 32px;
+  color: #fff;
+}
+
 .container {
   width: 100%;
   padding-right: 15px;
@@ -33,7 +38,7 @@
 
 .cardSignup {
   max-width: 350px;
-  margin: 0px 10px 0px 10px !important;
+  margin: 0 auto;
 }
 
 .card {
@@ -50,7 +55,7 @@
   box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 25px 0px;
   background-clip: border-box;
   height: 499px;
-  margin: 0px 145px 0px 145px;
+  margin: 0px 175px 0px 175px;
   max-width: 350px;
 }
 
@@ -132,7 +137,7 @@
 }
 
 /* top card header */
-.cardHeader {
+.cardSignup .cardHeader {
   margin: 0 20px 0px 20px;
   padding: 30px 0px 30px 0px;
   font-size: 14px;
