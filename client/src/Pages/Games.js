@@ -1,9 +1,20 @@
 import React, { Component } from "react";
-import Footer from "../components/Footer/Footer";
-// import style from
+import GamesCard from "../components/GamesCard/GamesCard";
+import Col from "../components/Col/Col";
 
-function Games(props) {
-  return <div>{/* <div className={styleMedia.row}
-      <Footer /> */}</div>;
+function Games() {
+  return (
+    <>
+    <Col size="sm-4">
+    <GamesCard></GamesCard>
+    </Col>
+    <Col size="sm-4">
+    <GamesCard></GamesCard>
+    </Col>
+    <Col size="sm-4">
+    <GamesCard></GamesCard>
+    </Col>
+    </>
+  )
 }
 export default Games;
