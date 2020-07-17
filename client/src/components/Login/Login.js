@@ -1,19 +1,14 @@
-dimport React from "react";
+import React from "react";
 import styles from "./Login.module.css";
 
 import {
   Button,
-  Card,
-  CardHeader,
   CardBody,
   CardFooter,
-  Form,
   Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
-  Container,
-  Col,
 } from "reactstrap";
 
 // core components
@@ -35,7 +30,7 @@ function Login() {
   return (
     <>
       <div
-        className={`${styles.pageHeader} ${clearFilter}`}
+        className={`${styles.pageHeader} ${clearFilter} ${styles.sectionSignup} ${styles.section}`}
         filter-color="blue"
       >
         {/* <div
@@ -46,17 +41,17 @@ function Login() {
         ></div> */}
         <div className="content">
           <div div Classname={styles.container}>
-    <div className={`${style.column}`}>
-              <div className="card-login card-plain">
-                <Form action="" className="form" method="">
-                  <CardHeader className="text-center">
+            <div className={`${styles.column}`}>
+              <div className={`${styles.cardLogin} ${styles.cardPlain}`}>
+                <div action="" className={styles.form} method="">
+                  <div className={styles.textCenter}>
                     <div className="logo-container">
                       <img
                         alt="..."
                         src={require("assets/img/now-logo.png")}
                       ></img>
                     </div>
-                  </CardHeader>
+                  </div>
                   <CardBody>
                     <InputGroup
                       className={
@@ -129,7 +124,7 @@ function Login() {
                       </h6>
                     </div>
                   </CardFooter>
-                </Form>
+                </div>
               </div>
             </div>
           </div>
