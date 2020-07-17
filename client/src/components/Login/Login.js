@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Login.module.css";
+import style from "./Login.module.css";
 
 import {
   Button,
@@ -13,7 +13,7 @@ import {
 
 // core components
 
-function Login() {
+function login() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
@@ -30,7 +30,7 @@ function Login() {
   return (
     <>
       <div
-        className={`${styles.pageHeader} ${styles.clearFilter} ${styles.sectionSignup} ${styles.section}`}
+        className={`${style.pageHeader} ${style.clearFilter} ${style.sectionSignup} ${style.section}`}
         filter-color="blue"
       >
         {/* <div
@@ -40,11 +40,11 @@ function Login() {
           }}
         ></div> */}
         <div className="content">
-          <div div Classname={styles.container}>
-            <div className={`${styles.column}`}>
-              <div className={`${styles.cardLogin} ${styles.cardPlain}`}>
-                <div action="" className={styles.form} method="">
-                  <div className={styles.textCenter}>
+          <div div Classname={style.container}>
+            <div className={`${style.column}`}>
+              <div className={`${style.cardLogin} ${style.cardPlain}`}>
+                <div action="" className={style.form} method="">
+                  <div className={style.textCenter}>
                     <div className="logo-container">
                       <img
                         alt="..."
@@ -134,4 +134,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default login;

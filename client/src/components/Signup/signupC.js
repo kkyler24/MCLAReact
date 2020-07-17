@@ -4,21 +4,6 @@ import styles from "./signupC.module.css";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
-import {
-  Button,
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  CardTitle,
-  Form,
-  Input,
-  InputGroupAddon,
-  InputGroupText,
-  InputGroup,
-  Row,
-} from "reactstrap";
-
 // core components
 
 function SignupC(props) {
@@ -29,22 +14,23 @@ function SignupC(props) {
     <>
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
-          <Row className={styles.row}>
-            <Card className={styles.cardSignup} data-background-color="blue">
-              <Form
+          <div className={styles.row}>
+            <div
+              className={`${styles.cardSignup} ${styles.card} `}
+              data-background-color="blue"
+            >
+              <div
                 action=""
                 className={`${styles.form} ${styles.btnround}`}
                 method=""
               >
-                <CardHeader
-                  className={`${styles.textCenter} ${styles.cardHeader}`}
-                >
-                  <CardTitle
+                <div className={`${styles.textCenter} ${styles.cardHeader}`}>
+                  <div
                     className={`${styles.cardTitle} ${styles.titleUp}`}
                     tag="h3"
                   >
                     Sign Up
-                  </CardTitle>
+                  </div>
                   <div className={styles.socialLine}>
                     <Button
                       className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnGH}`}
@@ -72,8 +58,8 @@ function SignupC(props) {
                       <i className="fab fa-linkedin"></i>
                     </Button>
                   </div>
-                </CardHeader>
-                <CardBody className={styles.cardBody}>
+                </div>
+                <div className={styles.cardBody}>
                   <InputGroup className={styles.inputGroup}>
                     <InputGroupAddon addonType="prepend">
                       <InputGroupText className={styles.inputGroupText}>
@@ -116,10 +102,8 @@ function SignupC(props) {
                       onBlur={() => setEmailFocus(false)}
                     ></Input>
                   </InputGroup>
-                </CardBody>
-                <CardFooter
-                  className={`${styles.textCenter} ${styles.cardFooter}`}
-                >
+                </div>
+                <div className={`${styles.textCenter} ${styles.cardFooter}`}>
                   <Button
                     className={`${styles.btnround} ${styles.btn}  ${styles.btninfo} ${styles.btnlg}`}
                     color="info"
@@ -129,10 +113,10 @@ function SignupC(props) {
                   >
                     Get Started
                   </Button>
-                </CardFooter>
-              </Form>
-            </Card>
-          </Row>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>
