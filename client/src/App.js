@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from "../src/logo.svg";
 import "./App.css";
 import Home from "../../client/src/Pages/Home.js";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -18,7 +17,8 @@ class App extends Component {
         <Router>
           <Switch>
             <Route path="/About" component={AboutUS} />
-            <Route path="/Games" component={mathA} />
+            {/* <Route path="/Games" component={mathA} /> */}
+            <Route path="/Games" component={Games} />
             <Route path="/signup" component={SignupP} />
             <Route path="/login" component={SignupP} />
             <Route exact path="/" component={Home} />
