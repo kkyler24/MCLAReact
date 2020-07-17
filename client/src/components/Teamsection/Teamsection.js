@@ -1,6 +1,6 @@
 import React from "react";
 import "./Teamsection.css";
-import image1 from "../../pictures/innovativebuilding.jpg";
+import image1 from "../../pictures/dart.jpg";
 import image2 from "../../pictures/antonio-lainez-97_u1LDOLx0-unsplash.jpg";
 import image3 from "../../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg";
 

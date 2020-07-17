@@ -8,7 +8,7 @@ import AboutUS from "./Pages/About.js";
 import Games from "./Pages/Games.js";
 import SignupP from "./Pages/Signup.js";
 import Login from "../src/components/Login/Login.js";
-import mathA from "../src/components/mathAnnihilator/mathA.js";
+import mathA from "../src/components/mathAnnihilator/mathInvaderConponent.js";
 
 class App extends Component {
   render() {
@@ -20,7 +20,7 @@ class App extends Component {
             <Route path="/About" component={AboutUS} />
             <Route path="/Games" component={mathA} />
             <Route path="/signup" component={SignupP} />
-            <Route path="/login" component={SignupP} />
+            <Route path="/signup" component={Login} />
             <Route exact path="/" component={Home} />
             <Route path="/Math" component={mathA} />
             {/* <Route path="/Log" component={} /> */}

@@ -30,7 +30,7 @@ function Login() {
   return (
     <>
       <div
-        className={`${styles.pageHeader} ${clearFilter} ${styles.sectionSignup} ${styles.section}`}
+        className={`${styles.pageHeader} ${styles.clearFilter} ${styles.sectionSignup} ${styles.section}`}
         filter-color="blue"
       >
         {/* <div
@@ -48,7 +48,7 @@ function Login() {
                     <div className="logo-container">
                       <img
                         alt="..."
-                        src={require("assets/img/now-logo.png")}
+                        // src={require("assets/img/now-logo.png")}
                       ></img>
                     </div>
                   </div>
@@ -134,4 +134,4 @@ function Login() {
   );
 }
 
-export default LoginPage;
+export default Login;
