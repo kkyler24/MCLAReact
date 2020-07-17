@@ -12,14 +12,15 @@ import Login from "../../src/components/Login/Login.js";
 // };
 function SignupP() {
   return (
-    <div className="row">
-      <div className="container col md-5">
-        <SignupC />
+    <div className="container">
+      <div className="row">
+        <div className="col md-5">
+          <SignupC />
+        </div>
+        <div className="col md-5">
+          <Login />
+        </div>
       </div>
-      <div className="container col md-5">
-        <Login />
-      </div>
-      {/* <footerSocial /> */}
     </div>
   );
 }

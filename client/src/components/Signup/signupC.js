@@ -1,5 +1,12 @@
 import React from "react";
 import styles from "./signupC.module.css";
+import {
+  Button,
+  Input,
+  InputGroupAddon,
+  InputGroupText,
+  InputGroup,
+} from "reactstrap";
 
 // import { Link } from "react-router-dom";
 // reactstrap components

@@ -1,19 +1,23 @@
 import React from "react";
 import style from "./Login.module.css";
-
 import {
   Button,
+  Card,
+  CardHeader,
   CardBody,
   CardFooter,
+  CardTitle,
+  Form,
   Input,
   InputGroupAddon,
   InputGroupText,
   InputGroup,
+  Row,
 } from "reactstrap";
 
 // core components
 
-function login() {
+function Login() {
   const [firstFocus, setFirstFocus] = React.useState(false);
   const [lastFocus, setLastFocus] = React.useState(false);
   React.useEffect(() => {
@@ -40,24 +44,24 @@ function login() {
           }}
         ></div> */}
         <div className="content">
-          <div div Classname={style.container}>
+          <div Classname={style.container}>
             <div className={`${style.column}`}>
               <div className={`${style.cardLogin} ${style.cardPlain}`}>
                 <div action="" className={style.form} method="">
                   <div className={style.textCenter}>
-                    <div className="logo-container">
+                    <div className={style.logoContainer}>
                       <img
                         alt="..."
                         // src={require("assets/img/now-logo.png")}
                       ></img>
                     </div>
                   </div>
-                  <CardBody>
+                  <div className={style.cardBody}>
                     <InputGroup
-                      className={
-                        "no-border input-lg" +
-                        (firstFocus ? " input-group-focus" : "")
-                      }
+                    // className={
+                    //   "no-border input-lg" +
+                    //   (firstFocus ? " input-group-focus" : "")
+                    // }
                     >
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
@@ -65,17 +69,17 @@ function login() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
-                        placeholder="First Name..."
-                        type="text"
-                        onFocus={() => setFirstFocus(true)}
-                        onBlur={() => setFirstFocus(false)}
+                      // placeholder="First Name..."
+                      // type="text"
+                      // onFocus={() => setFirstFocus(true)}
+                      // onBlur={() => setFirstFocus(false)}
                       ></Input>
                     </InputGroup>
                     <InputGroup
-                      className={
-                        "no-border input-lg" +
-                        (lastFocus ? " input-group-focus" : "")
-                      }
+                    // className={
+                    //   "no-border input-lg" +
+                    //   (lastFocus ? " input-group-focus" : "")
+                    // }
                     >
                       <InputGroupAddon addonType="prepend">
                         <InputGroupText>
@@ -83,13 +87,13 @@ function login() {
                         </InputGroupText>
                       </InputGroupAddon>
                       <Input
-                        placeholder="Last Name..."
-                        type="text"
-                        onFocus={() => setLastFocus(true)}
-                        onBlur={() => setLastFocus(false)}
+                      // placeholder="Last Name..."
+                      // type="text"
+                      // onFocus={() => setLastFocus(true)}
+                      // onBlur={() => setLastFocus(false)}
                       ></Input>
                     </InputGroup>
-                  </CardBody>
+                  </div>
                   <CardFooter className="text-center">
                     <Button
                       block
@@ -134,4 +138,4 @@ function login() {
   );
 }
 
-export default login;
+export default Login;

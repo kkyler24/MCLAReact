@@ -18,23 +18,25 @@
   text-align: center !important;
 }
 
-.column {
-  margin-left: auto !important;
-  margin-right: auto !important;
-  -ms-flex: 0 0 33.333333%;
-  flex: 0 0 33.333333%;
-  max-width: 33.333333%;
+.columnL {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  -ms-flex: 0 0 43.333333%;
+  flex: 0 0 43.333333%;
+  max-width: 43.333333%;
   position: relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
 }
 
-.loginPpage .cardlogin {
+.loginPage .cardlogin {
   border-radius: 0.25rem;
   padding-bottom: 0.7rem;
   max-width: 320px;
 }
+
+/* card */
 .cardPlain {
   background: transparent;
   box-shadow: none;
@@ -58,15 +60,6 @@
   margin: 0px 185px 0px 185px;
   max-width: 350px;
   box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 0.5);
-}
-
-.sectionSignup {
-  padding-top: 20vh;
-}
-
-.section {
-  padding: 70px 0;
-  position: relative;
 }
 
 .container {
@@ -102,8 +95,8 @@
 . */
 
 /* forms */
-.form {
-  background-color: rgb(32, 199, 199);
+.formL {
+  background-color: rgb(99, 199, 32);
   margin-top: 0em;
   box-sizing: border-box;
   color: rgb(111, 116, 115);
@@ -179,7 +172,7 @@
 }
 
 /* top card header */
-/* .cardSignup .cardHeader {
+.cardHeader {
   margin: 0 20px 0px 20px;
   padding: 30px 0px 30px 0px;
   font-size: 14px;
@@ -198,15 +191,14 @@
   text-transform: uppercase;
 }
 
-
- .cardTitle {
+.cardTitle {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.cardHeader {
+/* .cardHeader {
   background-color: transparent;
   border-bottom: 0;
-}
+} */
 
 .cardBody {
   font-family: "Chakra Petch", sans-serif;
@@ -221,7 +213,7 @@
 [data-background-color]:not([data-background-color="gray"]) {
   color: #fff;
 }
-
+/* 
 h3 {
   font-size: 25.55px;
   font-weight: 400;
@@ -304,7 +296,7 @@ h3 {
 }
 
 @media (min-width: 768px) {
-  .column {
+  .columnL {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
