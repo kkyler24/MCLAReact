@@ -5,7 +5,7 @@ import Shipspacepic from "../../pictures/MathApics/spaceship/spaceship.png";
 export default class SpaceShip extends Component {
   constructor(el, props) {
     super(props);
-    this.shipFunction = this.shipFunction.bind(this);
+    // this.shipFunction = this.shipFunction.bind(this);
     this.state = {
       left: 0,
       top: 0,

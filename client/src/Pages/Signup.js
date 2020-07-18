@@ -1,7 +1,7 @@
 import React from "react";
 import SignupC from "../components/Signup/signupC";
 import Login from "../../src/components/Login/Login.js";
-import Image1 from "../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg";
+import Image1 from "../pictures/lighBulbLIbrary.jpg";
 // import Footer from "../components/footerSocial";
 
 const Style1 = {

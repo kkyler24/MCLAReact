@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import style from "./mathA.module.css";
 import Spacebackground from "../../pictures/MathApics/spaceship/cosmicgalaxbluebackground.jpg";
-import MathInvaders from "../mathAnnihilator/mathAN.js";
+import MathInvaders from "../mathAnnihilator/mathInvaderConponent.js";
 
 const spaceGameIndex = {
   backgroundImage: `url(${Spacebackground})`,
