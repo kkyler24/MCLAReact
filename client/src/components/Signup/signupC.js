@@ -52,8 +52,8 @@ function SignupC(props) {
                       color="google"
                       href="#pablo"
                       onClick={(e) => e.preventDefault()}
-                    >
-                      <i className="fab fa-google-plus btngoogle"></i>
+                    >                      
+                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
                     </Button>
                     <Button
                       className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnL}`}
