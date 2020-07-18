@@ -1,23 +1,16 @@
 import React, { Component } from "react";
-import GamesCard from "../components/GamesCard/GamesCard";
-import Col from "../components/Col/Col";
-import Row from "../components/Row/Row";
+import GameCards from "../components/GameCards/GameCards";
+import Background from "../components/Background/Background";
+import airBallon from "../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg"
 
 function Games() {
   return (
     <>
-    <Row>
-    <Col size="sm-4">
-    <GamesCard></GamesCard>
-    </Col>
-    <Col size="sm-4">
-    <GamesCard></GamesCard>
-    </Col>
-    <Col size="sm-4">
-    <GamesCard></GamesCard>
-    </Col>
-    </Row>
+  <Background backgroundImage={airBallon}>
+  </Background>
+  <GameCards>
+  </GameCards>
     </>
-  )
+  );
 }
 export default Games;
