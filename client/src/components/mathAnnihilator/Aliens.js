@@ -6,6 +6,11 @@ import Red from "../../pictures/MathApics/invaders_png/red.png";
 const aliensImagesArray = [Green, Yellow, Red];
 
 function AlienComponent(props) {
+  console.log(props.canvasRef);
+  // if (props.canvasRef) {
+
+  // }
+  // return <></>;
   return (
     <div
       style={{
@@ -21,24 +26,25 @@ function AlienComponent(props) {
   );
 }
 
-function Aliens() {
-  // images, points, moves from side to side
-
+function Aliens(props) {
   //   const alienInterval =
   return (
     <div>
       <AlienComponent
+        // canvasRef={props.canvasRef.current}
         position={[0, 0]}
         image={aliensImagesArray[0]}
         pointVaule={10}
       />
       <AlienComponent
-        position={[20, 0]}
+        // canvasRef={props.canvasRef.current}
+        position={[40, 0]}
         image={aliensImagesArray[1]}
         pointVaule={10}
       />
       <AlienComponent
-        position={[40, 0]}
+        // canvasRef={props.canvasRef.current}
+        position={[80, 0]}
         image={aliensImagesArray[2]}
         pointVaule={10}
       />
