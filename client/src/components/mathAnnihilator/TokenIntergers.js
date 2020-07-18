@@ -9,16 +9,18 @@ import Seven from "../../pictures/MathApics/invaders_png/seven.png";
 import Eight from "../../pictures/MathApics/invaders_png/eight.png";
 import Nine from "../../pictures/MathApics/invaders_png/nine.png";
 
+const width = document;
+console.log(width);
 const intergersImagesArray = [
-  One,
-  Two,
-  Three,
-  Four,
-  Five,
-  Six,
-  Seven,
-  Eight,
-  Nine,
+  { image: One, value: 1, position: [10, 40] },
+  { image: Two, value: 2, position: [10, 40] },
+  { image: Three, value: 3, position: [10, 40] },
+  { image: Four, value: 4, position: [10, 40] },
+  { image: Five, value: 5, position: [10, 40] },
+  { image: Six, value: 6, position: [10, 40] },
+  { image: Seven, value: 7, position: [10, 40] },
+  { image: Eight, value: 7, position: [10, 40] },
+  { image: Nine, value: 9, position: [10, 40] },
 ];
 
 function TokenIntegerComponent(props) {
@@ -31,7 +33,8 @@ function TokenIntegerComponent(props) {
     <div
       style={{
         position: "absolute",
-        left: props.position[0],
+        // top: props.position[0],
+        // left: props.position[0],
         height: "90px",
         width: "90px",
         zIndex: 2,
@@ -50,13 +53,17 @@ function Tokens(props) {
   //   const alienInterval =
   return (
     <div>
-      <TokenIntegerComponent
-        // canvasRef={props.canvasRef.current}
-        position={[40, 40]}
-        image={intergersImagesArray[0]}
-        pointVaule={1}
-      />
-      <TokenIntegerComponent
+      {intergersImagesArray.map((token) => {
+        return (
+          <TokenIntegerComponent
+            // canvasRef={props.canvasRef.current}
+            position={token.position[(40, 40)]}
+            image={token.image}
+            pointVaule={token[1]}
+          />
+        );
+      })}
+      {/* <TokenIntegerComponent
         // canvasRef={props.canvasRef.current}
         position={[80, 40]}
         image={intergersImagesArray[1]}
@@ -67,7 +74,7 @@ function Tokens(props) {
         position={[120, 40]}
         image={intergersImagesArray[2]}
         pointVaule={3}
-      />
+      /> */}
     </div>
   );
 }

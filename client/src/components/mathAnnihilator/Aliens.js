@@ -15,6 +15,7 @@ function AlienComponent(props) {
     <div
       style={{
         position: "absolute",
+        top: props.position[1],
         left: props.position[0],
         height: "90px",
         width: "90px",
