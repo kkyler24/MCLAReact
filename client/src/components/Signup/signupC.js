@@ -45,25 +45,26 @@ function SignupC() {
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >
+                    //   href="#pablo"
+                    //   onClick={(e) => e.preventDefault()}
+                     >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="twitter"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
+                      // href="https://twitter.com"
+                      // onClick={(e) => e.preventDefault()}
+                      // size="lg"
                     >
                       <i className="fab fa-twitter"></i>
-                    </Button>
+                    >
+                      <i className="fab fa-google btngoogle"></i>                    </Button>
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="google"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      // href=""
+                      // onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-google-plus"></i>
                     </Button>
