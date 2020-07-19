@@ -9,73 +9,60 @@ import Seven from "../../pictures/MathApics/invaders_png/seven.png";
 import Eight from "../../pictures/MathApics/invaders_png/eight.png";
 import Nine from "../../pictures/MathApics/invaders_png/nine.png";
 
-const width = document;
-console.log(width);
-const intergersImagesArray = [
-  { image: One, value: 1, position: [10, 40] },
-  { image: Two, value: 2, position: [10, 40] },
-  { image: Three, value: 3, position: [10, 40] },
-  { image: Four, value: 4, position: [10, 40] },
-  { image: Five, value: 5, position: [10, 40] },
-  { image: Six, value: 6, position: [10, 40] },
-  { image: Seven, value: 7, position: [10, 40] },
-  { image: Eight, value: 7, position: [10, 40] },
-  { image: Nine, value: 9, position: [10, 40] },
-];
+// class MathTokens extends Component {
+//   constructor(props) {
+//     super(props);
+//     this.x = 850 / 2;
 
-function TokenIntegerComponent(props) {
-  console.log(props.canvasRef);
-  // if (props.canvasRef) {
+//     const intergersImagesArray = [
+//       { image: One, value: 1 },
+//       { image: Two, value: 2 },
+//       { image: Three, value: 3 },
+//       { image: Four, value: 4 },
+//       { image: Five, value: 5 },
+//       { image: Six, value: 6 },
+//       { image: Seven, value: 7 },
+//       { image: Eight, value: 8 },
+//       { image: Nine, value: 9 },
+//     ];
+//   }
+//   render() {
+//     return (
+//       <div
+//         style={{
+//           position: "absolute",
+//           // top: props.position[0],
+//           // left: props.position[0],
+//           height: "90px",
+//           width: "90px",
+//           zIndex: 2,
+//         }}
+//       >
+//         <img
+//           src={props.image}
+//           alt="TokenInteger"
+//           style={{ width: 150, height: 150 }}
+//         />
+//       </div>
+//     );
 
-  // }
-  // return <></>;
-  return (
-    <div
-      style={{
-        position: "absolute",
-        // top: props.position[0],
-        // left: props.position[0],
-        height: "90px",
-        width: "90px",
-        zIndex: 2,
-      }}
-    >
-      <img
-        src={props.image}
-        alt="TokenInteger"
-        style={{ width: 150, height: 150 }}
-      />
-    </div>
-  );
-}
-
-function Tokens(props) {
-  //   const alienInterval =
-  return (
-    <div>
-      {intergersImagesArray.map((token) => {
-        return (
-          <TokenIntegerComponent
-            // canvasRef={props.canvasRef.current}
-            position={token.position[(40, 40)]}
-            image={token.image}
-            pointVaule={token[1]}
-          />
-        );
-      })}
-      {/* <TokenIntegerComponent
-        // canvasRef={props.canvasRef.current}
-        position={[80, 40]}
-        image={intergersImagesArray[1]}
-        pointVaule={2}
-      />
-      <TokenIntegerComponent
-        // canvasRef={props.canvasRef.current}
-        position={[120, 40]}
-        image={intergersImagesArray[2]}
-        pointVaule={3}
-      /> */}
-    </div>
-  );
-}
-export default Tokens;
+//     function Tokens(props) {
+//       console.log(props.canvasRef);
+//       return (
+//         <div>
+//           {intergersImagesArray.map((token) => {
+//             return (
+//               <TokenIntegerComponent
+//                 // canvasRef={props.canvasRef.current}
+//                 position={token.position(40, 40)}
+//                 image={token.image}
+//                 pointVaule={token[1]}
+//               />
+//             );
+//           })}
+//         </div>
+//       );
+//     }
+//   }
+// }
+// export default MathTokens;
