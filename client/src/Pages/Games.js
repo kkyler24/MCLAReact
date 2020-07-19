@@ -13,6 +13,7 @@ function Games() {
         <h2>Learn With Games</h2>
         </Jumbotron>
         <GameCards/>
+        <div id="googleButton"></div>
         <SocialFooter />
     </>
   );
