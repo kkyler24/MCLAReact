@@ -1,72 +1,41 @@
-import React, { Component } from 'react'
-import { GoogleLogin, GoogleLogout } from 'react-google-login';
-
-    const CLIENT_ID = 'v1mpz9pqJ_MQNKsKj3VqNJ1FTAYyqT8XYEr1Gv4GyZ4';
-    class GoogleAuthentication extends Component {
-        constructor(props) {
-         super(props);
-     
-         this.state = {
-           isLogined: false,
-           accessToken: ''
-         };
-     
-         this.login = this.login.bind(this);
-         this.handleLoginFailure = this.handleLoginFailure.bind(this);
-         this.logout = this.logout.bind(this);
-         this.handleLogoutFailure = this.handleLogoutFailure.bind(this);
-       }
-     
-       login (response) {
-         if(response.accessToken){
-           this.setState(state => ({
-             isLogined: true,
-             accessToken: response.accessToken
-           }));
-         }
-       }
-     
-       logout (response) {
-         this.setState(state => ({
-           isLogined: false,
-           accessToken: ''
-         }));
-       }
-     
-       handleLoginFailure (response) {
-         alert('Failed to log in')
-       }
-     
-       handleLogoutFailure (response) {
-         alert('Failed to log out')
-       }
-     
-       render() {
-         return (
-         <div>
-           { this.state.isLogined ?
-             <GoogleLogout
-               clientId={ CLIENT_ID }
-               buttonText='Logout'
-               onLogoutSuccess={ this.logout }
-               onFailure={ this.handleLogoutFailure }
-             >
-             </GoogleLogout>: <GoogleLogin
-               clientId={ CLIENT_ID }
-               buttonText='Login'
-               onSuccess={ this.login }
-               onFailure={ this.handleLoginFailure }
-               cookiePolicy={ 'single_host_origin' }
-               responseType='code,token'
-             />
-           }
-           { this.state.accessToken ? <h5>Your Access Token: <br/><br/> { this.state.accessToken }</h5> : null }
-     
-         </div>
-         )
-       }
-     }
+import React, { useState, setState } from "react";
+import ReactDOM from "react-dom";
+import GoogleLogin from "react-google-login";
+// import { response } from "express";
 
 
-export default GoogleAuthentication;
+function GoogleAuth () {
 
+    const [name, setName] = useState("");
+
+    const [email, setEmail] = useState("");
+
+    const [url, setUrl] = useState("");
+
+
+
+    const responseGoogle = (response) => {
+    setName(response.profileObj.name);
+    setEmail(response.profileObj.email);
+    setUrl(response.profileObj.imageUrl);
+    };
+
+    return (
+        <>
+        <h1 style={{color:"white"}}>Login With Google</h1>
+        <h2 style={{color:"white"}}>Welcome: {name}</h2>
+        <h2 style={{color:"white"}}>Email: {email}</h2>
+        <img src={url} alt={name}/>
+        <h2></h2>
+        <GoogleLogin
+        clientId="33277430818-uf02c61bkrcins59geal04p0r9deuaq6.apps.googleusercontent.com"
+        buttonText="Login"
+        onSuccess={responseGoogle}
+        onFailure={responseGoogle}
+        cookiePolicy={'single_host_origin'}
+      />
+      </>
+    )
+}
+
+export default GoogleAuth;

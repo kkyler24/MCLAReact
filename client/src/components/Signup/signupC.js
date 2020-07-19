@@ -7,8 +7,10 @@ import {
   InputGroupText,
   InputGroup,
 } from "reactstrap";
-import GoogleAuthentication from "./authentication.js";
+
 // import facebookAuthentication from "./facebookAuthentication";
+
+import GoogleAuth from "./authentication.js";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
@@ -20,6 +22,8 @@ function SignupC(props) {
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
+
+<GoogleAuth></GoogleAuth>
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
           <div className={styles.row}>
@@ -48,22 +52,14 @@ function SignupC(props) {
                      >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="twitter"
-                      // href="https://twitter.com"
-                      onClick={(e) => e.preventDefault()}
-                      // size="lg"
-                    > 
-                      <i className="fab fa-google btngoogle"></i>                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="google"
-                      // href=""
 
-                      onClick={(e) => 
-                        e.GoogleAuthentication()                    
-                      }
+                    {/* PUT GOOGLE BUTTON HERE */}
+
+                    <Button
+                    
+                      className="btn-neutral btn-icon btn-round"
+                      color="linkedin"
+                      // href=""
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>

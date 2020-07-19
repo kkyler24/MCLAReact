@@ -4,19 +4,21 @@ import Col from "../Col/Col";
 import TicTacToe from "../../pictures/tictactoe2.png";
 import CodeCollector from "../../pictures/code_collector2.JPG";
 import Annihilator from "../../pictures/Math_Poster2.jpg";
-import CardBack from "../../pictures/MathApics/geometrictechnology.jpg"
+import CardBack from "../../pictures/MathApics/geometrictechnology.jpg";
 import "./GameCards.css";
 
 // reactstrap components
-import {
-  CardBody,
-  Button,
-} from "reactstrap";
+import { CardBody, Button } from "reactstrap";
 // core components
+
+const cardBackStyle = {
+  backgroundImage: `url(${CardBack})`,
+  backgroundSize: "1500px",
+};
 
 const collectorImg = {
   backgroundImage: `url(${CodeCollector})`,
-  backgroundSize: "350px",
+  backgroundSize: "550px",
 };
 
 const ticImg = {
@@ -26,13 +28,15 @@ const ticImg = {
 
 const spaceImg = {
   backgroundImage: `url(${Annihilator})`,
-  backgroundSize: "400px",
+  backgroundSize: "500px",
 };
+
+let url = "https://www.wwe.com/";
 
 function GameCards() {
   return (
     <>
-      <div className="game-div" style={{backgroundImage:`url(${CardBack})`}}>
+      <div className="game-div" style={cardBackStyle}>
         <Row>
           <Col size="md-4">
             <div className="text-center game-card" style={ticImg}>
@@ -43,13 +47,12 @@ function GameCards() {
                   A game of tic tac toe with morse code
                 </p> */}
                 {/* </CardText> */}
-                <Button
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
+                <a
+                  href="https://mcla1.herokuapp.com/ttt.html"
+                  className="btn btn-secondary play-button"
                 >
                   PLAY
-                </Button>
+                </a>
               </CardBody>
             </div>
           </Col>
@@ -60,13 +63,12 @@ function GameCards() {
                 {/* <p className="game-description">
                   Collect the code and race to the finish!
                 </p> */}
-                <Button
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
+                <a
+                  href="https://mcla1.herokuapp.com/race.html"
+                  className="btn btn-secondary play-button"
                 >
                   PLAY
-                </Button>
+                </a>
               </CardBody>
             </div>
           </Col>
@@ -77,13 +79,12 @@ function GameCards() {
                 Squirt aliens and find the right answer
                 </p> */}
                 <h4 className="game-description">Math Annihilator</h4>
-                <Button
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
+                <a
+                  href="https://mathinvader.herokuapp.com/"
+                  className="btn btn-secondary play-button"
                 >
                   PLAY
-                </Button>
+                </a>
               </CardBody>
             </div>
           </Col>
