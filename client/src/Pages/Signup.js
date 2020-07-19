@@ -2,7 +2,7 @@ import React from "react";
 import SignupC from "../components/Signup/signupC";
 import Login from "../../src/components/Login/Login.js";
 import Image1 from "../pictures/lighBulbLIbrary.jpg";
-// import Footer from "../components/footerSocial";
+import SocialFooter from "../components/SocialFooter/SocialFooter";
 
 const Style1 = {
   display: "inlineblock",
@@ -22,6 +22,7 @@ const style3 = {
 
 function SignupP() {
   return (
+    <>
     <div style={Style2}>
       <div className="container" style={Style1}>
         <div className="row">
@@ -37,6 +38,8 @@ function SignupP() {
         </div>
       </div>
     </div>
+    <SocialFooter></SocialFooter>
+    </>
   );
 }
 export default SignupP;
