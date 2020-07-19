@@ -1,5 +1,5 @@
 .background-img {
-position: absolute;
+position: fixed;
 background-size: cover;
 background-position: 50%;
 width: 100%;
