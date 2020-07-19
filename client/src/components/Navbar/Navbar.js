@@ -33,16 +33,16 @@ class Navbar extends Component {
         <div class="mdl-layout__drawer mdl-layout--small-screen-only">
           <span class="mdl-layout-title">Menu</span>
           <nav class="mdl-navigation">
-            <a class="mdl-navigation__link" link to = "/client/src/Pages/Home.js"> 
+            <a class="mdl-navigation__link" link to = "https://mclareact.herokuapp.com/"> 
               Home
             </a>
-            <a class="mdl-navigation__link" link to = "/client/src/Pages/About.js">
+            <a class="mdl-navigation__link" link to = "https://mclareact.herokuapp.com/about">
               About Us
             </a>
-            <a class="mdl-navigation__link" href="">
+            <a class="mdl-navigation__link" href="https://mclareact.herokuapp.com/games">
               Games
             </a>
-            <a class="mdl-navigation__link " href="">
+            <a class="mdl-navigation__link " href="https://mclareact.herokuapp.com/signup">
               Log in
             </a>
           </nav>
