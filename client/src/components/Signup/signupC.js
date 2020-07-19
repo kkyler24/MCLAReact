@@ -7,7 +7,7 @@ import {
   InputGroupText,
   InputGroup,
 } from "reactstrap";
-
+import GoogleAuthentication from "./authentication.js";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
@@ -43,7 +43,7 @@ function SignupC(props) {
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"
                     //   href="#pablo"
-                    //   onClick={(e) => e.preventDefault()}
+                       onClick={(e) => e.preventDefault()}
                      >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
@@ -51,17 +51,18 @@ function SignupC(props) {
                       className="btn-neutral btn-icon btn-round"
                       color="twitter"
                       // href="https://twitter.com"
-                      // onClick={(e) => e.preventDefault()}
+                      onClick={(e) => e.preventDefault()}
                       // size="lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    >
+                    > 
                       <i className="fab fa-google btngoogle"></i>                    </Button>
                     <Button
                       className="btn-neutral btn-icon btn-round"
                       color="google"
                       // href=""
-                      // onClick={(e) => e.preventDefault()}
+
+                      onClick={(e) => 
+                        e.GoogleAuthentication()                    
+                      }
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
