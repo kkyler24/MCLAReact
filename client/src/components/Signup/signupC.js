@@ -8,8 +8,9 @@ import {
   InputGroup,
 } from "reactstrap";
 
+// import facebookAuthentication from "./facebookAuthentication";
+
 import GoogleAuth from "./authentication.js";
-import responseFacebook from "./facebookAuthentication";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
