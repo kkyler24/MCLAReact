@@ -1,13 +1,13 @@
-// import React from "react";
-// import One from "../../pictures/MathApics/invaders_png/one.png";
-// import Two from "../../pictures/MathApics/invaders_png/two.png";
-// import Three from "../../pictures/MathApics/invaders_png/three.png";
-// import Four from "../../pictures/MathApics/invaders_png/four.png";
-// import Five from "../../pictures/MathApics/invaders_png/five.png";
-// import Six from "../../pictures/MathApics/invaders_png/six.png";
-// import Seven from "../../pictures/MathApics/invaders_png/seven.png";
-// import Eight from "../../pictures/MathApics/invaders_png/eight.png";
-// import Nine from "../../pictures/MathApics/invaders_png/nine.png";
+import React from "react";
+import One from "../../pictures/MathApics/invaders_png/one.png";
+import Two from "../../pictures/MathApics/invaders_png/two.png";
+import Three from "../../pictures/MathApics/invaders_png/three.png";
+import Four from "../../pictures/MathApics/invaders_png/four.png";
+import Five from "../../pictures/MathApics/invaders_png/five.png";
+import Six from "../../pictures/MathApics/invaders_png/six.png";
+import Seven from "../../pictures/MathApics/invaders_png/seven.png";
+import Eight from "../../pictures/MathApics/invaders_png/eight.png";
+import Nine from "../../pictures/MathApics/invaders_png/nine.png";
 
 // class MathTokens extends Component {
 //   constructor(props) {
@@ -65,4 +65,5 @@
 //     }
 //   }
 // }
-//export default MathTokens;
+
+// export default MathTokens;

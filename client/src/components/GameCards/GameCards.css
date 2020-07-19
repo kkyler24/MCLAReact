@@ -1,0 +1,13 @@
+.game-div {
+padding: 100px;
+/* background-color: green; */
+}
+
+.game-card {
+box-shadow: 0 5px 25px 0 rgba(0,0,0,.5);
+border-radius: 12px;
+}
+
+.game-card:hover {
+    transform: scale(1.5);
+}

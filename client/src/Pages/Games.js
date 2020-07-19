@@ -1,11 +1,17 @@
 import React, { Component } from "react";
-import Footer from "../components/Footer/Footer";
+import GameCards from "../components/GameCards/GameCards";
+import SocialFooter from "../components/SocialFooter/SocialFooter";
+// import Jumbotron from "../components/Jumbotron/Jumbotron";
+import Background from "../components/Background/Background";
+import backImg from "../pictures/mario.jpg"
 
-function Games(props) {
+function Games() {
   return (
-    <div>
-      <Footer />
-    </div>
+    <>
+      <Background backgroundColor="white"/>
+        <GameCards/>
+        <SocialFooter />
+    </>
   );
 }
 export default Games;

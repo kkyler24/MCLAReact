@@ -1,0 +1,25 @@
+.social-footer {
+    width: 100%;
+    margin: 0;
+    /* opacity: 0%; */ 
+}
+
+.footer-href {
+    color: black;
+    text-align: center;
+}
+
+.footer-href:hover {
+    color: white;
+}
+
+.social-footer div {
+text-align: center;
+/* display: flex; */
+justify-content: center;
+}
+
+.social-footer h5 {
+color: black;
+}
+

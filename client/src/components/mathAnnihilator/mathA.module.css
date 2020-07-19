@@ -1,0 +1,55 @@
+.background {
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.title {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 700;
+  padding-top: 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #d0d1d1;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.containerFluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.description {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  font-size: 50px;
+}
+
+.section {
+  padding: 100px 0;
+  position: relative;
+  background: #ffffff;
+}
+
+.textCenter {
+  text-align: center !important;
+}
+
+.btnroundC {
+  padding: 11px 23px;
+  margin-left: auto;
+  margin-right: auto;
+}
