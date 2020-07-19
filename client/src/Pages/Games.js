@@ -8,9 +8,9 @@ import backImg from "../pictures/mario.jpg"
 function Games() {
   return (
     <>
-      <Background backgroundColor="lightgray"/>
+      <Background backgroundColor="#FFFFFF"/>
         <Jumbotron>
-        <h2>Games</h2>
+        <h2>Learn With Games</h2>
         </Jumbotron>
         <GameCards/>
         <SocialFooter />
