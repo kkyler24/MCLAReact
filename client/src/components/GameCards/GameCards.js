@@ -2,6 +2,8 @@ import React from "react";
 import Row from "../Row/Row";
 import Col from "../Col/Col";
 import TicTacToe from "../../pictures/tictactoe2.png";
+import CodeCollector from "../../pictures/code_collector2.JPG";
+import Annihilator from "../../pictures/Math_Poster2.jpg";
 import "./GameCards.css";
 
 // reactstrap components
@@ -16,69 +18,77 @@ import {
 } from "reactstrap";
 // core components
 
+const collectorImg = {
+  backgroundImage: `url(${CodeCollector})`,
+  backgroundSize: "350px",
+};
+
+const ticImg = {
+  backgroundImage: `url(${TicTacToe})`,
+  backgroundSize: "-10px",
+};
+
+const spaceImg = {
+  backgroundImage: `url(${Annihilator})`,
+  backgroundSize: "400px",
+};
+
 function GameCards() {
   return (
     <>
       <div className="game-div">
         <Row>
           <Col size="md-4">
-            <div className="text-center game-card" style={{backgroundImage: `url(${TicTacToe})`}}>
-              <CardHeader className="mt-2">Featured</CardHeader>
+            <div className="text-center game-card" style={ticImg}>
               <CardBody>
-                <CardTitle tag="h4">Special title treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
+                <h4 className="game-description">Tic Tac Toe</h4>
+                {/* <CardText> */}
+                <p className="game-description">
+                  A game of tic tac toe with morse code
+                </p>
+                {/* </CardText> */}
                 <Button
                   color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
-                  >
-                  Go somewhere
+                >
+                  PLAY
                 </Button>
               </CardBody>
-              <CardFooter className="text-muted mb-2">2 days ago</CardFooter>
             </div>
           </Col>
           <Col size="md-4">
-            <div className="text-center game-card">
-              <CardHeader className="mt-2">Featured</CardHeader>
+            <div className="text-center game-card" style={collectorImg}>
               <CardBody>
-                <CardTitle tag="h4">Special title treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
+                <h4 className="game-description">Code Collector</h4>
+                <p className="game-description">
+                  Collect the code and race to the finish!
+                </p>
                 <Button
                   color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
-                  >
-                  Go somewhere
+                >
+                  PLAY
                 </Button>
               </CardBody>
-              <CardFooter className="text-muted mb-2">2 days ago</CardFooter>
             </div>
           </Col>
           <Col size="md-4">
-            <div className="text-center game-card">
-              <CardHeader className="mt-2">Featured</CardHeader>
+            <div className="text-center game-card" style={spaceImg}>
               <CardBody>
-                <CardTitle tag="h4">Special title treatment</CardTitle>
-                <CardText>
-                  With supporting text below as a natural lead-in to additional
-                  content.
-                </CardText>
+                <h4 className="game-description">Math Annihilator</h4>
+                <p className="game-description">
+                Squirt aliens and find the right answer
+                </p>
                 <Button
                   color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
-                  >
-                  Go somewhere
+                >
+                  PLAY
                 </Button>
               </CardBody>
-              <CardFooter className="text-muted mb-2">2 days ago</CardFooter>
             </div>
           </Col>
         </Row>

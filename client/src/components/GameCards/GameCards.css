@@ -1,13 +1,23 @@
 .game-div {
 padding: 100px;
-/* background-color: green; */
+background-color: orange;
 }
 
 .game-card {
 box-shadow: 0 5px 25px 0 rgba(0,0,0,.5);
 border-radius: 12px;
+filter: grayscale(0%);
 }
 
 .game-card:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
+    filter: grayscale(100%);
+}
+
+.game-description {
+    font-size: 25px;
+    color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    opacity: 100%;
 }
