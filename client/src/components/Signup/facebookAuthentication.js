@@ -10,8 +10,8 @@ ReactDOM.render(
   <FacebookLogin
     appId="282569062814597"
     autoLoad={true}
-    fields="name,email,picture"
-    onClick={componentClicked}
+    fields=""
+    onClick={}
     callback={responseFacebook} />,
 );
 
