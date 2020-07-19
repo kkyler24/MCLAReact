@@ -4,7 +4,6 @@ import SocialFooter from "../components/SocialFooter/SocialFooter";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import Background from "../components/Background/Background";
 import backImg from "../pictures/mario.jpg"
-import Test from "../components/TestDir/index"
 
 function Games() {
   return (
@@ -16,7 +15,6 @@ function Games() {
         <GameCards/>
         <div id="googleButton"></div>
         <SocialFooter />
-        <Test></Test>
     </>
   );
 }
