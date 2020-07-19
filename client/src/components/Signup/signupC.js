@@ -40,27 +40,28 @@ function SignupC(props) {
                   </div>
                   <div className={styles.socialLine}>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnGH}`}
-                      color="github"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
+                      className="btn-neutral btn-icon btn-round"
+                      color="facebook"
+                    //   href="#pablo"
+                    //   onClick={(e) => e.preventDefault()}
+                     >
+                      <i className="fab fa-facebook-square"></i>
+                    </Button>
+                    <Button
+                      className="btn-neutral btn-icon btn-round"
+                      color="twitter"
+                      // href="https://twitter.com"
+                      // onClick={(e) => e.preventDefault()}
+                      // size="lg"
                     >
-                      <i className="fab fa-github btngithub"></i>
-                    </Button>
+                      <i className="fab fa-twitter"></i>
+                    >
+                      <i className="fab fa-google btngoogle"></i>                    </Button>
                     <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnG}`}
+                      className="btn-neutral btn-icon btn-round"
                       color="google"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                    >                      
-                    <div class="g-signin2" data-onsuccess="onSignIn"></div>
-                    </Button>
-                    <Button
-                      className={`${styles.btnneutral} ${styles.btnicon} ${styles.btnround} ${styles.btnL}`}
-                      color="linkedin"
-                      href="#pablo"
-                      onClick={(e) => e.preventDefault()}
-                      size="lg"
+                      // href=""
+                      // onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
