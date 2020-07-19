@@ -1,17 +1,19 @@
 import React, { Component } from "react";
 import GameCards from "../components/GameCards/GameCards";
-import Background from "../components/Background/Background";
-import airBallon from "../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg"
 import SocialFooter from "../components/SocialFooter/SocialFooter";
+import Jumbotron from "../components/Jumbotron/Jumbotron";
+import Background from "../components/Background/Background";
+import backImg from "../pictures/mario.jpg"
 
 function Games() {
   return (
     <>
-  <Background backgroundImage={airBallon}>
-  </Background>
-  <GameCards>
-  </GameCards>
-  <SocialFooter></SocialFooter>
+      <Background backgroundColor="lightgray"/>
+        <Jumbotron>
+        <h2>Games</h2>
+        </Jumbotron>
+        <GameCards/>
+        <SocialFooter />
     </>
   );
 }

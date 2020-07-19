@@ -6,6 +6,8 @@ import "./SocialFooter.css";
 
 function SocialFooter() {
   return (
+    <Row>
+      <Col size="sm-12">
     <div className="card social-footer">
       <div className="card-body">
         <h5>Contact Us</h5>
@@ -13,6 +15,8 @@ function SocialFooter() {
       </div>
       <div className="card-header">© Copyright 2020</div>
     </div>
+    </Col>
+    </Row>
   );
 }
 

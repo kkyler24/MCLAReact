@@ -1,143 +1,109 @@
-// import React, {
-//   Component,
-//   Card,
-//   CardImg,
-//   CardImgOverlay,
-//   CardTitle,
-//   CardText,
-// } from "react";
-// import Row from "../Row/Row";
-// import Col from "../Col/Col";
-// // import CardBody from "../CardBody/CardBody";
-// import Images from "../Images/Images";
-// import crdImg from "../../pictures/boyReading.jpg";
-// import Scrabble from "../../pictures/scrabbleLetters.jpg";
-// import TicTacToe from "../../pictures/tictactoe.jpeg";
-
-// function GameCards(props) {
-//   return (
-//     // <Row>
-//     //   <Col size="sm-4">
-//     //     <Card className="bg-dark">
-//     //       <CardImg
-//     //         alt="..."
-//     //         data-src="holder.js/100px270/#55595c:#373a3c/text:Card image"
-//     //       ></CardImg>
-//     //       <CardImgOverlay>
-//     //         <CardTitle tag="h4">Card title</CardTitle>
-//     //         <CardText>
-//     //           This is a wider card with supporting text below as a natural
-//     //           lead-in to additional content. This content is a little bit
-//     //           longer.
-//     //         </CardText>
-//     //         <CardText>Last updated 3 mins ago</CardText>
-//     //       </CardImgOverlay>
-//     //     </Card>
-//     //   </Col>
-//     //   <Col size="sm-4">
-//     //     <div class="card" style={{ width: "18rem", border: "black 2px solid" }}>
-//     //       <Images src={TicTacToe} className="card-img-top" alt="image"></Images>
-//     //       <div class="card-body game-card-body">
-//     //         <h5 class="card-title">Tic Tac Toe</h5>
-//     //         <p class="card-text">description</p>
-//     //         <a href="#" class="btn btn-primary">
-//     //           PLAY
-//     //         </a>
-//     //       </div>
-//     //     </div>
-//     //   </Col>
-//     //   <Col size="sm-4">
-//     //     <div class="card" style={{ width: "18rem", border: "black 2px solid" }}>
-//     //       <Images src={crdImg} className="card-img-top" alt="image"></Images>
-//     //       <div class="card-body game-card-body">
-//     //         <h5 class="card-title">Math Annihilator</h5>
-//     //         <p class="card-text">
-//     //           Some quick example text to build on the card title and make up the
-//     //           bulk of the card's content.
-//     //         </p>
-//     //         <a href="#" class="btn btn-primary">
-//     //           PLAY
-//     //         </a>
-//     //       </div>
-//     //     </div>
-//     //   </Col>
-//     // </Row>
-    
-//   );
-// }
-
-// export default GameCards;
-
-
-
-
-
-// import React from "react";
-// import "./GameCards.css";
-// // reactstrap components
-// import{
-//   Card,
-//   CardBody,
-//   CardTitle,
-//   CardText
-// } from "reactstrap";
-// // core components
-
-// function GameCards(){
-//   return (
-//  <Card style={{ width: "20rem" }}>
-//         <CardBody className={style.cardBody}>
-//           <CardTitle className={style.cardTitle} tag="h4">Special title treatment</CardTitle>
-//           <CardText>
-//             With supporting text below as a natural lead-in to additional
-//             content.
-//           </CardText>
-//           <Button
-//             color="primary"
-//             href="#pablo"
-//             onClick={e => e.preventDefault()}
-//   )
-// }
-
-// export default GameCards;
-
 import React from "react";
+import Row from "../Row/Row";
+import Col from "../Col/Col";
+import TicTacToe from "../../pictures/tictactoe2.png";
+import CodeCollector from "../../pictures/code_collector2.JPG";
+import Annihilator from "../../pictures/Math_Poster2.jpg";
+import "./GameCards.css";
 
 // reactstrap components
-import{
+import {
   Card,
   CardHeader,
   CardBody,
   CardTitle,
   CardText,
   CardFooter,
-  Button
+  Button,
 } from "reactstrap";
 // core components
 
-function GameCards(){
+const collectorImg = {
+  backgroundImage: `url(${CodeCollector})`,
+  backgroundSize: "350px",
+};
+
+const ticImg = {
+  backgroundImage: `url(${TicTacToe})`,
+  backgroundSize: "-10px",
+};
+
+const spaceImg = {
+  backgroundImage: `url(${Annihilator})`,
+  backgroundSize: "400px",
+};
+
+function GameCards() {
   return (
     <>
-      <Card className="text-center">
-        <CardHeader className="mt-2">Featured</CardHeader>
-        <CardBody>
-          <CardTitle tag="h4">Special title treatment</CardTitle>
-          <CardText>
-            With supporting text below as a natural lead-in to additional
-            content.
-          </CardText>
-          <Button
-            color="primary"
-            href="#pablo"
-            onClick={e => e.preventDefault()}
-          >
-            Go somewhere
-          </Button>
-        </CardBody>
-        <CardFooter className="text-muted mb-2">2 days ago</CardFooter>
-      </Card>
+      <div className="game-div">
+        <Row>
+          <Col size="md-4">
+            <div className="text-center game-card" style={ticImg}>
+              <CardBody>
+                <h4 className="game-description">Tic Tac Toe</h4>
+                {/* <CardText> */}
+                <p className="game-description">
+                  A game of tic tac toe with morse code
+                </p>
+                {/* </CardText> */}
+                <Button
+                  color="primary"
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  PLAY
+                </Button>
+              </CardBody>
+            </div>
+          </Col>
+          <Col size="md-4">
+            <div className="text-center game-card" style={collectorImg}>
+              <CardBody>
+                <h4 className="game-description">Code Collector</h4>
+                <p className="game-description">
+                  Collect the code and race to the finish!
+                </p>
+                <Button
+                  color="primary"
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  PLAY
+                </Button>
+              </CardBody>
+            </div>
+          </Col>
+          <Col size="md-4">
+            <div className="text-center game-card" style={spaceImg}>
+              <CardBody>
+                <h4 className="game-description">Math Annihilator</h4>
+                <p className="game-description">
+                Squirt aliens and find the right answer
+                </p>
+                <Button
+                  color="primary"
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  PLAY
+                </Button>
+              </CardBody>
+            </div>
+          </Col>
+        </Row>
+      </div>
     </>
   );
 }
 
 export default GameCards;
+
+// style={{
+//   boxShadow: "0 5px 25px 0 rgba(0,0,0,.2)",
+//   width: "90%",
+//   marginLeft: "20px",
+//   marginRight: "0",
+//   borderRadius: "12px",
+//   backgroundImage: `url(${TicTacToe})`,
+// }}
