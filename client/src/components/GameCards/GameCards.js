@@ -4,16 +4,12 @@ import Col from "../Col/Col";
 import TicTacToe from "../../pictures/tictactoe2.png";
 import CodeCollector from "../../pictures/code_collector2.JPG";
 import Annihilator from "../../pictures/Math_Poster2.jpg";
+import CardBack from "../../pictures/MathApics/geometrictechnology.jpg"
 import "./GameCards.css";
 
 // reactstrap components
 import {
-  Card,
-  CardHeader,
   CardBody,
-  CardTitle,
-  CardText,
-  CardFooter,
   Button,
 } from "reactstrap";
 // core components
@@ -36,21 +32,21 @@ const spaceImg = {
 function GameCards() {
   return (
     <>
-      <div className="game-div">
+      <div className="game-div" style={{backgroundImage:`url(${CardBack})`}}>
         <Row>
           <Col size="md-4">
             <div className="text-center game-card" style={ticImg}>
               <CardBody>
                 <h4 className="game-description">Tic Tac Toe</h4>
                 {/* <CardText> */}
-                <p className="game-description">
+                {/* <p className="game-description">
                   A game of tic tac toe with morse code
-                </p>
+                </p> */}
                 {/* </CardText> */}
                 <Button
-                  color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
+                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
                 >
                   PLAY
                 </Button>
@@ -61,13 +57,13 @@ function GameCards() {
             <div className="text-center game-card" style={collectorImg}>
               <CardBody>
                 <h4 className="game-description">Code Collector</h4>
-                <p className="game-description">
+                {/* <p className="game-description">
                   Collect the code and race to the finish!
-                </p>
+                </p> */}
                 <Button
-                  color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
+                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
                 >
                   PLAY
                 </Button>
@@ -77,14 +73,14 @@ function GameCards() {
           <Col size="md-4">
             <div className="text-center game-card" style={spaceImg}>
               <CardBody>
-                <h4 className="game-description">Math Annihilator</h4>
-                <p className="game-description">
+                {/* <p className="game-description">
                 Squirt aliens and find the right answer
-                </p>
+                </p> */}
+                <h4 className="game-description">Math Annihilator</h4>
                 <Button
-                  color="primary"
                   href="#pablo"
                   onClick={(e) => e.preventDefault()}
+                  style={{backgroundColor: "#8D8F92", opacity: "75%"}}
                 >
                   PLAY
                 </Button>

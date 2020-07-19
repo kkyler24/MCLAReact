@@ -1,13 +1,18 @@
 import React from "react";
 import "./Jumbotron.css";
-import gameJumb from "../../pictures/controller.jpg";
+import gameJumb from "../../pictures/MathApics/blackboard.jpg";
+
+const jumbStyle = {
+  backgroundImage: `url(${gameJumb})`,
+  backgroundSize: "1440px"
+}
 
 function Jumbotron(props) {
 
   return (
       <div className="page-header page-header-small">
         <div
-          className="page-header-image backgroundImage" style={{backgroundImage: `url(${gameJumb})`}}
+          className="page-header-image backgroundImage" style={jumbStyle}
         ></div>
         <div className="content-centerAU">
               {props.children}
