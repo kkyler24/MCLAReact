@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./signupC.module.css";
-import {Redirect} from "react-router-dom";
 import {
   Button,
   Input,
@@ -8,22 +7,21 @@ import {
   InputGroupText,
   InputGroup,
 } from "reactstrap";
-
-// import facebookAuthentication from "./facebookAuthentication";
-
 import GoogleAuth from "./authentication.js";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
 // core components
 
-function SignupC() {
+function SignupC(props) {
+  const [firstFocus, setFirstFocus] = React.useState(false);
+  const [lastFocus, setLastFocus] = React.useState(false);
+  const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-<<<<<<< HEAD
+    <GoogleAuth></GoogleAuth>
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
-<<<<<<< Updated upstream
           <div className={styles.row}>
             <div
               className={`${styles.cardSignup} ${styles.card} `}
@@ -36,15 +34,6 @@ function SignupC() {
               >
                 <div className={`${styles.textCenter} ${styles.cardHeader}`}>
                   <div
-=======
-          <Row className={styles.row}>
-            <Card className={styles.cardSignup} data-background-color="blue">
-              <Form action="" className={styles.form} method="">
-                <CardHeader
-                  className={`${styles.textCenter} ${styles.cardHeader}`}
-                >
-                  <CardTitle
->>>>>>> Stashed changes
                     className={`${styles.cardTitle} ${styles.titleUp}`}
                     tag="h3"
                   >
@@ -55,98 +44,70 @@ function SignupC() {
                       className="btn-neutral btn-icon btn-round"
                       color="facebook"
                     //   href="#pablo"
-                    //   onClick={(e) => e.preventDefault()}
+                       onClick={(e) => e.preventDefault()}
                      >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
+
+                    {/* PUT GOOGLE BUTTON HERE */}
+
                     <Button
+                    
                       className="btn-neutral btn-icon btn-round"
-                      color="twitter"
-                      // href="https://twitter.com"
-                      // onClick={(e) => e.preventDefault()}
-                      // size="lg"
-                    >
-                      <i className="fab fa-twitter"></i>
-                    >
-                      <i className="fab fa-google btngoogle"></i>                    </Button>
-                    <Button
-                      className="btn-neutral btn-icon btn-round"
-                      color="google"
+                      color="linkedin"
                       // href=""
-                      // onClick={(e) => e.preventDefault()}
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
                   </div>
-<<<<<<< Updated upstream
                 </div>
                 <div className={styles.cardBody}>
                   <InputGroup className={styles.inputGroup}>
-=======
-                </CardHeader>
-                <CardBody className={styles.cardBody}>
-                  <InputGroup
-                    className={
-                      `${styles.inputGroup} ${styles.inputGroupround}` +
-                      (firstFocus ? " input-group-focus" : "")
-                    }
-                  >
->>>>>>> Stashed changes
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons users_circle-08"></i>
+                      <InputGroupText className={styles.inputGroupText}>
+                        <i className="nowuiicons users_circle-08"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
+                      className={styles.input}
                       placeholder="First Name..."
                       type="text"
                       onFocus={() => setFirstFocus(true)}
                       onBlur={() => setFirstFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup
-                    className={
-                      "no-border" + (lastFocus ? " input-group-focus" : "")
-                    }
-                  >
+                  <InputGroup className={styles.inputGroup}>
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons text_caps-small"></i>
+                      <InputGroupText className={styles.inputGroupText}>
+                        <i className="nowuiicons text_caps-small"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
+                      className={styles.input}
                       placeholder="Last Name..."
                       type="text"
                       onFocus={() => setLastFocus(true)}
                       onBlur={() => setLastFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup
-                    className={
-                      "no-border" + (emailFocus ? " input-group-focus" : "")
-                    }
-                  >
+                  <InputGroup className={styles.inputGroup}>
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText>
-                        <i className="now-ui-icons ui-1_email-85"></i>
+                      <InputGroupText className={styles.inputGroupText}>
+                        <i className="far fa-user-circle"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
+                      className={styles.input}
                       placeholder="Email..."
                       type="text"
                       onFocus={() => setEmailFocus(true)}
                       onBlur={() => setEmailFocus(false)}
                     ></Input>
                   </InputGroup>
-<<<<<<< Updated upstream
                 </div>
                 <div className={`${styles.textCenter} ${styles.cardFooter}`}>
-=======
-                </CardBody>
-                <CardFooter className="text-center">
->>>>>>> Stashed changes
                   <Button
-                    className="btn-neutral btn-round"
+                    className={`${styles.btnround} ${styles.btn}  ${styles.btninfo} ${styles.btnlg}`}
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
@@ -154,33 +115,12 @@ function SignupC() {
                   >
                     Get Started
                   </Button>
-<<<<<<< Updated upstream
                 </div>
               </div>
             </div>
-=======
-                </CardFooter>
-              </Form>
-            </Card>
-          </Row>
-          <div className="col text-center">
-            <Button
-              className="btn-round btn-white"
-              color="default"
-              to="/login-page"
-              outline
-              size="lg"
-              // tag={Link}
-            >
-              View Login Page
-            </Button>
->>>>>>> Stashed changes
           </div>
         </div>
       </div>
-=======
-<GoogleAuth></GoogleAuth>
->>>>>>> d310d8b98c15652612fec4a61de8d46946ef6401
     </>
   );
 }
