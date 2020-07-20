@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./signupC.module.css";
+import {Redirect} from "react-router-dom";
 import {
   Button,
   Input,
@@ -8,17 +9,18 @@ import {
   InputGroup,
 } from "reactstrap";
 
+// import facebookAuthentication from "./facebookAuthentication";
+
+import GoogleAuth from "./authentication.js";
 // import { Link } from "react-router-dom";
 // reactstrap components
 
 // core components
 
-function SignupC(props) {
-  const [firstFocus, setFirstFocus] = React.useState(false);
-  const [lastFocus, setLastFocus] = React.useState(false);
-  const [emailFocus, setEmailFocus] = React.useState(false);
+function SignupC() {
   return (
     <>
+<<<<<<< HEAD
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
 <<<<<<< Updated upstream
@@ -176,6 +178,9 @@ function SignupC(props) {
           </div>
         </div>
       </div>
+=======
+<GoogleAuth></GoogleAuth>
+>>>>>>> d310d8b98c15652612fec4a61de8d46946ef6401
     </>
   );
 }

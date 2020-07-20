@@ -18,13 +18,10 @@ function Teamsection(params) {
                   className="rounded-circleTeam img-fluid img-raised"
                   src={image1}
                 />
-                <h4 className="titleTeam">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
+                <h4 className="titleTeam">Shaminder Singh</h4>
+                <p className="category text-info">----</p>
                 <p className="descriptionTeam">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+        
                 </p>
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
@@ -44,13 +41,10 @@ function Teamsection(params) {
                   className="rounded-circleTeam img-fluid img-raised"
                   src={image2}
                 />
-                <h4 className="titleTeam">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
+                <h4 className="titleTeam">Bea House</h4>
+                <p className="category text-info">----</p>
                 <p className="descriptionTeam">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  
                 </p>
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
@@ -70,13 +64,10 @@ function Teamsection(params) {
                   className="rounded-circleTeam img-fluid img-raised"
                   src={image3}
                 />
-                <h4 className="titleTeam">Romina Hadid</h4>
-                <p className="category text-info">Model</p>
+                <h4 className="titleTeam">Ky Kyler</h4>
+                <p className="category text-info">----</p>
                 <p className="descriptionTeam">
-                  You can write here details about one of your team members. You
-                  can give more details about what they do. Feel free to add
-                  some <a href="#pablo">links</a> for people to be able to
-                  follow them outside the site.
+                  
                 </p>
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
