@@ -23,7 +23,7 @@ const style3 = {
 
 function SignupP(props) {
   return (
-    <>
+    <div>
       <div style={Style2}>
         <div className="container" style={Style1}>
           <div className="row">
@@ -35,10 +35,11 @@ function SignupP(props) {
               <div>{/* <Login /> */}</div>
             </div>
           </div>
+          <Footer />
         </div>
       </div>
-      <Footer />
-    </>
+    </div>
   );
 }
+
 export default SignupP;
