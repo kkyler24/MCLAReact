@@ -1,25 +1,44 @@
 .social-footer {
-    width: 100%;
-    margin: 0;
-    margin-top: 45px;
+  width: 100%;
+  margin: 0;
+  margin-top: 45px;
 }
 
 .footer-href {
-    color: black;
-    text-align: center;
+  color: black;
+  text-align: center;
 }
 
 .footer-href:hover {
-    color: white;
+  color: white;
 }
 
 .social-footer div {
-text-align: center;
-/* display: flex; */
-justify-content: center;
+  text-align: center;
+  /* display: flex; */
+  justify-content: center;
 }
 
 .social-footer h5 {
-color: black;
+  color: black;
 }
 
+.btn.btn-icon {
+  height: 2.375rem;
+  min-width: 2.375rem;
+  width: 2.375rem;
+  padding: 0;
+  font-size: 1.5rem;
+  overflow: hidden;
+  position: relative;
+  line-height: normal;
+}
+
+.btn-info {
+  background-color: #2ca8ff;
+  color: #fff;
+}
+
+#rowfooter {
+  background-color: transparent;
+}

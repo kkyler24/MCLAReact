@@ -44,7 +44,7 @@ function GameCards() {
                 <h4 className="game-description">Tic Tac Toe</h4>
                 {/* <CardText> */}
                 {/* <p className="game-description">
-                  A game of tic tac toe with morse code
+                  Morse Code Alphabet learning
                 </p> */}
                 {/* </CardText> */}
                 <a
@@ -61,7 +61,7 @@ function GameCards() {
               <CardBody>
                 <h4 className="game-description">Code Collector</h4>
                 {/* <p className="game-description">
-                  Collect the code and race to the finish!
+                  Collect the morse code bits and race to the finish!
                 </p> */}
                 <a
                   href="https://mcla1.herokuapp.com/race.html"
@@ -78,9 +78,9 @@ function GameCards() {
                 {/* <p className="game-description">
                 Squirt aliens and find the right answer
                 </p> */}
-                <h4 className="game-description">Math Annihilator</h4>
+                <h4 className="game-description">Math Invaders</h4>
                 <a
-                  href="https://mathinvader.herokuapp.com/"
+                  href="https://kkyler24.github.io/MathInvader/"
                   className="btn btn-secondary play-button"
                 >
                   PLAY

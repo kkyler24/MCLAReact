@@ -6,16 +6,16 @@ import "./SocialFooter.css";
 
 function SocialFooter() {
   return (
-    <Row>
+    <Row id="rowfooter">
       <Col size="sm-12">
-    <div className="card social-footer">
-      <div className="card-body">
         <h5>Contact Us</h5>
-        <Buttons></Buttons>
-      </div>
-      <div className="card-header">© Copyright 2020</div>
-    </div>
-    </Col>
+        <div className="card social-footer">
+          <div className="card-body">
+            <Buttons></Buttons>
+          </div>
+          <div className="card-header">© Copyright 2020</div>
+        </div>
+      </Col>
     </Row>
   );
 }
