@@ -7,6 +7,7 @@ import AboutUS from "./Pages/About.js";
 import Games from "./Pages/Games.js";
 import SignupP from "./Pages/Signup.js";
 import Login from "../src/components/Login/Login.js";
+import CodeCollector from "./Pages/CodeCollector.js";
 import mathA from "../src/components/mathAnnihilator/mathgamepage.js";
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
             <Route path="/signup" component={Login} />
             <Route exact path="/" component={Home} />
             <Route path="/Math" component={mathA} />
+            <Route path="/Collector" component={CodeCollector} />
             {/* <Route path="/Log" component={} /> */}
           </Switch>
         </Router>

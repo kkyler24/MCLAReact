@@ -32,7 +32,7 @@ function SignupP(props) {
             </div>
 
             <div>
-              {/* <Login /> */}
+              <Login />
             </div>
           </div>
         </div>
