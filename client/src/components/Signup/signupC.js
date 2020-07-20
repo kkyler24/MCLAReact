@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./signupC.module.css";
+import { Redirect } from "react-router-dom";
 import {
   Button,
   Input,
