@@ -21,6 +21,7 @@ function SignupC(props) {
     <>
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
+<<<<<<< Updated upstream
           <div className={styles.row}>
             <div
               className={`${styles.cardSignup} ${styles.card} `}
@@ -33,6 +34,15 @@ function SignupC(props) {
               >
                 <div className={`${styles.textCenter} ${styles.cardHeader}`}>
                   <div
+=======
+          <Row className={styles.row}>
+            <Card className={styles.cardSignup} data-background-color="blue">
+              <Form action="" className={styles.form} method="">
+                <CardHeader
+                  className={`${styles.textCenter} ${styles.cardHeader}`}
+                >
+                  <CardTitle
+>>>>>>> Stashed changes
                     className={`${styles.cardTitle} ${styles.titleUp}`}
                     tag="h3"
                   >
@@ -66,54 +76,75 @@ function SignupC(props) {
                       <i className="fab fa-linkedin"></i>
                     </Button>
                   </div>
+<<<<<<< Updated upstream
                 </div>
                 <div className={styles.cardBody}>
                   <InputGroup className={styles.inputGroup}>
+=======
+                </CardHeader>
+                <CardBody className={styles.cardBody}>
+                  <InputGroup
+                    className={
+                      `${styles.inputGroup} ${styles.inputGroupround}` +
+                      (firstFocus ? " input-group-focus" : "")
+                    }
+                  >
+>>>>>>> Stashed changes
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="nowuiicons users_circle-08"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons users_circle-08"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="First Name..."
                       type="text"
                       onFocus={() => setFirstFocus(true)}
                       onBlur={() => setFirstFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup className={styles.inputGroup}>
+                  <InputGroup
+                    className={
+                      "no-border" + (lastFocus ? " input-group-focus" : "")
+                    }
+                  >
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="nowuiicons text_caps-small"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons text_caps-small"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="Last Name..."
                       type="text"
                       onFocus={() => setLastFocus(true)}
                       onBlur={() => setLastFocus(false)}
                     ></Input>
                   </InputGroup>
-                  <InputGroup className={styles.inputGroup}>
+                  <InputGroup
+                    className={
+                      "no-border" + (emailFocus ? " input-group-focus" : "")
+                    }
+                  >
                     <InputGroupAddon addonType="prepend">
-                      <InputGroupText className={styles.inputGroupText}>
-                        <i className="far fa-user-circle"></i>
+                      <InputGroupText>
+                        <i className="now-ui-icons ui-1_email-85"></i>
                       </InputGroupText>
                     </InputGroupAddon>
                     <Input
-                      className={styles.input}
                       placeholder="Email..."
                       type="text"
                       onFocus={() => setEmailFocus(true)}
                       onBlur={() => setEmailFocus(false)}
                     ></Input>
                   </InputGroup>
+<<<<<<< Updated upstream
                 </div>
                 <div className={`${styles.textCenter} ${styles.cardFooter}`}>
+=======
+                </CardBody>
+                <CardFooter className="text-center">
+>>>>>>> Stashed changes
                   <Button
-                    className={`${styles.btnround} ${styles.btn}  ${styles.btninfo} ${styles.btnlg}`}
+                    className="btn-neutral btn-round"
                     color="info"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
@@ -121,9 +152,27 @@ function SignupC(props) {
                   >
                     Get Started
                   </Button>
+<<<<<<< Updated upstream
                 </div>
               </div>
             </div>
+=======
+                </CardFooter>
+              </Form>
+            </Card>
+          </Row>
+          <div className="col text-center">
+            <Button
+              className="btn-round btn-white"
+              color="default"
+              to="/login-page"
+              outline
+              size="lg"
+              // tag={Link}
+            >
+              View Login Page
+            </Button>
+>>>>>>> Stashed changes
           </div>
         </div>
       </div>
