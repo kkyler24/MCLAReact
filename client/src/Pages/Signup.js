@@ -20,7 +20,7 @@ const style3 = {
   marginTop: "10%",
 };
 
-function SignupP() {
+function SignupP(props) {
   return (
     <>
     <div style={Style2}>
@@ -28,11 +28,11 @@ function SignupP() {
         <div className="row">
           <div className="col md-8" style={style3}>
             <div>
-              <SignupC />
+              <SignupC {...props}/>
             </div>
 
             <div>
-              <Login />
+              {/* <Login /> */}
             </div>
           </div>
         </div>

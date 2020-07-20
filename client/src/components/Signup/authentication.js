@@ -1,23 +1,20 @@
 import React, { useState, setState } from "react";
-import ReactDOM from "react-dom";
+import {Redirect} from "react-router-dom";
 import GoogleLogin from "react-google-login";
-// import { response } from "express";
 
-
-function GoogleAuth () {
-
+function GoogleAuth (props) {
+console.log(props);
     const [name, setName] = useState("");
 
     const [email, setEmail] = useState("");
 
     const [url, setUrl] = useState("");
 
-
-
     const responseGoogle = (response) => {
     setName(response.profileObj.name);
     setEmail(response.profileObj.email);
     setUrl(response.profileObj.imageUrl);
+    return <Redirect to="/Games"/>;
     };
 
     return (
