@@ -1,20 +1,31 @@
 import React, { Component } from "react";
 import GameCards from "../components/GameCards/GameCards";
-import SocialFooter from "../components/SocialFooter/SocialFooter";
+// import SocialFooter from "../components/SocialFooter/SocialFooter";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import Background from "../components/Background/Background";
-import backImg from "../pictures/mario.jpg"
+// import backImg from "../pictures/MathApics/geometrictechnology.png";
+import Footer from "../components/Footer/Footer";
 
+const bstyle = {
+  height: "300px",
+};
+
+// const bstyle1 = {
+//   backgroundImage: "backImg",
+//   backgroundSize: "cover",
+//   backgroundRepeat: "no repeat",
+//   height: "700px",
+// };
 function Games() {
   return (
     <>
-      <Background backgroundColor="#FFFFFF"/>
-        <Jumbotron>
-        <h2>Learn With Games</h2>
-        </Jumbotron>
-        <GameCards/>
-        <div id="googleButton"></div>
-        <SocialFooter />
+      <Background backgroundColor="#FFFFFF" />
+      <Jumbotron style={bstyle}>
+        <h2>MorseCode Games</h2>
+      </Jumbotron>
+      <GameCards />
+      <div id="googleButton"></div>
+      <Footer />
     </>
   );
 }
