@@ -41,7 +41,10 @@ function Teamsection(params) {
                 />
                 <h4 className="titleTeam">Bea House</h4>
                 <p className="category text-info">Back-End Engineer</p>
-                <p className="descriptionTeam"></p>
+                <p className="descriptionTeam">
+                  {" "}
+                  Data Bases, Google API, and Authentification
+                </p>
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
                 </a>
