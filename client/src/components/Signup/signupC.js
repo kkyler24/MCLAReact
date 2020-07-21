@@ -9,8 +9,6 @@ import {
   InputGroup,
 } from "reactstrap";
 import GoogleAuth from "./authentication.js";
-// import { Link } from "react-router-dom";
-// reactstrap components
 
 // core components
 
@@ -20,12 +18,12 @@ function SignupC(props) {
   const [emailFocus, setEmailFocus] = React.useState(false);
   return (
     <>
-    <GoogleAuth></GoogleAuth>
       <div className={`${styles.section} ${styles.sectionSignup}`}>
         <div className={styles.container}>
           <div className={styles.row}>
             <div
               className={`${styles.cardSignup} ${styles.card} `}
+              style={{backgroundColor: "rgb(32, 199, 199)", borderRadius:"30px"}}
               data-background-color="blue"
             >
               <div
@@ -49,14 +47,10 @@ function SignupC(props) {
                      >
                       <i className="fab fa-facebook-square"></i>
                     </Button>
-
-                    {/* PUT GOOGLE BUTTON HERE */}
-
+                    <GoogleAuth></GoogleAuth>
                     <Button
-                    
                       className="btn-neutral btn-icon btn-round"
-                      color="linkedin"
-                      // href=""
+                      color="google"
                     >
                       <i className="fab fa-linkedin"></i>
                     </Button>
@@ -127,3 +121,5 @@ function SignupC(props) {
 }
 
 export default SignupC;
+
+

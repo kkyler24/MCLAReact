@@ -1,20 +1,21 @@
 import React from "react";
+import { Redirect } from "react-router-dom";
 import Row from "../Row/Row";
 import Col from "../Col/Col";
 import TicTacToe from "../../pictures/tictactoe2.png";
 import CodeCollector from "../../pictures/code_collector2.JPG";
 import Annihilator from "../../pictures/Math_Poster2.jpg";
-import CardBack from "../../pictures/MathApics/geometrictechnology.jpg";
+// import CardBack from "../../pictures/MathApics/geometrictechnology.jpg";
 import "./GameCards.css";
 
 // reactstrap components
 import { CardBody, Button } from "reactstrap";
 // core components
 
-const cardBackStyle = {
-  backgroundImage: `url(${CardBack})`,
-  backgroundSize: "1500px",
-};
+// const cardBackStyle = {
+//   backgroundImage: `url(${CardBack})`,
+//   backgroundSize: "1500px",
+// };
 
 const collectorImg = {
   backgroundImage: `url(${CodeCollector})`,
@@ -36,7 +37,7 @@ let url = "https://www.wwe.com/";
 function GameCards() {
   return (
     <>
-      <div className="game-div" style={cardBackStyle}>
+      <div className="game-div">
         <Row>
           <Col size="md-4">
             <div className="text-center game-card" style={ticImg}>
@@ -66,6 +67,7 @@ function GameCards() {
                 <a
                   href="https://mcla1.herokuapp.com/race.html"
                   className="btn btn-secondary play-button"
+                  // <Redirect to="/Games" />;
                 >
                   PLAY
                 </a>

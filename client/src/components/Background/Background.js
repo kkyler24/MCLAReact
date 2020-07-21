@@ -7,7 +7,8 @@ function Background(props) {
       className="container-fluid background-img"
       style={{
         backgroundImage: `url(${props.backgroundImage})`,
-        backgroundColor: props.backgroundColor
+        backgroundColor: props.backgroundColor,
+        backgroundSize: props.backgroundSize
       }}
     ></div>
   );

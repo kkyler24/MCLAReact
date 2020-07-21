@@ -1,33 +1,13 @@
-.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
 .social-footer {
   width: 100%;
   margin: 0;
   margin-top: 45px;
 }
 
-.footer-href {
-  color: black;
-  text-align: center;
-}
-
-.footer-href:hover {
-  color: white;
-}
-
 .social-footer div {
   text-align: center;
   /* display: flex; */
   justify-content: center;
-}
-
-.social-footer h5 {
-  color: black;
 }
 
 .btn.btn-icon {
