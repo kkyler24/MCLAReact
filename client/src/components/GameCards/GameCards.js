@@ -42,11 +42,11 @@ function GameCards() {
             <div className="text-center game-card" style={ticImg}>
               <CardBody>
                 <h4 className="game-description">Tic Tac Toe</h4>
-                {/* <CardText> */}
-                {/* <p className="game-description">
-                  Morse Code Alphabet learning
-                </p> */}
-                {/* </CardText> */}
+                <CardText>
+                  <p className="game-description">
+                    Morse Code Alphabet learning
+                  </p>
+                </CardText>
                 <a
                   href="https://mcla1.herokuapp.com/ttt.html"
                   className="btn btn-secondary play-button"
@@ -60,9 +60,9 @@ function GameCards() {
             <div className="text-center game-card" style={collectorImg}>
               <CardBody>
                 <h4 className="game-description">Code Collector</h4>
-                {/* <p className="game-description">
+                <p className="game-description">
                   Collect the morse code bits and race to the finish!
-                </p> */}
+                </p>
                 <a
                   href="https://mcla1.herokuapp.com/race.html"
                   className="btn btn-secondary play-button"
@@ -75,9 +75,7 @@ function GameCards() {
           <Col size="md-4">
             <div className="text-center game-card" style={spaceImg}>
               <CardBody>
-                {/* <p className="game-description">
-                Squirt aliens and find the right answer
-                </p> */}
+                <p className="game-description">Addition Space Shooter</p>
                 <h4 className="game-description">Math Invaders</h4>
                 <a
                   href="https://kkyler24.github.io/MathInvader/"
