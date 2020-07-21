@@ -67,11 +67,11 @@ function SectionAU(params) {
                 className="image-container image-right"
                 style={sectionImage2}
               ></div>
-              <h3 className="hThreeAU">
+              <h4 className="hThreeAU">
                 At the MorseCode Learning Academy; we teach differently. We
                 teach your child how they would best learn, not how a
                 standardized test says they should be learning.
-              </h3>
+              </h4>
             </div>
           </div>
         </div>

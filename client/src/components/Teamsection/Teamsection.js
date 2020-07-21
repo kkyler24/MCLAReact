@@ -18,14 +18,12 @@ function Teamsection(params) {
                   className="rounded-circleTeam img-fluid img-raised"
                   src={image1}
                 />
-                <h4 className="titleTeam">Shaminder Singh</h4>
-                <p className="category text-info">----</p>
+                <h4 className="titleTeam">Ky Kyler</h4>
+                <p className="category text-info">Software Developer</p>
                 <p className="descriptionTeam">
-        
+                  Content development, Software Development and UX/UD Designer
                 </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
-                </a>
+
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -42,13 +40,8 @@ function Teamsection(params) {
                   src={image2}
                 />
                 <h4 className="titleTeam">Bea House</h4>
-                <p className="category text-info">----</p>
-                <p className="descriptionTeam">
-                  
-                </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
-                </a>
+                <p className="category text-info">Back-End Engineer</p>
+                <p className="descriptionTeam"></p>
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
                 </a>
@@ -64,14 +57,10 @@ function Teamsection(params) {
                   className="rounded-circleTeam img-fluid img-raised"
                   src={image3}
                 />
-                <h4 className="titleTeam">Ky Kyler</h4>
-                <p className="category text-info">----</p>
-                <p className="descriptionTeam">
-                  
-                </p>
-                <a href="#pablo" className="btn-icon btn-round btn btn-info">
-                  <i className="fab fa-twitter"></i>
-                </a>
+                <h4 className="titleTeam">Shaminder Singh</h4>
+                <p className="category text-info">QA Engineer</p>
+                <p className="descriptionTeam">UX design, Code testing</p>
+
                 <a href="#pablo" className="btn-icon btn-round btn btn-info">
                   <i className="fab fa-twitter"></i>
                 </a>
