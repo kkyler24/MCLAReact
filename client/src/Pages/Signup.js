@@ -1,6 +1,6 @@
 import React from "react";
 import SignupC from "../components/Signup/signupC";
-import Footer from "../components/Footer/Footer.js";
+// import Footer from "../components/Footer/Footer";
 import Login from "../../src/components/Login/Login.js";
 import Image1 from "../pictures/lighBulbLIbrary.jpg";
 import SocialFooter from "../components/SocialFooter/SocialFooter";
@@ -32,10 +32,10 @@ function SignupP(props) {
                 <SignupC {...props} />
               </div>
 
-              <div>{/* <Login /> */}</div>
+              <div><Login /></div>
             </div>
           </div>
-          <Footer />
+          <SocialFooter color="white"/>
         </div>
       </div>
     </div>
