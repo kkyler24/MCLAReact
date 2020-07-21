@@ -43,11 +43,9 @@ function GameCards() {
             <div className="text-center game-card" style={ticImg}>
               <CardBody>
                 <h4 className="game-description">Tic Tac Toe</h4>
-                <CardText>
-                  <p className="game-description">
-                    Morse Code Alphabet learning
-                  </p>
-                </CardText>
+
+                <p className="game-description">Morse Code Alphabet learning</p>
+
                 <a
                   href="https://mcla1.herokuapp.com/ttt.html"
                   className="btn btn-secondary play-button"

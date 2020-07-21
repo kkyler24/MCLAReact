@@ -3,12 +3,9 @@ import GameCards from "../components/GameCards/GameCards";
 import SocialFooter from "../components/SocialFooter/SocialFooter";
 import Jumbotron from "../components/Jumbotron/Jumbotron";
 import Background from "../components/Background/Background";
-<<<<<<< Updated upstream
-import Footer from "../components/Footer/Footer.js";
-=======
-// import mario from "../pictures/mario.jpg" 
-import CardBack from "../pictures/MathApics/geometrictechnology.jpg"
->>>>>>> Stashed changes
+
+// import mario from "../pictures/mario.jpg"
+import CardBack from "../pictures/MathApics/geometrictechnology.jpg";
 
 const bstyle = {
   height: "300px",
@@ -16,7 +13,7 @@ const bstyle = {
 
 // const cardBackStyle = {
 //   backgroundImage: `url(${CardBack})`,
-  // backgroundSize: "1500px",
+// backgroundSize: "1500px",
 // };
 
 function Games() {
@@ -28,7 +25,7 @@ function Games() {
       </Jumbotron>
       <GameCards />
       <div id="googleButton"></div>
-      <SocialFooter color="white"/>
+      <SocialFooter color="white" />
     </>
   );
 }
