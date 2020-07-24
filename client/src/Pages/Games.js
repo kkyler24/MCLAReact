@@ -9,6 +9,8 @@ import CardBack from "../pictures/MathApics/geometrictechnology.jpg";
 
 const bstyle = {
   height: "300px",
+  backgroundSize: "cover",
+  backgroundRepeat: "no repeat",
 };
 
 // const cardBackStyle = {

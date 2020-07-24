@@ -19,11 +19,11 @@ function GoogleAuth(props) {
 
   return (
     <>
-      {/* <h1 style={{ color: "white" }}>Login With Google</h1>
+      <h1 style={{ color: "white" }}>Login With Google</h1>
       <h2 style={{ color: "white" }}>Welcome: {name}</h2>
       <h2 style={{ color: "white" }}>Email: {email}</h2>
       <img src={url} alt={name} />
-      <h2></h2> */}
+      <h2></h2>
       <GoogleLogin
         clientId="33277430818-uf02c61bkrcins59geal04p0r9deuaq6.apps.googleusercontent.com"
         buttonText="Login"
