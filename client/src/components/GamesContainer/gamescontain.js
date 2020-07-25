@@ -1,6 +1,13 @@
-import React, { Component } from "react";
-import { Button, Container } from "reactstrap";
+import React from "react";
 import "./gamesC.css";
+import { Card, CardBody } from "reactstrap";
+import "../indexcontainer/indexC.css";
+import GameCards from "../GameCards/GameCards";
+
+const Indistyle = {
+  width: "550px  ",
+  display: "block  ",
+};
 
 function GamesContainer() {
   let pageHeader = React.createRef();
@@ -20,19 +27,29 @@ function GamesContainer() {
   });
   return (
     <>
-      <div className="page-header page-header-small">
-        <div
-          className="page-header-image GbackgroundImage"
-          ref={pageHeader}
-        ></div>
-        <div className="content-centerG">
-          <Container>
-            <h1 className="GamesTitle" style={styleFont}></h1>
-          </Container>
-        </div>
-      </div>
+      <Card id="gameContainer">
+        <h1>Learning games</h1>
+        <CardBody>
+          <div className="titleG">
+            <p id="cardText" className="mx-auto" style={Indistyle}>
+              Where unconventional learning is our specialty
+            </p>
+          </div>
+
+          <div class="text">
+            <GameCards />
+          </div>
+        </CardBody>
+      </Card>
     </>
   );
 }
 
 export default GamesContainer;
+
+// import React, { Component } from "react";
+
+// const BorderStyle = {
+//   border: "transparent",
+
+// export default IndexContainer;

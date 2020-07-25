@@ -1,3 +1,20 @@
+#gameContainer {
+  background-image: url("../../pictures/MathApics/blackboard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800vh;
+  width: 100vh;
+}
+
+.GamesTitle {
+  font-weight: 700;
+  padding-top: 30px;
+  font-size: 3.5em;
+  line-height: 1.15;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
 .card-body {
   font-family: "Chakra Petch", sans-serif;
   flex: 1 1 auto;
