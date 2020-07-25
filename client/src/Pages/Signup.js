@@ -2,7 +2,7 @@ import React from "react";
 import SignupC from "../components/Signup/signupC";
 // import Footer from "../components/Footer/Footer";
 import Login from "../../src/components/Login/Login.js";
-import Image1 from "../pictures/lighBulbLIbrary.jpg";
+import Image1 from "../pictures/Signuppics/lighBulbLIbrary.jpg";
 import SocialFooter from "../components/SocialFooter/SocialFooter";
 
 const Style1 = {
@@ -32,10 +32,12 @@ function SignupP(props) {
                 <SignupC {...props} />
               </div>
 
-              <div><Login /></div>
+              <div>
+                <Login />
+              </div>
             </div>
           </div>
-          <SocialFooter color="white"/>
+          <SocialFooter color="white" />
         </div>
       </div>
     </div>

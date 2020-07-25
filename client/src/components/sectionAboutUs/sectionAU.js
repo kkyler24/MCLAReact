@@ -1,8 +1,8 @@
 import React from "react";
 import "./sectionAU.css";
-import GirlVR from "../../pictures/girlVR.jpg";
-import Believe from "../../pictures/scrabbleLetters.jpg";
-import Oldbook from "../../pictures/oldSchoolBook.jpg";
+import GirlVR from "../../pictures/indexpagepics/girlVR.jpg";
+import Believe from "../../pictures/indexpagepics/scrabbleLetters.jpg";
+import Oldbook from "../../pictures/indexpagepics/oldSchoolBook.jpg";
 
 const sectionImage2 = {
   backgroundImage: `url(${GirlVR})`,

@@ -20,8 +20,8 @@ function GoogleAuth(props) {
   return (
     <>
       <h1 style={{ color: "white" }}>Login With Google</h1>
-      <h2 style={{ color: "white" }}>Welcome: {name}</h2>
-      <h2 style={{ color: "white" }}>Email: {email}</h2>
+      <h2 style={{ color: "white" }}> {name}</h2>
+      <h2 style={{ color: "white" }}> {email}</h2>
       <img src={url} alt={name} />
       <h2></h2>
       <GoogleLogin

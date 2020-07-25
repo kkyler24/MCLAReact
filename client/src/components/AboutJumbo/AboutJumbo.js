@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container } from "reactstrap";
 import "./AboutJumbo.css";
-import greenBalloon from "../../pictures/hothairballoongreen.jpg"
+import greenBalloon from "../../pictures/hothairballoongreen.jpg";
 
 const styleFont = {
   fontFamily: "Montserrat, sans-serif",
@@ -29,7 +29,8 @@ function AboutJumbo() {
     <>
       <div className="page-header page-header-small">
         <div
-          className="page-header-image backgroundImage" style={{backgroundImage: `url(${greenBalloon})`}}
+          className="page-header-image backgroundImage"
+          style={{ backgroundImage: `url(${greenBalloon})` }}
           ref={pageHeader}
         ></div>
         <div className="content-centerAU">

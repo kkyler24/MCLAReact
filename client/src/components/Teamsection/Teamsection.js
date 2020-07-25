@@ -1,8 +1,8 @@
 import React from "react";
 import "./Teamsection.css";
-import image1 from "../../pictures/dart.jpg";
-import image2 from "../../pictures/antonio-lainez-97_u1LDOLx0-unsplash.jpg";
-import image3 from "../../pictures/darren-lee-0kEvX-9hJyQ-unsplash.jpg";
+import image1 from "../../pictures/Screenshot (154).png";
+import image2 from "../../pictures/indexpagepics/antonio-lainez-97_u1LDOLx0-unsplash.jpg";
+import image3 from "../../pictures/indexpagepics/darren-lee-0kEvX-9hJyQ-unsplash.jpg";
 
 function Teamsection(params) {
   return (

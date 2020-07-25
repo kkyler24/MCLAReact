@@ -2,9 +2,9 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 import Row from "../Row/Row";
 import Col from "../Col/Col";
-import TicTacToe from "../../pictures/tictactoe2.png";
-import CodeCollector from "../../pictures/code_collector2.JPG";
-import Annihilator from "../../pictures/Math_Poster2.jpg";
+import TicTacToe from "../../pictures/gamepagepics/tictactoe2.png";
+import CodeCollector from "../../pictures/gamepagepics/code_collector2.JPG";
+import Annihilator from "../../pictures/gamepagepics/Math_Poster2.jpg";
 // import CardBack from "../../pictures/MathApics/geometrictechnology.jpg";
 import "./GameCards.css";
 
