@@ -3,6 +3,7 @@ import "./gamesC.css";
 import { Card, CardBody } from "reactstrap";
 import "../indexcontainer/indexC.css";
 import GameCards from "../GameCards/GameCards";
+import Jumbo from "../Jumbotron/Jumbotron.js";
 
 const Indistyle = {
   width: "550px  ",
@@ -27,15 +28,9 @@ function GamesContainer() {
   });
   return (
     <>
-      <Card id="gameContainer">
-        <h1>Learning games</h1>
-        <CardBody>
-          <div className="titleG">
-            <p id="cardText" className="mx-auto" style={Indistyle}>
-              Where unconventional learning is our specialty
-            </p>
-          </div>
-
+      <Jumbo />
+      <Card>
+        <CardBody id="GCard">
           <div class="text">
             <GameCards />
           </div>

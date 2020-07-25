@@ -1,61 +1,73 @@
-.page-header.page-header-small {
-  min-height: 60vh;
-  max-height: 640px;
-}
-.page-header {
-  top: 0px;
+.titleG {
+  flex-wrap: wrap;
+  box-sizing: border-box;
   width: 100%;
-  overflow: hidden;
-}
-
-.page-header:after,
-.page-header:before {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  height: 100%;
-  display: block;
-  left: 0;
-  top: 0;
-  content: "";
-}
-
-.header .container {
-  padding-top: 26vh;
-  z-index: 2;
   position: relative;
+  flex-basis: auto;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-align: center !important;
 }
 
-.header h1 {
-  font-weight: 600;
-}
-
-.page-header-image {
-  position: absolute;
-  background-size: cover;
-  background-position: 50%;
+.JumboTitleOne {
+  display: flex;
+  color: #ffffff;
   width: 100%;
-  height: 60%;
-  z-index: -1;
-}
-
-.content-centerAU {
-  position: absolute;
-  top: 30%;
-  left: 50%;
   z-index: 2;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  padding: 0 15px;
   width: 100%;
-  max-width: 880px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 30px;
+  margin-top: 5rem;
 }
 
-.content-centerAU h2 {
-  font-family: Montserrat, sans-serif;
-  font-weight: bolder;
-  font-size: 80px;
-  color: black;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+#GamesJumbo {
+  background-image: url("../../pictures/gamepagepics/blackboard.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 100%;
+  margin: 0px;
+  z-index: -1;
+  position: relative;
+  overflow-x: hidden;
+}
+
+#h1G {
+  margin-top: 20px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 40px;
+  z-index: 2;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+@media (min-width: 768px) {
+  .JumboTitleOne {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 768px) {
+  #h1G {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1100px) and (min-width: 926px) {
+  #GamesJumbo {
+    height: 350px;
+  }
+}
+
+@media (max-width: 925px) {
+  #GamesJumbo {
+    height: 300px;
+  }
 }

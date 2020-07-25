@@ -1,9 +1,10 @@
 #gameContainer {
-  background-image: url("../../pictures/MathApics/blackboard.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 800vh;
-  width: 100vh;
+}
+#GCard {
+  position: relative;
+  display: block;
+  flex-direction: column;
+  min-width: 0;
 }
 
 .GamesTitle {
