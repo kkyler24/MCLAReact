@@ -6,6 +6,7 @@ body {
 } /* background */
 #backgroundPic {
   display: flex;
+  flex-grow: 1;
   background-image: url("./pictures/indexpagepics/SpidermanReadingTwo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
