@@ -1,14 +1,13 @@
 import React from "react";
 import "./gamesC.css";
 import { Card, CardBody } from "reactstrap";
-import "../indexcontainer/indexC.css";
 import GameCards from "../GameCards/GameCards";
-import Jumbo from "../Jumbotron/Jumbotron.js";
+import Jumbo from "../Jumbotron/Jumbogamepage.js";
 
-const Indistyle = {
-  width: "550px  ",
-  display: "block  ",
-};
+// const Indistyle = {
+//   width: "550px  ",
+//   display: "block  ",
+// };
 
 function GamesContainer() {
   let pageHeader = React.createRef();
@@ -29,13 +28,12 @@ function GamesContainer() {
   return (
     <>
       <Jumbo />
-      <Card>
-        <CardBody id="GCard">
-          <div class="text">
-            <GameCards />
-          </div>
-        </CardBody>
-      </Card>
+      <CardBody id="GCard">
+        <div className="text">
+          <h2 className="GamesTitleC "></h2>
+          <GameCards />
+        </div>
+      </CardBody>
     </>
   );
 }

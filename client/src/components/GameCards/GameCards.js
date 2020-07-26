@@ -12,11 +12,6 @@ import "./GameCards.css";
 import { CardBody, Button } from "reactstrap";
 // core components
 
-// const cardBackStyle = {
-//   backgroundImage: `url(${CardBack})`,
-//   backgroundSize: "1500px",
-// };
-
 const collectorImg = {
   backgroundImage: `url(${CodeCollector})`,
   backgroundSize: "550px",

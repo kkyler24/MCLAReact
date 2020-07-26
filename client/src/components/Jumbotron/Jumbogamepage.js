@@ -1,11 +1,5 @@
 import React from "react";
-import "./Jumbotron.css";
-import gameJumb from "../../pictures/gamepagepics/blackboard.png";
-
-// const jumbStyle = {
-//   backgroundImage: `url(${gameJumb})`,
-//   backgroundSize: "1440px",
-// };
+import "./JumbotronGamepage.css";
 
 function Jumbotron(props) {
   return (
