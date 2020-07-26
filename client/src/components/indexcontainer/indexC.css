@@ -87,3 +87,12 @@
     display: inline-block;
   }
 }
+
+@media (max-width: 576px) and (min-width: 260px) {
+  .blockquote {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+    width: 350px;
+  }
+}

@@ -3,37 +3,21 @@ import "./gamesC.css";
 import { Card, CardBody } from "reactstrap";
 import GameCards from "../GameCards/GameCards";
 import Jumbo from "../Jumbotron/Jumbogamepage.js";
-
-// const Indistyle = {
-//   width: "550px  ",
-//   display: "block  ",
-// };
+import SocialFooter from "../SocialFooter/SocialFooter.js";
 
 function GamesContainer() {
-  let pageHeader = React.createRef();
-
-  React.useEffect(() => {
-    if (window.innerWidth > 1000) {
-      const updateScroll = () => {
-        let windowScrollTop = window.pageYOffset / 3;
-        pageHeader.current.style.transform =
-          "translate3d(0," + windowScrollTop + "px,0)";
-      };
-      window.addEventListener("scroll", updateScroll);
-      return function cleanup() {
-        window.removeEventListener("scroll", updateScroll);
-      };
-    }
-  });
   return (
     <>
       <Jumbo />
-      <CardBody id="GCard">
-        <div className="text">
-          <h2 className="GamesTitleC "></h2>
-          <GameCards />
-        </div>
-      </CardBody>
+      <div id="gamePageBackground">
+        <CardBody id="GCard">
+          <div className="text">
+            <h2 className="GamesTitleC "></h2>
+            <GameCards />
+          </div>
+        </CardBody>
+        <SocialFooter color="transparent" />
+      </div>
     </>
   );
 }

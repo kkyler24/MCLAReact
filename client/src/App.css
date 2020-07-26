@@ -14,14 +14,6 @@ body {
   width: 100%;
 }
 
-@media (max-width: 260px) and (max-width: 576px) {
-  .blockquote {
-    font-size: 14px;
-    font-weight: lighter;
-    text-align: center;
-  }
-}
-
 @media (min-width: 900px) {
   #backgroundPic {
     height: 975px;

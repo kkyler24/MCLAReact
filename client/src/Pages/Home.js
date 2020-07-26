@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "../App.css";
 
 import IndexContainer from "../components/indexcontainer/indexContainer";
-import Scramble from "../components/indexcontainer/indexContainer";
+import Scramble from "../components/indexcontainer/indexContainer.js";
 class Home extends Component {
   render() {
     return (
