@@ -7,15 +7,15 @@ import "./SocialFooter.css";
 function SocialFooter(props) {
   return (
     <Row id="rowfooter">
-      <Col id="sm-12SocialFooter" size="sm-12">
+      <div id="Spacer"></div>
+      <div id="sm-12SocialFooter">
         <div className="card social-footer">
           <h5 id="H5text">Contact Us</h5>
-          <div className="card-body">
-            <Buttons></Buttons>
-            <p> © Copyright 2020</p>
+          <div className="cardBody">
+            <Buttons></Buttons>© Copyright 2020
           </div>
         </div>
-      </Col>
+      </div>
     </Row>
   );
 }

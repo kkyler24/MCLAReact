@@ -1,25 +1,25 @@
 .game-div {
-padding: 100px;
+  padding: 10px;
 }
 
 .game-card {
-box-shadow: 0 5px 25px 0 rgba(0,0,0,1.5);
-border-radius: 12px;
-filter: grayscale(0%);
-padding-top: 40px;
-padding-bottom:40px;
+  box-shadow: 0 5px 25px 0 rgba(0, 0, 0, 1.5);
+  border-radius: 12px;
+  filter: grayscale(0%);
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .game-card:hover {
-    transform: scale(1.1);
-    filter: grayscale(100%);
-    background-image: transparent;
+  transform: scale(1.1);
+  filter: grayscale(100%);
+  background-image: transparent;
 }
 
 .game-description {
-    font-size: 25px;
-    color: black;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
-    opacity: 100%;
+  font-size: 25px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  opacity: 100%;
 }

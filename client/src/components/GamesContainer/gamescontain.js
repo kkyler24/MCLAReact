@@ -13,7 +13,7 @@ function GamesContainer() {
   let pageHeader = React.createRef();
 
   React.useEffect(() => {
-    if (window.innerWidth > 991) {
+    if (window.innerWidth > 1000) {
       const updateScroll = () => {
         let windowScrollTop = window.pageYOffset / 3;
         pageHeader.current.style.transform =

@@ -2,6 +2,7 @@ html,
 body {
   height: fit-content;
   width: 100%;
+  overflow-x: hidden;
 } /* background */
 #backgroundPic {
   display: flex;
@@ -17,5 +18,11 @@ body {
     font-size: 14px;
     font-weight: lighter;
     text-align: center;
+  }
+}
+
+@media (min-width: 900px) {
+  #backgroundPic {
+    height: 975px;
   }
 }
