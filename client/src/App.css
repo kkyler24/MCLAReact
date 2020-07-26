@@ -8,5 +8,14 @@ body {
   background-image: url("./pictures/indexpagepics/SpidermanReadingTwo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1000vh;
+  height: 900px;
+  width: 100%;
+}
+
+@media (max-width: 260px) and (max-width: 576px) {
+  .blockquote {
+    font-size: 14px;
+    font-weight: lighter;
+    text-align: center;
+  }
 }

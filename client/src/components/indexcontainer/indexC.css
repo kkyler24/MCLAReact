@@ -41,6 +41,8 @@
   font-size: 25px;
   font-weight: 400;
   text-shadow: rgb(126, 124, 124);
+  width: 550px;
+  display: block;
 }
 
 .dud {
@@ -51,4 +53,37 @@
   border: transparent;
   font-size: 1.1em;
   line-height: 1.8;
+}
+
+@media (max-width: 576px) {
+  .blockquote {
+    padding: 0px !important;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center !important;
+  }
+  #cardText {
+    padding: 0px;
+    text-align: center !important;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 790px) and (min-width: 576px) {
+  .blockquote {
+    padding: 0px !important;
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: center !important;
+  }
+  #cardText {
+    padding: 0px;
+    text-align: center !important;
+    flex-wrap: wrap;
+    width: 350px;
+    display: inline-block;
+  }
 }

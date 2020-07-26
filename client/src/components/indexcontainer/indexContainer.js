@@ -3,11 +3,6 @@ import TextScrambler from "../Scramble/Scramble.js";
 import "../indexcontainer/indexC.css";
 import { Card, CardBody } from "reactstrap";
 
-const Indistyle = {
-  width: "550px  ",
-  display: "block  ",
-};
-
 const BorderStyle = {
   border: "transparent",
 };
@@ -23,7 +18,7 @@ class IndexContainer extends Component {
             <div id="scrabble" class="text">
               <TextScrambler />
             </div>
-            <p id="cardText" className="mx-auto" style={Indistyle}>
+            <p id="cardText" className="mx-auto">
               Where unconventional learning is our specialty
             </p>
           </blockquote>

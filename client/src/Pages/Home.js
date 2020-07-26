@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "../components/indexcontainer/indexC.css";
 
 import IndexContainer from "../components/indexcontainer/indexContainer";
 import Scramble from "../components/indexcontainer/indexContainer";

@@ -1,13 +1,15 @@
 .social-footer {
   width: 100%;
   margin: 0;
-  margin-top: 45px;
+  /* margin-top: 45px; */
+  z-index: 1;
 }
 
 .social-footer div {
   text-align: center;
   /* display: flex; */
   justify-content: center;
+  z-index: 1;
 }
 
 .btn.btn-icon {
@@ -28,6 +30,23 @@
 
 #rowfooter {
   background-color: transparent;
+  z-index: 1;
+  margin-top: 50px;
+}
+#H5text {
+  font-weight: 500;
+  align-items: center;
+  z-index: 1;
+  color: white;
+  text-align: center;
+}
+
+#sm-12SocialFooter {
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  height: 150px;
 }
 
 @media (min-width: 768px) {

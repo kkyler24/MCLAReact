@@ -4,12 +4,6 @@ import Jumbotron from "../components/Jumbotron/Jumbogamepage";
 import GamesContainer from "../components/GamesContainer/gamescontain.js";
 import "../components/GamesContainer/gamesC.css";
 
-const bstyle = {
-  height: "300px",
-  backgroundSize: "cover",
-  backgroundRepeat: "no repeat",
-};
-
 function Games() {
   return (
     <>
