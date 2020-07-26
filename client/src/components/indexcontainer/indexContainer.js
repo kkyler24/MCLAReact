@@ -9,22 +9,15 @@ const BorderStyle = {
 class IndexContainer extends Component {
   render() {
     return (
-      <Card>
-        <CardBody>
-          <blockquote
-            className="blockquote blockquote-primary mb-0 "
-            style={BorderStyle}
-          >
-            <div id="scrabble" class="text">
-              <TextScrambler />
-            </div>
-            <p id="cardText" className="mx-auto">
-              Where unconventional learning is our specialty
-            </p>
-          </blockquote>
-        </CardBody>
-      </Card>
-    );
+      <div id="morse-code">
+        <div id="scrabble" class="text">
+          <TextScrambler />
+        </div>
+        <p id="cardText" className="mx-auto">
+          Where unconventional learning is our specialty
+        </p>
+      </div>
+  );
   }
 }
 
