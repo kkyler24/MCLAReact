@@ -35,8 +35,9 @@
   background-color: transparent;
   background-attachment: fixed;
   position: relative;
-  margin-top: 50px;
+  margin-top: 70px;
   display: block;
+  bottom: 0em;
 }
 #H5text {
   font-weight: 500;
@@ -58,13 +59,15 @@
 #sm-12SocialFooter {
   display: flex;
   flex-wrap: wrap;
+  flex-shrink: 2;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  position: relative;
+  position: absolute;
   height: 100px;
+  top: 200px;
 }
 
 @media (min-width: 768px) {
@@ -75,14 +78,23 @@
   }
 }
 
-@media (min-width: 768px) {
+@media (max-width: 798px) and (min-width: 576px) {
   #sm-12SocialFooter {
-    max-width: 720px;
+    position: absolute;
+    top: 150px;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) and (min-width: 100px) {
   #sm-12SocialFooter {
-    max-width: 720px;
+    position: absolute;
+    top: 120px;
+  }
+}
+
+@media (min-width: 765px) {
+  #sm-12SocialFooter {
+    position: absolute;
+    top: 200px;
   }
 }

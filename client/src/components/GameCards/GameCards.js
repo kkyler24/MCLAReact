@@ -36,11 +36,11 @@ function GameCards() {
         <Row>
           <Col size="md-4">
             <div className="text-center game-card" style={ticImg}>
+              <h4 className="game-description">Tic Tac Toe</h4>
+
+              <p className="game-description">Morse Code Alphabet learning</p>
+
               <CardBody>
-                <h4 className="game-description">Tic Tac Toe</h4>
-
-                <p className="game-description">Morse Code Alphabet learning</p>
-
                 <a
                   href="https://mcla1.herokuapp.com/ttt.html"
                   className="btn btn-secondary play-button"
