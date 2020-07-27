@@ -20,6 +20,16 @@
   /* box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.5); */
 }
 
+#morse-code {
+  margin-top: 28%;
+  border: transparent;
+  /* display: flex; */
+  justify-content: center;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media (min-width: 768px) {
   .col-md-10 {
     flex: 0 0 83.333333%;
@@ -53,29 +63,34 @@
   border: transparent;
   font-size: 1.1em;
   line-height: 1.8;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 @media (max-width: 576px) {
-  .blockquote {
+  #scrabble {
     padding: 0px !important;
     font-size: 25px;
     font-weight: lighter;
     text-align: center !important;
   }
   #cardText {
-    padding: 0px;
+    /* padding: 0px; */
     text-align: center !important;
     display: flex;
     flex-wrap: wrap;
     width: 300px;
-    display: inline-block;
+    /* display: inline-block; */
   }
 }
 
 @media (max-width: 790px) and (min-width: 576px) {
   .blockquote {
+    width: 100%;
+  }
+  #scrabble {
+    font-size: 45px;
     padding: 0px !important;
-    font-size: 25px;
     font-weight: lighter;
     text-align: center !important;
   }
@@ -91,6 +106,9 @@
 @media (max-width: 576px) and (min-width: 260px) {
   .blockquote {
     font-size: 14px;
+  }
+  #scrabble {
+    font-size: 40px;
     font-weight: lighter;
     text-align: center;
     width: 350px;
