@@ -23,7 +23,8 @@ body {
 
 @media (max-width: 576px) and (min-width: 290px) {
   #backgroundPic {
-    width: 576px;
-    height: 800px;
+    background-image: url("./pictures/indexpagepics/SpidermanReadingMedium.jpg");
+    max-width: 576px !important;
+    max-height: 800px !important;
   }
 }
