@@ -51,8 +51,9 @@
   font-size: 25px;
   font-weight: 400;
   text-shadow: rgb(126, 124, 124);
-  width: 550px;
+  width: 100%;
   display: block;
+  text-align: center;
 }
 
 .dud {
@@ -69,8 +70,9 @@
 
 @media (max-width: 576px) {
   #scrabble {
+    margin-top: 25%;
     padding: 0px !important;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: lighter;
     text-align: center !important;
   }
@@ -80,7 +82,6 @@
     display: flex;
     flex-wrap: wrap;
     width: 300px;
-    /* display: inline-block; */
   }
 }
 
@@ -97,9 +98,7 @@
   #cardText {
     padding: 0px;
     text-align: center !important;
-    flex-wrap: wrap;
-    width: 350px;
-    display: inline-block;
+    width: 450px;
   }
 }
 
@@ -108,6 +107,7 @@
     font-size: 14px;
   }
   #scrabble {
+    margin-top: 50%;
     font-size: 40px;
     font-weight: lighter;
     text-align: center;

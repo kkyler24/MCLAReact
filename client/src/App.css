@@ -3,7 +3,8 @@ body {
   height: fit-content;
   width: 100%;
   overflow-x: hidden;
-} /* background */
+}
+/* background */
 #backgroundPic {
   display: flex;
   flex-grow: 1;
@@ -17,5 +18,12 @@ body {
 @media (min-width: 900px) {
   #backgroundPic {
     height: 975px;
+  }
+}
+
+@media (max-width: 576px) and (min-width: 290px) {
+  #backgroundPic {
+    width: 576px;
+    height: 800px;
   }
 }
