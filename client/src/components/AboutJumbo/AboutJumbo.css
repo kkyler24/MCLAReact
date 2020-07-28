@@ -6,6 +6,15 @@
   top: 0px;
   width: 100%;
   overflow: hidden;
+  /* position: relative; */
+}
+
+.containerJumbo {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-header:after,
@@ -60,9 +69,11 @@
   max-width: 880px;
 }
 
-.backgroundImage {
-  /* background-image: url("../../pictures/hothairballoongreen.jpg"); */
+#backgroundImage {
+  background-image: url("../../pictures/hothairballoongreen.jpg");
   transform: "translate3d(0px, 0px, 0px)";
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Social MEdia Buttons config */

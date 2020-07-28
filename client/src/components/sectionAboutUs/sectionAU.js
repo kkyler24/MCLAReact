@@ -24,15 +24,15 @@ const sectionImage3 = {
 
 function SectionAU(params) {
   return (
-    <div className="sectionAU">
+    <div className="sectionAU wrapper">
       <div className="containerAU">
         <div class="rowAU">
           <div className="ml-auto mr-auto text-centerAU col-md-8">
             <h2 className="titleAU">Our Motto </h2>
             <h5 className="descriptionAU">
-              So you are unconventional, so is our teaching style. We believe
-              the sky is the limit with the right technology; good thing we have
-              that.
+              So you are unconventional; so is our teaching style. We believe
+              that, with the right technology the sky is the limit; good thing
+              we have that.
             </h5>
           </div>
         </div>
@@ -54,11 +54,10 @@ function SectionAU(params) {
               <div class="image-container" style={sectionImage3}>
                 <p className="learningP">
                   We threw out the old-school way of learning and thinking when
-                  it comes to students with disabilities. We brought in
-                  unconventional techniques that focus on the students best
-                  learning styles and atmosphere. Our Mission is to to chnage
-                  the way the world looks at learning disabilities and
-                  education.
+                  it comes to special education. We brought in unconventional
+                  techniques that focus on the students best learning styles and
+                  enviornment. Our Mission is to to chnage the way the world
+                  looks at learning disabilities and education.
                 </p>
               </div>
             </div>

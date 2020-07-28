@@ -28,13 +28,9 @@ function AboutJumbo() {
   return (
     <>
       <div className="page-header page-header-small">
-        <div
-          className="page-header-image backgroundImage"
-          style={{ backgroundImage: `url(${greenBalloon})` }}
-          ref={pageHeader}
-        ></div>
+        <div id="backgroundImage" className="page-header-image "></div>
         <div className="content-centerAU">
-          <Container>
+          <div className="containerJumbo">
             <h1 className="titleJB" style={styleFont}>
               What makes us unique
             </h1>
@@ -64,7 +60,7 @@ function AboutJumbo() {
                 <i className="fab fa-linkedin"></i>
               </Button>
             </div>
-          </Container>
+          </div>
         </div>
       </div>
     </>
