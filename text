@@ -1,0 +1,38 @@
+/* 
+@media (max-width: 578px) and (min-width: 360px) {
+  .image-container.image-left {
+    margin-bottom: 220px;
+    height: 275px;
+  }
+  .blockquote {
+    margin: 0 auto !important;
+    position: relative !important;
+    right: 0px !important;
+  }
+  .section-story-overview .image-container:nth-child(2) {
+    margin-left: 0;
+    margin-bottom: 30px;
+    width: 280px !important;
+    height: 200px !important;
+  }
+  .learningP {
+    position: relative;
+    display: block;
+    margin-left: 0rem;
+    top: 200px;
+    padding-left: 0px;
+    width: 320px;
+  }
+  #sectionimage2 {
+    top: 225px;
+    width: 280px !important;
+    height: 200px;
+  }
+  #hThreeAU {
+    margin-bottom: 1rem;
+    margin-top: 250px;
+  }
+  .col-md-5 {
+    top: 75px;
+  }
+} */

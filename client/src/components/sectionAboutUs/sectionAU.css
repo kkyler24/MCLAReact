@@ -74,6 +74,7 @@
 }
 
 .section-story-overview .image-container {
+  display: flex;
   height: 335px;
   position: relative;
   background-position: 50%;
@@ -89,9 +90,12 @@
 
 .section-story-overview .image-container.image-right {
   z-index: 2;
+  max-width: 100%;
+  /* height: fit-content; */
 }
 
-.hThreeAu {
+.hThreeAU {
+  font-family: "Rajdhani", sans-serif;
   font-size: 20.55px;
   line-height: 1.4em;
   margin-bottom: 30px;
@@ -131,9 +135,10 @@
   font-size: 20px;
 }
 .learningP {
+  font-family: "Rajdhani", sans-serif;
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 0;
   margin: 0 0 16px;
   padding-top: 3.5rem;
@@ -143,7 +148,6 @@
   font-weight: 200;
   line-height: 24px;
   margin-left: 600px;
-
   width: 400px;
 }
 
@@ -189,5 +193,42 @@
 @media screen and (min-width: 768px) {
   .image-container.image-left {
     margin-right: -100px;
+  }
+}
+
+@media (max-width: 578px) and (min-width: 360px) {
+  .image-container.image-left {
+    margin-bottom: 220px;
+    height: 275px;
+  }
+  .blockquote {
+    margin: 0 auto !important;
+    position: relative !important;
+    right: 0px !important;
+  }
+  .section-story-overview .image-container:nth-child(2) {
+    margin-left: 0;
+    margin-bottom: 30px;
+  }
+  .learningP {
+    position: relative;
+    display: block;
+    margin-left: 0rem;
+    top: 200px;
+    padding-left: 0px;
+    width: 350px;
+  }
+  #sectionimage2 {
+    top: 225px;
+  }
+  #hThreeAU {
+    margin-bottom: 1rem;
+    margin-top: 250px;
+  }
+  .col-md-5 {
+    top: 75px;
+  }
+  .flex-container {
+    flex-direction: column;
   }
 }

@@ -18,10 +18,6 @@ const sectionImage3 = {
   backgroundImage: `url(${Oldbook})`,
 };
 
-// const fontStyle ={
-//   fontFamily
-// } Need to change Font and size for learningP and hThreeAU
-
 function SectionAU(params) {
   return (
     <div className="sectionAU wrapper">
@@ -51,15 +47,7 @@ function SectionAU(params) {
                   </small>
                 </p>
               </div>
-              <div class="image-container" style={sectionImage3}>
-                <p className="learningP">
-                  We threw out the old-school way of learning and thinking when
-                  it comes to special education. We brought in unconventional
-                  techniques that focus on the students best learning styles and
-                  enviornment. Our Mission is to to chnage the way the world
-                  looks at learning disabilities and education.
-                </p>
-              </div>
+              <div class="image-container " style={sectionImage3}></div>
             </div>
             <div className="col-md-5">
               <div
@@ -71,6 +59,13 @@ function SectionAU(params) {
                 teach your child how they would best learn, not how a
                 standardized test says they should be learning.
               </h4>
+              <p className="learningP">
+                We threw out the old-school way of learning and thinking when it
+                comes to special education. We brought in unconventional
+                techniques that focus on the students best learning styles and
+                enviornment. Our Mission is to to chnage the way the world looks
+                at learning disabilities and education.
+              </p>
             </div>
           </div>
         </div>
