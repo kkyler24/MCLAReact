@@ -13,7 +13,6 @@ const sectionImage = {
 };
 
 const sectionImage3 = {
-  width: "555px",
   height: "355px",
   backgroundImage: `url(${Oldbook})`,
 };
