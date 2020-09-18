@@ -1,7 +1,7 @@
 # MCLAReact
 
 <p >
-    <img src="/client/src/pictures/indexpagepics/spidermanscreenshot.png" width="520" height="340" />
+    <img src="/client/src/pictures/indexpagepics/spidermanscreenshot.png" width="620" height="375" />
 </p>
 
 
