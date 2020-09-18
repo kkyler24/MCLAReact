@@ -1,10 +1,8 @@
 # MCLAReact
 
 <img
-src="./client/src/pictures/indexpagepics/spidermanscreenshot.png"
+src="C:\Users\The ENTP\Github projects\MCLATwo\client\src\pictures\indexpagepics\spidermanscreenshot.png"
 alt="spiderman reading a book"width="500" height="600" >
-
-</img>
 
 • This is the Refactored version of https://mcla1.herokuapp.com/ A website dedicated to teaching students with learning disabilities how to read using Morse code. This Version is still in refactoring stage and has expanded its game play into math.
 
