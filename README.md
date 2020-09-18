@@ -1,5 +1,5 @@
 <a
-                  href="./client/src/pictures/indexpagepics/spidermanscreenshot.png"
+                  src="./client/src/pictures/indexpagepics/spidermanscreenshot.png"
                   className="btn btn-secondary" alt="spiderman reading a book"
                 >
 
