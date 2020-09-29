@@ -1,10 +1,12 @@
 # MCLA: React
 
+<div>
 <img
-src="C:\Users\The ENTP\Github projects\MCLATwo\client\src\pictures\indexpagepics\spidermanscreenshot.png"
-alt="spiderman reading a book"width="500" height="600" > <br>
+src="C:/Users/The ENTP/Github projects/MCLATwo/client/src/pictures/indexpagepics/SpidermanReadingTwo.jpg"
+alt="spiderman reading a book"width="500" height="600" ></div> <br>
 
-<div className= description> 
+<div className= description>
+
 ## Description
 
 • This is the Refactored version of https://mcla1.herokuapp.com/ A website dedicated to teaching students with learning disabilities how to read using Morse code. This Version is still in refactoring stage and has expanded its game play into math.
@@ -16,14 +18,14 @@ special education instrustional technology. Students with learning disabilities 
 
 ## Technologies used
 
-MCLA: React is currently being refactored with React, and with an additional math game.
-Main Technology:
-React, React-strap, Unity, Express, JQuery, mySQL, Heroku,
-• Tic tac toe
-Javascript & Jquery
-• The Code Collector
-Unity Game engine C# & Python AI ML API
-• Math Invaders(still under construction)
+MCLA: React is currently being refactored with React, and with an additional math game.<br>
+Main Technology:<br>
+React, React-strap, Unity, Express, JQuery, mySQL, Heroku,<br>
+• Tic tac toe <br>
+Javascript & Jquery<br>
+• The Code Collector<br>
+Unity Game engine C# & Python AI ML API<br>
+• Math Invaders(still under construction)<br>
 Javascript
 
 ## How to play the games
@@ -37,4 +39,4 @@ Javascript
 • The point of this game is to introduce kids to morse code symbol by symbol, by having students race around the track collects dots and dashes. As the game progresses they will be challenged to create letters with this dots and dashed they collected and eventually build up to spelling words. The aim is to get in first place while collecting the correct letters that will complete the word.
 
 <strong>#3 Math Invaders </strong> <br>
-•
+• Inspired by Our childhood game Space Invaders, Math Invaders helps students practice basic math skills while being attacked by aliens. Students are given a number that they have to create by eliminating Aliens that calculate to that value. The game will start off with basic addition then progressively go into double and triple digits. Students will also have the choice of using subtraction and multiplcation.
