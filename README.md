@@ -2,7 +2,7 @@
 
 <p>
 <img
-src="C:/Users/The ENTP/Github projects/MCLATwo/client/src/pictures/indexpagepics/SpidermanReadingTwo.jpg"
+src="client\src\pictures\indexpagepics\SpidermanReadingTwo.jpg"
 alt="spiderman reading a book"width="500" height="600" ></p> <br>
 
 ## Description
