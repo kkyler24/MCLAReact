@@ -2,8 +2,8 @@
 
 <p>
 <img
-src="client\src\pictures\indexpagepics\SpidermanReadingTwo.jpg"
-alt="spiderman reading a book"width="700" height="600" ></p> <br>
+src="client\src\pictures\indexpagepics\spidermanscreenshot.png"
+alt="spiderman reading a book"width="700" height="500" ></p> <br>
 
 ## Description
 
