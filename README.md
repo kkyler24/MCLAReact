@@ -3,8 +3,6 @@
 <img
 src="C:\Users\The ENTP\Github projects\MCLATwo\client\src\pictures\indexpagepics\spidermanscreenshot.png"
 alt="spiderman reading a book"width="500" height="600" > <br>
-![spiderman reading a book]
-(client\src\pictures\indexpagepics\spidermanscreenshot.png)
 
 <div className= description> 
 ## Description
