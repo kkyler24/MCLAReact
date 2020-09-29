@@ -3,7 +3,7 @@
 <p>
 <img
 src="client\src\pictures\indexpagepics\spidermanscreenshot.png"
-alt="spiderman reading a book"width="700" height="500" ></p> <br>
+alt="spiderman reading a book"width="750" height="500" ></p> <br>
 
 ## Description
 
